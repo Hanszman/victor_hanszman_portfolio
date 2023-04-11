@@ -1,4 +1,5 @@
 // Imports
+import styles from './TranslationDropdown.module.css';
 import { useTranslation } from 'react-i18next';
 import { changeLanguage } from 'i18next';
 import { FaGlobe } from 'react-icons/fa';
@@ -23,7 +24,7 @@ function TranslationDropdown() {
     return (
         <div className='dropdown'>
             <button
-                className='btn btn-secondary dropdown-toggle'
+                className={`btn btn-secondary dropdown-toggle ${styles.btnTranslation}`}
                 type='button'
                 id='dropdownMenuButton1'
                 data-bs-toggle='dropdown'
