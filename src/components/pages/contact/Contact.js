@@ -1,9 +1,11 @@
 // Imports
+import { useTranslation } from 'react-i18next';
 
 // Component
 function Contact() {
+    const { t } = useTranslation();
     return (
-        <div>Contato</div>
+        <div>{t('Contact')}</div>
     );
 }
 

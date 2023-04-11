@@ -1,9 +1,11 @@
 // Imports
+import { useTranslation } from 'react-i18next';
 
 // Component
 function Experiences() {
+    const { t } = useTranslation();
     return (
-        <div>Experiências</div>
+        <div>{t('Experiences')}</div>
     );
 }
 

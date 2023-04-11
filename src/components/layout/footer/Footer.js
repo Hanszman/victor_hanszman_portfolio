@@ -9,17 +9,17 @@ function Footer() {
         <footer className={styles.footer}>
             <ul className={styles.social_list}>
                 <li>
-                    <a href='https://www.facebook.com/victor.hanszman' target='_blank'>
+                    <a href='https://www.facebook.com/victor.hanszman' target='_blank' rel="noreferrer">
                         <FaFacebook/>
                     </a>
                 </li>
                 <li>
-                    <a href='https://www.instagram.com/hanszman/' target='_blank'>
+                    <a href='https://www.instagram.com/hanszman/' target='_blank' rel="noreferrer">
                         <FaInstagram/>
                     </a>
                 </li>
                 <li>
-                    <a href='https://www.linkedin.com/in/victor-hanszman-b1362215b/' target='_blank'>
+                    <a href='https://www.linkedin.com/in/victor-hanszman-b1362215b/' target='_blank' rel="noreferrer">
                         <FaLinkedin/>
                     </a>
                 </li>
