@@ -6,8 +6,8 @@ import ENUS from './locales/en/en-us.json'
 
 // Variables
 const resources = {
-    'pt': PTBR,
-    'en': ENUS
+    'en': ENUS,
+    'pt': PTBR
 };
 
 // Translation
