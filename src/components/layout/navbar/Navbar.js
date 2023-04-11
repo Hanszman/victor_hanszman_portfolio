@@ -2,7 +2,7 @@
 import { Link } from 'react-router-dom';
 import styles from './Navbar.module.css';
 import Container from '../container/Container';
-import logo from '../../../img/costs_logo.png';
+import logo from '../../../img/vh_logo.png';
 
 // Component
 function Navbar() {
@@ -10,7 +10,7 @@ function Navbar() {
         <nav className={styles.navbar}>
             <Container>
                 <Link to='/'>
-                    <img src={logo} alt='Costs'/>
+                    <img className={styles.imgLogo} src={logo} alt='Victor Hanszman'/>
                 </Link>
                 <ul className={styles.list}>
                     <li className={styles.item}>
