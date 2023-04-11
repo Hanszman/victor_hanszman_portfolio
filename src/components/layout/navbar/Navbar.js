@@ -2,7 +2,7 @@
 import { Link } from 'react-router-dom';
 import styles from './Navbar.module.css';
 import Container from '../container/Container';
-import logo from '../../../img/logo/vh_logo.png';
+import logo from '../../../img/logo/vh_logo_purple.png';
 
 // Component
 function Navbar() {
