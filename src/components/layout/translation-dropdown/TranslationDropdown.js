@@ -1,13 +1,11 @@
 // Imports
 import styles from './TranslationDropdown.module.css';
-import { useTranslation } from 'react-i18next';
 import { changeLanguage } from 'i18next';
 import { FaGlobe } from 'react-icons/fa';
 
 // Component
 function TranslationDropdown() {
     // Variables
-    const { t } = useTranslation();
     const languages = [
         {
             code: 'en',
