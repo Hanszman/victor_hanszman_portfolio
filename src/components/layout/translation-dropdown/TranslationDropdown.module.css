@@ -1,6 +1,17 @@
+.dropTranslation {
+    padding: 0px;
+    margin: 0px;
+    align-self: center;
+}
+
 .btnTranslation {
     color: #FFFFFF;
     background-color: #8257e5;
     border-radius: 7px;
     padding: 5px 10px;
+}
+
+.btnTranslation:hover {
+    color: #8257e5;
+    background-color: #FFFFFF;
 }

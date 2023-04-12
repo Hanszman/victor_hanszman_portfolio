@@ -9,18 +9,18 @@ function TranslationDropdown() {
     const languages = [
         {
             code: 'en',
-            name: 'English',
+            name: 'English (USA)',
             country_code: 'us'
         },
         {
             code: 'pt',
-            name: 'Português',
+            name: 'Português (Brasil)',
             country_code: 'br'
         }
     ];
 
     return (
-        <div className='dropdown'>
+        <div className={`dropdown ${styles.dropTranslation}`}>
             <button
                 className={`dropdown-toggle ${styles.btnTranslation}`}
                 type='button'

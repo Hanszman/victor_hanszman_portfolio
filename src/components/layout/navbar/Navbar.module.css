@@ -1,8 +1,14 @@
 .navbar {
     display: flex;
     justify-content: space-between;
+    align-items: center;
     background-color: #222;
-    padding: 1em;
+    padding: 10px;
+}
+
+ul, li {
+    padding: 0px;
+    margin: 0px;
 }
 
 .list {
@@ -12,7 +18,7 @@
 }
 
 .item {
-    margin-right: 1em;
+    margin: 5px 10px;
 }
 
 .item a {
