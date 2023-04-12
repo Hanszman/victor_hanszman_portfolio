@@ -7,7 +7,9 @@ function Contact() {
     const { t } = useTranslation();
 
     return (
-        <div>{t('Contact')}</div>
+        <div>
+            <h1 className='highText'>{t('Contact')}</h1>
+        </div>
     );
 }
 

@@ -7,7 +7,9 @@ function Experiences() {
     const { t } = useTranslation();
 
     return (
-        <div>{t('Experiences')}</div>
+        <div>
+            <h1 className='highText'>{t('Experiences')}</h1>
+        </div>
     );
 }
 

@@ -7,7 +7,9 @@ function Projects() {
     const { t } = useTranslation();
 
     return (
-        <div>{t('Projects')}</div>
+        <div>
+            <h1 className='highText'>{t('Projects')}</h1>
+        </div>
     );
 }
 
