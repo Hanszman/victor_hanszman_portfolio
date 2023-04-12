@@ -22,7 +22,7 @@ function TranslationDropdown() {
     return (
         <div className='dropdown'>
             <button
-                className={`btn btn-secondary dropdown-toggle ${styles.btnTranslation}`}
+                className={`dropdown-toggle ${styles.btnTranslation}`}
                 type='button'
                 id='dropdownMenuButton1'
                 data-bs-toggle='dropdown'
