@@ -16,12 +16,12 @@
 .imgLogo {
     width: 50px;
     height: auto;
-    margin: 0px 10px;
+    margin: 0 10px;
 }
 
 ul, li {
-    padding: 0px;
-    margin: 0px;
+    padding: 0;
+    margin: 0;
 }
 
 .list {
@@ -72,20 +72,24 @@ ul, li {
     .list {
         position: absolute;
         top: 70px;
-        right: 0;
+        right: -300px;
         flex-direction: column;
         align-items: center;
         text-align: center;
-        padding: 10px 0px;
+        padding: 10px 0;
         background-color: #FFFFFF;
         border-radius: 7px;
         border: 0.5px solid;  
         box-shadow: 0.1px 0.1px #373b3e;
     }
 
+    .list.active {
+        right: 0;
+    }
+
     .item {
         width: 100%;
-        margin: 0px 10px;
+        margin: 0 10px;
     }
 
     .item a {

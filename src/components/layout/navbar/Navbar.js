@@ -13,7 +13,7 @@ function Navbar() {
     // Variables
     const { t } = useTranslation();
     const [stateImg, setStateImg] = useState(logo_purple);
-    const [showNavList, setShowNavList] = useState(true);
+    const [showNavList, setShowNavList] = useState(false);
 
     return (
         <header className='header'>
@@ -27,7 +27,7 @@ function Navbar() {
                         onMouseOut={() => setStateImg(logo_purple)}
                     />
                 </Link>
-                <ul className={`list ${!showNavList}`}>
+                <ul className={showNavList ? 'list active' : 'list'}>
                     <li className='item'>
                         <Link to='/'>{t('Home')}</Link>
                     </li>
@@ -49,7 +49,7 @@ function Navbar() {
                     <button
                         className='btnMenu'
                         type='button'
-                        onClick={() => setShowNavList(showNavList)}
+                        onClick={() => setShowNavList(!showNavList)}
                     >
                         <FaBars/>
                     </button>
