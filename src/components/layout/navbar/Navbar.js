@@ -3,6 +3,7 @@ import styles from './Navbar.module.css';
 import { useState } from 'react';
 import { Link } from 'react-router-dom';
 import { useTranslation } from 'react-i18next';
+import { FaBars } from 'react-icons/fa';
 import logo_purple from '../../../assets/img/logo/vh_logo_purple.png';
 import logo_white from '../../../assets/img/logo/vh_logo_white.png';
 import TranslationDropdown from '../translation-dropdown/TranslationDropdown';
@@ -42,7 +43,10 @@ function Navbar() {
                         <Link to='/contact'>{t('Contact')}</Link>
                     </li>
                 </ul>
-                <TranslationDropdown/>
+                <div className={styles.responsiveMenu}>
+                    <TranslationDropdown/>
+                    <button className={styles.btnMenu} type='button'><FaBars/></button>
+                </div>
             </nav>
         </header>
     );

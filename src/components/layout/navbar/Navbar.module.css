@@ -10,7 +10,13 @@
     justify-content: space-between;
     align-items: center;
     padding: 10px;
-    background-color: #222;
+    background-color: #373b3e;
+}
+
+.imgLogo {
+    width: 50px;
+    height: auto;
+    margin: 0px 10px;
 }
 
 ul, li {
@@ -37,7 +43,60 @@ ul, li {
     color: #8257e5;
 }
 
-.imgLogo {
-    width: 50px;
-    height: auto;
+.responsiveMenu {
+    display: flex;
+}
+
+.btnMenu {
+    display: none;
+    color: #FFFFFF;
+    background-color: #8257e5;
+    border-radius: 7px;
+    padding: 5px 10px;
+}
+
+.btnMenu:hover {
+    color: #8257e5;
+    background-color: #FFFFFF;
+}
+
+.btnMenu svg {
+    font-size: 24px;
+}
+
+@media (max-width: 1000px) {
+    .btnMenu {
+        display: block;
+    }
+
+    .list {
+        position: absolute;
+        top: 70px;
+        right: 0;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        padding: 10px 0px;
+        background-color: #FFFFFF;
+        border-radius: 7px;
+        border: 0.5px solid;  
+        box-shadow: 0.1px 0.1px #373b3e;
+    }
+
+    .item {
+        width: 100%;
+        margin: 0px 10px;
+    }
+
+    .item a {
+        color: #373b3e;
+        background-color: #FFFFFF;
+        display: block;
+        padding: 5px 15px;
+    }
+    
+    .item a:hover {
+        color: #FFFFFF;
+        background-color: #8257e5;
+    }
 }

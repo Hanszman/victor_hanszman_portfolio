@@ -6,7 +6,7 @@
     padding: 10px;
     text-align: center;
     color: #FFFFFF;
-    background-color: #222;
+    background-color: #373b3e;
 }
 
 .socialList {
@@ -32,7 +32,7 @@
 }
 
 .socialList svg {
-    font-size: 22px;
+    font-size: 24px;
     cursor: pointer;
 }
 

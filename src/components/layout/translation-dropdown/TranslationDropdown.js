@@ -20,7 +20,7 @@ function TranslationDropdown() {
     ];
 
     return (
-        <div className={`dropdown ${styles.dropTranslation}`}>
+        <div className={`dropdown ${styles.dropdownTranslation}`}>
             <button
                 className={`dropdown-toggle ${styles.btnTranslation}`}
                 type='button'
@@ -30,12 +30,15 @@ function TranslationDropdown() {
             >
                 <FaGlobe/>
             </button>
-            <ul className='dropdown-menu' aria-labelledby='dropdownMenuButton1'>
+            <ul
+                className={`dropdown-menu ${styles.menuTranslation}`}
+                aria-labelledby='dropdownMenuButton1'
+            >
                 {
                     languages.map(({code, name, country_code}) => (
                         <li key={country_code}>
                             <button
-                                className='dropdown-item'
+                                className={`dropdown-item ${styles.itemTranslation}`}
                                 onClick={() => changeLanguage(code)}
                             >
                                 <span className={`flag-icon flag-icon-${country_code} mx-2`}></span>
