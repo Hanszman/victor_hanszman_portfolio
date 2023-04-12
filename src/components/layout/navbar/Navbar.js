@@ -1,5 +1,5 @@
 // Imports
-import styles from './Navbar.module.css';
+import './Navbar.css';
 import { useState } from 'react';
 import { Link } from 'react-router-dom';
 import { useTranslation } from 'react-i18next';
@@ -13,39 +13,46 @@ function Navbar() {
     // Variables
     const { t } = useTranslation();
     const [stateImg, setStateImg] = useState(logo_purple);
+    const [showNavList, setShowNavList] = useState(true);
 
     return (
-        <header className={styles.header}>
-            <nav className={styles.navbar}>
+        <header className='header'>
+            <nav className='navbar'>
                 <Link to='/'>
                     <img
-                        className={styles.imgLogo}
+                        className='imgLogo'
                         alt='Logo VH'
                         src={stateImg}
-                        onMouseEnter={() => {setStateImg(logo_white)}}
-                        onMouseOut={() => {setStateImg(logo_purple)}}
+                        onMouseEnter={() => setStateImg(logo_white)}
+                        onMouseOut={() => setStateImg(logo_purple)}
                     />
                 </Link>
-                <ul className={styles.list}>
-                    <li className={styles.item}>
+                <ul className={`list ${!showNavList}`}>
+                    <li className='item'>
                         <Link to='/'>{t('Home')}</Link>
                     </li>
-                    <li className={styles.item}>
+                    <li className='item'>
                         <Link to='/experiences'>{t('Experiences')}</Link>
                     </li>
-                    <li className={styles.item}>
+                    <li className='item'>
                         <Link to='/qualifications'>{t('Qualifications')}</Link>
                     </li>
-                    <li className={styles.item}>
+                    <li className='item'>
                         <Link to='/projects'>{t('Projects')}</Link>
                     </li>
-                    <li className={styles.item}>
+                    <li className='item'>
                         <Link to='/contact'>{t('Contact')}</Link>
                     </li>
                 </ul>
-                <div className={styles.responsiveMenu}>
+                <div className='responsiveMenu'>
                     <TranslationDropdown/>
-                    <button className={styles.btnMenu} type='button'><FaBars/></button>
+                    <button
+                        className='btnMenu'
+                        type='button'
+                        onClick={() => setShowNavList(showNavList)}
+                    >
+                        <FaBars/>
+                    </button>
                 </div>
             </nav>
         </header>

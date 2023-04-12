@@ -1,10 +1,10 @@
 // Imports
-import styles from './Container.module.css';
+import './Container.css';
 
 // Component
 function Container(props) {
     return (
-        <div className={styles.container}>
+        <div className='container'>
             {props.children}
         </div>
     );

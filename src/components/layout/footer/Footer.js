@@ -1,13 +1,13 @@
 // Imports
-import styles from './Footer.module.css';
+import './Footer.css';
 import { Link } from 'react-router-dom';
 import { FaWhatsapp, FaFacebook, FaInstagram, FaLinkedin } from 'react-icons/fa';
 
 // Component
 function Footer() {
     return (
-        <footer className={styles.footer}>
-            <ul className={styles.socialList}>
+        <footer className='footer'>
+            <ul className='socialList'>
                 <li>
                     <a href='https://wa.me/5531994533811' target='_blank' rel="noreferrer">
                         <FaWhatsapp/>
@@ -29,7 +29,7 @@ function Footer() {
                     </a>
                 </li>
             </ul>
-            <p className={styles.copyRight}>
+            <p className='copyRight'>
                 <Link to='/'>
                     <span>Victor Hanszman</span>
                 </Link>

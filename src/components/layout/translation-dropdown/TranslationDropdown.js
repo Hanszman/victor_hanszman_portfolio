@@ -1,5 +1,5 @@
 // Imports
-import styles from './TranslationDropdown.module.css';
+import './TranslationDropdown.css';
 import { changeLanguage } from 'i18next';
 import { FaGlobe } from 'react-icons/fa';
 
@@ -20,9 +20,9 @@ function TranslationDropdown() {
     ];
 
     return (
-        <div className={`dropdown ${styles.dropdownTranslation}`}>
+        <div className='dropdown dropdownTranslation'>
             <button
-                className={`dropdown-toggle ${styles.btnTranslation}`}
+                className='dropdown-toggle btnTranslation'
                 type='button'
                 id='dropdownMenuButton1'
                 data-bs-toggle='dropdown'
@@ -31,14 +31,15 @@ function TranslationDropdown() {
                 <FaGlobe/>
             </button>
             <ul
-                className={`dropdown-menu ${styles.menuTranslation}`}
+                className='dropdown-menu menuTranslation'
                 aria-labelledby='dropdownMenuButton1'
             >
                 {
                     languages.map(({code, name, country_code}) => (
                         <li key={country_code}>
                             <button
-                                className={`dropdown-item ${styles.itemTranslation}`}
+                                className='dropdown-item itemTranslation'
+                                type='button'
                                 onClick={() => changeLanguage(code)}
                             >
                                 <span className={`flag-icon flag-icon-${country_code} mx-2`}></span>
