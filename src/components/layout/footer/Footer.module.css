@@ -1,46 +1,54 @@
 .footer {
-    background-color: #222;
-    color: #FFFFFF;
-    padding: 3em;
+    position: fixed;
+    display: block;
+    bottom: 0;
+    width: 100%;
+    padding: 10px;
     text-align: center;
+    color: #FFFFFF;
+    background-color: #222;
 }
 
-.social_list {
+.socialList {
     display: flex;
     justify-content: center;
     list-style-type: none;
 }
 
-.social_list li {
-    margin: 0 1em;
+.socialList li {
+    margin: 5px 15px;
 }
 
-.social_list li:hover {
+.socialList li:hover {
     color: #8257e5
 }
 
-.social_list a {
+.socialList a {
     color: #FFFFFF;
 }
 
-.social_list a:hover {
+.socialList a:hover {
     color: #8257e5;
 }
 
-.social_list svg {
-    font-size: 1.5em;
+.socialList svg {
+    font-size: 22px;
     cursor: pointer;
 }
 
-.copy_right {
-    margin-top: 2em;
+.copyRight {
+    margin: 5px 0px;
 }
 
-.copy_right span {
+.copyRight span {
     font-weight: bold;
     color: #8257e5;
 }
 
-.copy_right a {
+.copyRight span:hover {
+    color: #FFFFFF;
+}
+
+.copyRight a {
     text-decoration: none;
 }

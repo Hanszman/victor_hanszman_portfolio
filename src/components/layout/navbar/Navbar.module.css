@@ -1,9 +1,16 @@
+.header {
+    position: fixed;
+    top: 0;
+    z-index: 10;
+    width: 100%;
+}
+
 .navbar {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: #222;
     padding: 10px;
+    background-color: #222;
 }
 
 ul, li {

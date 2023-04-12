@@ -3,7 +3,6 @@ import styles from './Navbar.module.css';
 import { useState } from 'react';
 import { Link } from 'react-router-dom';
 import { useTranslation } from 'react-i18next';
-import Container from '../container/Container';
 import logo_purple from '../../../assets/img/logo/vh_logo_purple.png';
 import logo_white from '../../../assets/img/logo/vh_logo_white.png';
 import TranslationDropdown from '../translation-dropdown/TranslationDropdown';
@@ -15,8 +14,8 @@ function Navbar() {
     const [stateImg, setStateImg] = useState(logo_purple);
 
     return (
-        <nav className={styles.navbar}>
-            <Container>
+        <header className={styles.header}>
+            <nav className={styles.navbar}>
                 <Link to='/'>
                     <img
                         className={styles.imgLogo}
@@ -44,8 +43,8 @@ function Navbar() {
                     </li>
                 </ul>
                 <TranslationDropdown/>
-            </Container>
-        </nav>
+            </nav>
+        </header>
     );
 }
 
