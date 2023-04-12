@@ -4,7 +4,7 @@ import { initReactI18next } from 'react-i18next';
 import PTBR from './locales/pt/pt-br.json'
 import ENUS from './locales/en/en-us.json'
 
-// Variables
+// Declarations
 const resources = {
     'en': ENUS,
     'pt': PTBR

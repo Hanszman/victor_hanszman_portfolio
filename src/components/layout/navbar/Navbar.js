@@ -4,15 +4,15 @@ import { useState } from 'react';
 import { Link } from 'react-router-dom';
 import { useTranslation } from 'react-i18next';
 import { FaBars } from 'react-icons/fa';
-import logo_purple from '../../../assets/img/logo/vh_logo_purple.png';
-import logo_white from '../../../assets/img/logo/vh_logo_white.png';
+import logoPurple from '../../../assets/img/logo/vh_logo_purple.png';
+import logoWhite from '../../../assets/img/logo/vh_logo_white.png';
 import TranslationDropdown from '../translation-dropdown/TranslationDropdown';
 
 // Component
 function Navbar() {
-    // Variables
+    // Declarations
     const { t } = useTranslation();
-    const [stateImg, setStateImg] = useState(logo_purple);
+    const [stateImg, setStateImg] = useState(logoPurple);
     const [showNavList, setShowNavList] = useState(false);
 
     return (
@@ -23,8 +23,8 @@ function Navbar() {
                         className='imgLogo'
                         alt='Logo VH'
                         src={stateImg}
-                        onMouseEnter={() => setStateImg(logo_white)}
-                        onMouseOut={() => setStateImg(logo_purple)}
+                        onMouseEnter={() => setStateImg(logoWhite)}
+                        onMouseOut={() => setStateImg(logoPurple)}
                     />
                 </Link>
                 <ul className={showNavList ? 'list active' : 'list'}>
@@ -39,9 +39,6 @@ function Navbar() {
                     </li>
                     <li className='item'>
                         <Link to='/projects'>{t('Projects')}</Link>
-                    </li>
-                    <li className='item'>
-                        <Link to='/contact'>{t('Contact')}</Link>
                     </li>
                 </ul>
                 <div className='responsiveMenu'>

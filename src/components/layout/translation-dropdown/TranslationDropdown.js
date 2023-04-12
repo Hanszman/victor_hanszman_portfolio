@@ -5,7 +5,7 @@ import { FaGlobe } from 'react-icons/fa';
 
 // Component
 function TranslationDropdown() {
-    // Variables
+    // Declarations
     const languages = [
         {
             code: 'en',

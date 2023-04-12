@@ -7,7 +7,6 @@ import Home from './components/pages/home/Home';
 import Experiences from './components/pages/experiences/Experiences';
 import Qualifications from './components/pages/qualifications/Qualifications';
 import Projects from './components/pages/projects/Projects';
-import Contact from './components/pages/contact/Contact';
 
 // Component
 function App() {
@@ -20,7 +19,6 @@ function App() {
           <Route path='/experiences' element={<Experiences/>}></Route>
           <Route path='/qualifications' element={<Qualifications/>}></Route>
           <Route path='/projects' element={<Projects/>}></Route>
-          <Route path='/contact' element={<Contact/>}></Route>
         </Routes>
       </Container>
       <Footer/>

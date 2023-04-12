@@ -4,6 +4,15 @@
         "Experiences": "Experiences",
         "Qualifications": "Qualifications",
         "Projects": "Projects",
-        "Contact": "Contacts"
+        "Contact": "Contacts",
+
+        "IntroText": "I am a Full Stack Web Developer, I wish to continue growing and gaining professional experience.",
+        "Age": "Age",
+        "YearsOld": "years old",
+        "Nationality": "Nationality",
+        "Brazilian": "Brazilian",
+        "CivilStatus": "Civil Status",
+        "Married": "Married",
+        "PhoneNumber": "Phone Number"
     }
 }

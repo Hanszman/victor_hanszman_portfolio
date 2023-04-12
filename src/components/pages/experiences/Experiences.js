@@ -3,7 +3,7 @@ import { useTranslation } from 'react-i18next';
 
 // Component
 function Experiences() {
-    // Variables
+    // Declarations
     const { t } = useTranslation();
 
     return (

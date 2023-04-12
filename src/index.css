@@ -12,8 +12,14 @@ html, body, #root {
 
 .text {
   color: #373b3e;
+  padding: 0;
+  margin: 0;
 }
 
 .highText {
   color: #8257e5;
+}
+
+.boldText {
+  font-weight: bold;
 }
