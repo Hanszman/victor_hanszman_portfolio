@@ -1,7 +1,7 @@
 // Imports
 import './Footer.css';
 import { Link } from 'react-router-dom';
-import { FaWhatsapp, FaFacebook, FaInstagram, FaLinkedin } from 'react-icons/fa';
+import { FaWhatsapp, FaFacebook, FaInstagram, FaLinkedin, FaGithub } from 'react-icons/fa';
 
 // Component
 function Footer() {
@@ -26,6 +26,11 @@ function Footer() {
                 <li>
                     <a href='https://www.linkedin.com/in/victor-hanszman-b1362215b/' target='_blank' rel="noreferrer">
                         <FaLinkedin/>
+                    </a>
+                </li>
+                <li>
+                    <a href='https://github.com/Hanszman' target='_blank' rel="noreferrer">
+                        <FaGithub/>
                     </a>
                 </li>
             </ul>
