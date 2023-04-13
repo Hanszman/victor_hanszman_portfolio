@@ -17,4 +17,12 @@
     .info {
         flex-direction: column;
     }
+
+    .profilePicImg, .infoText {
+        margin: 20px 0;
+    }
+
+    .profilePicImg {
+        width: 200px;
+    }
 }
