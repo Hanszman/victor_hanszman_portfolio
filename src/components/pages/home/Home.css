@@ -1,3 +1,7 @@
+.titleText, .introText {
+    text-align: center;
+}
+
 .info {
     display: flex;
 }
