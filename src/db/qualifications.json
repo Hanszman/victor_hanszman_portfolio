@@ -12,6 +12,7 @@
             {
                 "code": "string",
                 "name": "string",
+                "level": "string",
                 "description": "string",
                 "imgIcon": "string"
             }
@@ -25,7 +26,8 @@
                 "imgIcon": "string",
                 "startDate": "string",
                 "endDate": "string",
-                "technologies": ["string"]
+                "technologies": ["string"],
+                "projects": ["string"]
             }
         ]
     }
