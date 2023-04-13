@@ -1,7 +1,32 @@
 {
     "qualifications": {
-        "technologies": [],
-        "knowlodges": [],
-        "formations": []
+        "technologies": [
+            {
+                "code": "string",
+                "name": "string",
+                "imgIcon": "string",
+                "stack": "string"
+            }
+        ],
+        "knowlodges": [
+            {
+                "code": "string",
+                "name": "string",
+                "description": "string",
+                "imgIcon": "string"
+            }
+        ],
+        "formations": [
+            {
+                "code": "string",
+                "name": "string",
+                "institution": "string",
+                "description": "string",
+                "imgIcon": "string",
+                "startDate": "string",
+                "endDate": "string",
+                "technologies": ["string"]
+            }
+        ]
     }
 }

@@ -1,3 +1,14 @@
 {
-    "experiences": []
+    "experiences": [
+        {
+            "code": "string",
+            "company": "string",
+            "job": "string",
+            "description": "string",
+            "imgIcon": "string",
+            "startDate": "string",
+            "endDate": "string",
+            "technologies": ["string"]
+        }
+    ]
 }
