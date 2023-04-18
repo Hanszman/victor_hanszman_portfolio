@@ -6,7 +6,7 @@ function Experiences() {
     // Declarations
     const { t } = useTranslation();
 
-    // Listar experiências de acordo com o json
+    // Listar experiências de acordo com o arquivo do json
     return (
         <div>
             <h1 className='highText'>{t('Experiences')}</h1>
