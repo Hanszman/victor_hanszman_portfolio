@@ -25,7 +25,7 @@ function Home() {
             <div className='info'>
                 <img
                     className='profilePicImg'
-                    alt='Victor Hanszman profile picture'
+                    alt='Victor Hanszman Profile'
                     src={profilePic}
                 />
                 <div className='infoText'>
