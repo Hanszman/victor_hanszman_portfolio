@@ -6,6 +6,7 @@ function Qualifications() {
     // Declarations
     const { t } = useTranslation();
 
+    // Listar qualificações de acordo com o json
     return (
         <div>
             <h1 className='highText'>{t('Qualifications')}</h1>
