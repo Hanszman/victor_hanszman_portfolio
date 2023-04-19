@@ -1,23 +1,15 @@
 // Imports
 import './TranslationDropdown.css';
+import { useTranslation } from 'react-i18next';
 import { changeLanguage } from 'i18next';
 import { FaGlobe } from 'react-icons/fa';
+import LanguagesJson from '../../../db/languages.json';
 
 // Component
 function TranslationDropdown() {
     // Declarations
-    const languages = [
-        {
-            code: 'en',
-            name: 'English (USA)',
-            country_code: 'us'
-        },
-        {
-            code: 'pt',
-            name: 'Português (Brasil)',
-            country_code: 'br'
-        }
-    ];
+    const { t } = useTranslation();
+    const languages = LanguagesJson.languages;
 
     return (
         <div className='dropdown dropdownTranslation'>
@@ -35,7 +27,7 @@ function TranslationDropdown() {
                 aria-labelledby='dropdownMenuButton1'
             >
                 {
-                    languages.map(({code, name, country_code}) => (
+                    languages.map(({code, language_name, country_name, country_code}) => (
                         <li key={country_code}>
                             <button
                                 className='dropdown-item itemTranslation'
@@ -43,7 +35,7 @@ function TranslationDropdown() {
                                 onClick={() => changeLanguage(code)}
                             >
                                 <span className={`flag-icon flag-icon-${country_code} mx-2`}></span>
-                                {name}
+                                {t(language_name)} ({t(country_name)})
                             </button>
                         </li>
                     ))

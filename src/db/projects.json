@@ -6,6 +6,7 @@
             "type": "string",
             "description": "string",
             "imgIcon": "string",
+            "gitLink": "string",
             "startDate": "string",
             "endDate": "string",
             "technologies": ["string"]

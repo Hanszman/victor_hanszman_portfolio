@@ -1,10 +1,40 @@
 {
     "translation": {
+        "Portuguese": "Português",
+        "English": "Inglês",
+
+        "Brazil": "Brasil",
+        "USA": "EUA",
+
         "Home": "Início",
         "Experiences": "Experiências",
         "Skills": "Habilidades",
         "Projects": "Projetos",
         "Contact": "Contato",
+
+        "Graduation": "Graduação",
+        "PostGraduation": "Pós-Graduação",
+        "Bachelor": "Bacharel",
+        "Especialist": "Especialista",
+        "Studing": "Estudando",
+        "Beginner": "Iniciante",
+        "Intermediate": "Intermediário",
+        "Advanced": "Avançado",
+        "Fluent": "Fluente (Nativo)",
+
+        "FrontEnd": "Front-End",
+        "BackEnd": "Back-End",
+        "Mobile": "Mobile",
+        "DataBases": "Bancos de Dados",
+        "Others": "Outros",
+        "Libraries": "Bibliotecas",
+        "Frameworks": "Frameworks",
+        "Techniques": "Técnicas",
+        "Methodologies": "Metodologias",
+        "ProgrammingLanguages": "Linguagens de Programação",
+        "PackageManagers": "Gerenciadores de Pacotes",
+        "VersioningPlatforms": "Plataformas de Versionamento",
+        "CloudHostingPlataforms": "Plataformas de Hospedagem em Núvem",
 
         "IntroText": "Sou um Desenvolvedor Web Full Stack, trabalho tanto no Front-End quanto no Back-End. Moro na região metropolitana de Belo Horizonte no estado de Minas Gerais no Brasil. Atualmente trabalho remotamente e busco novas oportunidades home office. Desejo continuar crescendo e adquirindo experiência profissional na área de Desenvolvimento de Software.",
         "Age": "Idade",

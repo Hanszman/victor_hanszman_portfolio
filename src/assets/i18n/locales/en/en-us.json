@@ -1,10 +1,40 @@
 {
     "translation": {
+        "Portuguese": "Portuguese",
+        "English": "English",
+
+        "Brazil": "Brazil",
+        "USA": "USA",
+
         "Home": "Home",
         "Experiences": "Experiences",
         "Skills": "Skills",
         "Projects": "Projects",
         "Contact": "Contacts",
+
+        "Graduation": "Graduation",
+        "PostGraduation": "Post-Graduation",
+        "Bachelor": "Bachelor",
+        "Especialist": "Especialist",
+        "Studing": "Studing",
+        "Beginner": "Beginner",
+        "Intermediate": "Intermediate",
+        "Advanced": "Advanced",
+        "Fluent": "Fluent (Native)",
+
+        "FrontEnd": "Front-End",
+        "BackEnd": "Back-End",
+        "Mobile": "Mobile",
+        "DataBases": "Data Bases",
+        "Others": "Others",
+        "Libraries": "Libraries",
+        "Frameworks": "Frameworks",
+        "Techniques": "Techniques",
+        "Methodologies": "Methodologies",
+        "ProgrammingLanguages": "Programming Languages",
+        "PackageManagers": "Package Managers",
+        "VersioningPlatforms": "Versioning Plataforms",
+        "CloudHostingPlataforms": "Cloud Hosting Plataforms",
 
         "IntroText": "I am a Full Stack Web Developer, working on Front-End and Back-End. I live in the metropolitan region of Belo Horizonte in the state of Minas Gerais in Brazil. Currently I'm working remotely and looking for some new home office opportunities. I wish to continue growing and gaining professional experience in the field of Software Development.",
         "Age": "Age",

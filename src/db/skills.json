@@ -2,31 +2,392 @@
     "skills": {
         "technologies": [
             {
-                "code": "string",
-                "name": "string",
-                "level": "string",
-                "imgIcon": "string",
-                "stack": "string"
-            }
-        ],
-        "knowlodges": [
+                "code": "ajax",
+                "name": "AJAX",
+                "level": "Beginner",
+                "imgIcon": "skills/ajax",
+                "type": "Techniques",
+                "stack": "FrontEnd"
+            },
+            {
+                "code": "angular",
+                "name": "Angular",
+                "level": "Advanced",
+                "imgIcon": "skills/angular",
+                "type": "ProgrammingLanguages",
+                "stack": "FrontEnd"
+            },
+            {
+                "code": "aws",
+                "name": "Amazon Web Sevices",
+                "level": "Beginner",
+                "imgIcon": "skills/aws",
+                "type": "CloudHostingPlataforms",
+                "stack": "Others"
+            },
+            {
+                "code": "azure",
+                "name": "Microsoft Azure",
+                "level": "Beginner",
+                "imgIcon": "skills/azure",
+                "type": "VersioningPlatforms",
+                "stack": "Others"
+            },
+            {
+                "code": "bootstrap",
+                "name": "Bootstrap",
+                "level": "Advanced",
+                "imgIcon": "skills/bootstrap",
+                "type": "Frameworks",
+                "stack": "FrontEnd"
+            },
+            {
+                "code": "chart",
+                "name": "Chart.js",
+                "level": "Intermediate",
+                "imgIcon": "skills/chart",
+                "type": "Libraries",
+                "stack": "FrontEnd"
+            },
+            {
+                "code": "composer",
+                "name": "Composer",
+                "level": "Intermediate",
+                "imgIcon": "skills/composer",
+                "type": "PackageManagers",
+                "stack": "Others"
+            },
             {
                 "code": "string",
                 "name": "string",
                 "level": "string",
-                "description": "string",
-                "imgIcon": "string"
+                "imgIcon": "skills/string",
+                "type": "string",
+                "stack": "string"
+            },
+            {
+                "code": "string",
+                "name": "string",
+                "level": "string",
+                "imgIcon": "skills/string",
+                "type": "string",
+                "stack": "string"
+            },
+            {
+                "code": "string",
+                "name": "string",
+                "level": "string",
+                "imgIcon": "skills/string",
+                "type": "string",
+                "stack": "string"
+            },
+            {
+                "code": "string",
+                "name": "string",
+                "level": "string",
+                "imgIcon": "skills/string",
+                "type": "string",
+                "stack": "string"
+            },
+            {
+                "code": "string",
+                "name": "string",
+                "level": "string",
+                "imgIcon": "skills/string",
+                "type": "string",
+                "stack": "string"
+            },
+            {
+                "code": "string",
+                "name": "string",
+                "level": "string",
+                "imgIcon": "skills/string",
+                "type": "string",
+                "stack": "string"
+            },
+            {
+                "code": "string",
+                "name": "string",
+                "level": "string",
+                "imgIcon": "skills/string",
+                "type": "string",
+                "stack": "string"
+            },
+            {
+                "code": "string",
+                "name": "string",
+                "level": "string",
+                "imgIcon": "skills/string",
+                "type": "string",
+                "stack": "string"
+            },
+            {
+                "code": "string",
+                "name": "string",
+                "level": "string",
+                "imgIcon": "skills/string",
+                "type": "string",
+                "stack": "string"
+            },
+            {
+                "code": "string",
+                "name": "string",
+                "level": "string",
+                "imgIcon": "skills/string",
+                "type": "string",
+                "stack": "string"
+            },
+            {
+                "code": "string",
+                "name": "string",
+                "level": "string",
+                "imgIcon": "skills/string",
+                "type": "string",
+                "stack": "string"
+            },
+            {
+                "code": "string",
+                "name": "string",
+                "level": "string",
+                "imgIcon": "skills/string",
+                "type": "string",
+                "stack": "string"
+            },
+            {
+                "code": "string",
+                "name": "string",
+                "level": "string",
+                "imgIcon": "skills/string",
+                "type": "string",
+                "stack": "string"
+            },
+            {
+                "code": "string",
+                "name": "string",
+                "level": "string",
+                "imgIcon": "skills/string",
+                "type": "string",
+                "stack": "string"
+            },
+            {
+                "code": "string",
+                "name": "string",
+                "level": "string",
+                "imgIcon": "skills/string",
+                "type": "string",
+                "stack": "string"
+            },
+            {
+                "code": "string",
+                "name": "string",
+                "level": "string",
+                "imgIcon": "skills/string",
+                "type": "string",
+                "stack": "string"
+            },
+            {
+                "code": "string",
+                "name": "string",
+                "level": "string",
+                "imgIcon": "skills/string",
+                "type": "string",
+                "stack": "string"
+            },
+            {
+                "code": "string",
+                "name": "string",
+                "level": "string",
+                "imgIcon": "skills/string",
+                "type": "string",
+                "stack": "string"
+            },
+            {
+                "code": "string",
+                "name": "string",
+                "level": "string",
+                "imgIcon": "skills/string",
+                "type": "string",
+                "stack": "string"
+            },
+            {
+                "code": "string",
+                "name": "string",
+                "level": "string",
+                "imgIcon": "skills/string",
+                "type": "string",
+                "stack": "string"
+            },
+            {
+                "code": "string",
+                "name": "string",
+                "level": "string",
+                "imgIcon": "skills/string",
+                "type": "string",
+                "stack": "string"
+            },
+            {
+                "code": "string",
+                "name": "string",
+                "level": "string",
+                "imgIcon": "skills/string",
+                "type": "string",
+                "stack": "string"
+            },
+            {
+                "code": "string",
+                "name": "string",
+                "level": "string",
+                "imgIcon": "skills/string",
+                "type": "string",
+                "stack": "string"
+            },
+            {
+                "code": "string",
+                "name": "string",
+                "level": "string",
+                "imgIcon": "skills/string",
+                "type": "string",
+                "stack": "string"
+            },
+            {
+                "code": "string",
+                "name": "string",
+                "level": "string",
+                "imgIcon": "skills/string",
+                "type": "string",
+                "stack": "string"
+            },
+            {
+                "code": "string",
+                "name": "string",
+                "level": "string",
+                "imgIcon": "skills/string",
+                "type": "string",
+                "stack": "string"
+            },
+            {
+                "code": "string",
+                "name": "string",
+                "level": "string",
+                "imgIcon": "skills/string",
+                "type": "string",
+                "stack": "string"
+            },
+            {
+                "code": "string",
+                "name": "string",
+                "level": "string",
+                "imgIcon": "skills/string",
+                "type": "string",
+                "stack": "string"
+            },
+            {
+                "code": "string",
+                "name": "string",
+                "level": "string",
+                "imgIcon": "skills/string",
+                "type": "string",
+                "stack": "string"
+            },
+            {
+                "code": "string",
+                "name": "string",
+                "level": "string",
+                "imgIcon": "skills/string",
+                "type": "string",
+                "stack": "string"
+            },
+            {
+                "code": "string",
+                "name": "string",
+                "level": "string",
+                "imgIcon": "skills/string",
+                "type": "string",
+                "stack": "string"
+            },
+            {
+                "code": "string",
+                "name": "string",
+                "level": "string",
+                "imgIcon": "skills/string",
+                "type": "string",
+                "stack": "string"
+            },
+            {
+                "code": "string",
+                "name": "string",
+                "level": "string",
+                "imgIcon": "skills/string",
+                "type": "string",
+                "stack": "string"
+            },
+            {
+                "code": "string",
+                "name": "string",
+                "level": "string",
+                "imgIcon": "skills/string",
+                "type": "string",
+                "stack": "string"
+            },
+            {
+                "code": "string",
+                "name": "string",
+                "level": "string",
+                "imgIcon": "skills/string",
+                "type": "string",
+                "stack": "string"
+            },
+            {
+                "code": "string",
+                "name": "string",
+                "level": "string",
+                "imgIcon": "skills/string",
+                "type": "string",
+                "stack": "string"
+            },
+            {
+                "code": "string",
+                "name": "string",
+                "level": "string",
+                "imgIcon": "skills/string",
+                "type": "string",
+                "stack": "string"
+            }
+        ],
+        "languages": [
+            {
+                "code": "pt-br",
+                "name": "Portuguese",
+                "level": "Fluent",
+                "imgIcon": "skills/brasil"
+            },
+            {
+                "code": "en-us",
+                "name": "English",
+                "level": "Advanced",
+                "imgIcon": "skills/usa"
             }
         ],
         "formations": [
             {
-                "code": "string",
-                "title": "string",
-                "institution": "string",
-                "description": "string",
-                "imgIcon": "string",
-                "startDate": "string",
-                "endDate": "string",
+                "code": "puc-graduacao",
+                "title": "Graduation",
+                "level": "Bachelor",
+                "institution": "Pontifícia Universidade Católica de Minas Gerais",
+                "imgIcon": "skills/puc",
+                "startDate": "2015-02-01",
+                "endDate": "2018-12-15",
+                "technologies": ["string"],
+                "projects": ["string"]
+            },
+            {
+                "code": "puc-pos-graduacao",
+                "title": "PostGraduation",
+                "level": "Especialist",
+                "institution": "Pontifícia Universidade Católica de Minas Gerais",
+                "imgIcon": "skills/puc",
+                "startDate": "2019-03-01",
+                "endDate": "2021-06-20",
                 "technologies": ["string"],
                 "projects": ["string"]
             }
