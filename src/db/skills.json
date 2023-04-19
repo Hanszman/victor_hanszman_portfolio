@@ -4,6 +4,7 @@
             {
                 "code": "string",
                 "name": "string",
+                "level": "string",
                 "imgIcon": "string",
                 "stack": "string"
             }
@@ -20,7 +21,7 @@
         "formations": [
             {
                 "code": "string",
-                "name": "string",
+                "title": "string",
                 "institution": "string",
                 "description": "string",
                 "imgIcon": "string",

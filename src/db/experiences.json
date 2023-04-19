@@ -1,13 +1,35 @@
 {
     "experiences": [
         {
-            "code": "string",
-            "company": "string",
-            "job": "string",
-            "description": "string",
-            "imgIcon": "string",
-            "startDate": "string",
-            "endDate": "string",
+            "code": "stefanini",
+            "companyName": "Stefanini Group",
+            "job": "Desenvolvedor Web Full Stack",
+            "description": "Desenvolvimento Web Full Stack utilizando as tecnologias: Angular, Javascript, Typescript, Node.js, Knex, CSS, SCSS, HTML, JSON; análise de dados utilizando SQL Server; correção de bugs, manutenção e refatoração de código; desenvolvimento de telas e interfaces de usuário; desenvolvimento de API; utilização do Github e do TFS para versionamento de código; utilização de Scrum como metodologia ágil. Desenvolvimento de sistemas para clientes como: Ford e Ale. Há 1 ano e 5 meses como contratado CLT.",
+            "imgIcon": "experiences/stefanini",
+            "startDate": "2021-09-23",
+            "endDate": "",
+            "technologies": ["string"],
+            "projects": ["string"]
+        },
+        {
+            "code": "m2m",
+            "companyName": "M2M Telemetria",
+            "job": "Desenvolvedor Web Full Stack",
+            "description": "Desenvolvimento Web Full Stack utilizando as tecnologias: Angular, Javascript, Typescript, Node.js, Knex, Chart.js, CSS, SCSS, HTML, JSON, XML, Laravel, jQuery e PHP; análise de dados utilizando MySQL e SQL Server; correção de bugs, manutenção e refatoração de código; desenvolvimento de telas e interfaces de usuário; desenvolvimento de API; utilização do GitLab e Dev Azure para versionamento de código. Desenvolvimento de sistemas para a CEMIG. Duração de 1 ano e 5 meses como contratado CLT.",
+            "imgIcon": "experiences/m2m",
+            "startDate": "2020-04-01",
+            "endDate": "2021-09-23",
+            "technologies": ["string"],
+            "projects": ["string"]
+        },
+        {
+            "code": "4mti",
+            "companyName": "4MTI Soluções",
+            "job": "Desenvolvedor Web Full Stack",
+            "description": "Desenvolvimento Web Full Stack utilizando as tecnologias: PHP, JavaScript, jQuery, AJAX, CSS, HTML; análise de dados utilizando MySQL e PostgreSQL; correção de bugs e manutenção de código; testes de primeiro nível; documentação de projetos; análise de requisitos e reuniões com clientes; utilização do GitLab para versionamento de código; experiência com metodologia utilizando elementos do Scrum e Kanban. Desenvolvimento de sistemas para clientes como: Localiza, MPMG, NESCON, Costa & Tavares. Duração de 3 meses como estagiário e 1 ano e 4 meses como contratado CLT.",
+            "imgIcon": "experiences/4mti",
+            "startDate": "2018-09-03",
+            "endDate": "2020-04-01",
             "technologies": ["string"],
             "projects": ["string"]
         }
