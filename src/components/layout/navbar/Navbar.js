@@ -35,7 +35,7 @@ function Navbar() {
                         <Link to='/experiences'>{t('Experiences')}</Link>
                     </li>
                     <li className='item'>
-                        <Link to='/qualifications'>{t('Qualifications')}</Link>
+                        <Link to='/skills'>{t('Skills')}</Link>
                     </li>
                     <li className='item'>
                         <Link to='/projects'>{t('Projects')}</Link>

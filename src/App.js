@@ -5,7 +5,7 @@ import Navbar from './components/layout/navbar/Navbar';
 import Footer from './components/layout/footer/Footer';
 import Home from './components/pages/home/Home';
 import Experiences from './components/pages/experiences/Experiences';
-import Qualifications from './components/pages/qualifications/Qualifications';
+import Skills from './components/pages/skills/Skills';
 import Projects from './components/pages/projects/Projects';
 
 // Component
@@ -17,7 +17,7 @@ function App() {
         <Routes>
           <Route exact path='/' element={<Home/>}></Route>
           <Route path='/experiences' element={<Experiences/>}></Route>
-          <Route path='/qualifications' element={<Qualifications/>}></Route>
+          <Route path='/skills' element={<Skills/>}></Route>
           <Route path='/projects' element={<Projects/>}></Route>
         </Routes>
       </Container>
