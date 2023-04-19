@@ -1,7 +1,7 @@
 // Imports
 import './Footer.css';
 import { Link } from 'react-router-dom';
-import { FaWhatsapp, FaFacebook, FaInstagram, FaLinkedin, FaGithub } from 'react-icons/fa';
+import { FaWhatsapp, FaLinkedin, FaGithub } from 'react-icons/fa';
 
 // Component
 function Footer() {
@@ -9,18 +9,8 @@ function Footer() {
         <footer className='footer'>
             <ul className='socialList'>
                 <li>
-                    <a href='https://wa.me/5531994533811' target='_blank' rel="noreferrer">
-                        <FaWhatsapp/>
-                    </a>
-                </li>
-                <li>
-                    <a href='https://www.facebook.com/victor.hanszman' target='_blank' rel="noreferrer">
-                        <FaFacebook/>
-                    </a>
-                </li>
-                <li>
-                    <a href='https://www.instagram.com/hanszman/' target='_blank' rel="noreferrer">
-                        <FaInstagram/>
+                    <a href='https://github.com/Hanszman' target='_blank' rel="noreferrer">
+                        <FaGithub/>
                     </a>
                 </li>
                 <li>
@@ -29,8 +19,8 @@ function Footer() {
                     </a>
                 </li>
                 <li>
-                    <a href='https://github.com/Hanszman' target='_blank' rel="noreferrer">
-                        <FaGithub/>
+                    <a href='https://wa.me/5531994533811' target='_blank' rel="noreferrer">
+                        <FaWhatsapp/>
                     </a>
                 </li>
             </ul>
