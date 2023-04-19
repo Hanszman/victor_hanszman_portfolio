@@ -3,6 +3,7 @@
         {
             "code": "string",
             "name": "string",
+            "type": "string",
             "description": "string",
             "imgIcon": "string",
             "startDate": "string",
