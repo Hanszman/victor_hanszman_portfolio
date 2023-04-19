@@ -6,7 +6,7 @@ function Projects() {
     // Declarations
     const { t } = useTranslation();
 
-    // Listar projetos de acordo com o json
+    // TODO: Listar projetos de acordo com o json
     return (
         <div>
             <h1 className='highText'>{t('Projects')}</h1>
