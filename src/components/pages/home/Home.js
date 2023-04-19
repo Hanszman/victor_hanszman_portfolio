@@ -20,8 +20,8 @@ function Home() {
 
     return (
         <div>
-            <h1 className='highText titleText'>Victor Hanszman Drumond Gonçalves</h1>
-            <p className='text italicText introText'>{t('IntroText')}</p><br/>
+            <h1 className='highText centerText boldText'>Victor Hanszman Drumond Gonçalves</h1>
+            <p className='text centerText italicText'>{t('IntroText')}</p><br/>
             <div className='info'>
                 <img
                     className='profilePicImg'

@@ -4,7 +4,7 @@ import { useState } from 'react';
 import { Link } from 'react-router-dom';
 import { useTranslation } from 'react-i18next';
 import { FaBars } from 'react-icons/fa';
-import logoPurple from '../../../assets/img/logo/vh_logo_purple.png';
+import logoBlue from '../../../assets/img/logo/vh_logo_blue.png';
 import logoWhite from '../../../assets/img/logo/vh_logo_white.png';
 import TranslationDropdown from '../translation-dropdown/TranslationDropdown';
 
@@ -12,7 +12,7 @@ import TranslationDropdown from '../translation-dropdown/TranslationDropdown';
 function Navbar() {
     // Declarations
     const { t } = useTranslation();
-    const [stateImg, setStateImg] = useState(logoPurple);
+    const [stateImg, setStateImg] = useState(logoBlue);
     const [showNavList, setShowNavList] = useState(false);
 
     return (
@@ -24,7 +24,7 @@ function Navbar() {
                         alt='Logo VH'
                         src={stateImg}
                         onMouseEnter={() => setStateImg(logoWhite)}
-                        onMouseOut={() => setStateImg(logoPurple)}
+                        onMouseOut={() => setStateImg(logoBlue)}
                     />
                 </Link>
                 <ul className={showNavList ? 'list active' : 'list'}>

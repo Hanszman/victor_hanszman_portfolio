@@ -20,7 +20,7 @@
 }
 
 .socialList li:hover {
-    color: #8257e5
+    color: #7089fa
 }
 
 .socialList a {
@@ -28,7 +28,7 @@
 }
 
 .socialList a:hover {
-    color: #8257e5;
+    color: #7089fa;
 }
 
 .socialList svg {
@@ -42,7 +42,7 @@
 
 .copyRight span {
     font-weight: bold;
-    color: #8257e5;
+    color: #7089fa;
 }
 
 .copyRight span:hover {

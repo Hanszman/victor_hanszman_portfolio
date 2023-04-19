@@ -1,7 +1,3 @@
-.titleText, .introText {
-    text-align: center;
-}
-
 .info {
     display: flex;
     justify-content: center;
@@ -13,7 +9,7 @@
     height: auto;
     margin: 0 50px;
     border-radius: 200px;
-    border: 5px solid #8257e5;
+    border: 5px solid #7089fa;
 }
 
 .infoText {

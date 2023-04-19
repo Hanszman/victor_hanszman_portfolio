@@ -6,13 +6,13 @@
 
 .btnTranslation {
     color: #FFFFFF;
-    background-color: #8257e5;
+    background-color: #7089fa;
     border-radius: 7px;
     padding: 5px 10px;
 }
 
 .btnTranslation:hover {
-    color: #8257e5;
+    color: #7089fa;
     background-color: #FFFFFF;
 }
 
@@ -34,5 +34,5 @@
 
 .itemTranslation:hover {
     color: #FFFFFF;
-    background-color: #8257e5;
+    background-color: #7089fa;
 }

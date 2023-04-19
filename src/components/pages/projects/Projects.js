@@ -9,7 +9,7 @@ function Projects() {
     // TODO: Listar projetos de acordo com o json
     return (
         <div>
-            <h1 className='highText'>{t('Projects')}</h1>
+            <h1 className='highText centerText boldText'>{t('Projects')}</h1>
         </div>
     );
 }

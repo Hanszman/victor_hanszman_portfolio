@@ -40,7 +40,7 @@ ul, li {
 }
 
 .item a:hover {
-    color: #8257e5;
+    color: #7089fa;
 }
 
 .responsiveMenu {
@@ -50,13 +50,13 @@ ul, li {
 .btnMenu {
     display: none;
     color: #FFFFFF;
-    background-color: #8257e5;
+    background-color: #7089fa;
     border-radius: 7px;
     padding: 5px 10px;
 }
 
 .btnMenu:hover {
-    color: #8257e5;
+    color: #7089fa;
     background-color: #FFFFFF;
 }
 
@@ -101,6 +101,6 @@ ul, li {
     
     .item a:hover {
         color: #FFFFFF;
-        background-color: #8257e5;
+        background-color: #7089fa;
     }
 }

@@ -9,7 +9,7 @@ function Experiences() {
     // TODO: Listar experiências de acordo com o json
     return (
         <div>
-            <h1 className='highText'>{t('Experiences')}</h1>
+            <h1 className='highText centerText boldText'>{t('Experiences')}</h1>
         </div>
     );
 }

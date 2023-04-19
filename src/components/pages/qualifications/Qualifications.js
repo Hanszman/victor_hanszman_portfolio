@@ -9,7 +9,7 @@ function Qualifications() {
     // TODO: Listar qualificações de acordo com o json
     return (
         <div>
-            <h1 className='highText'>{t('Qualifications')}</h1>
+            <h1 className='highText centerText boldText'>{t('Qualifications')}</h1>
         </div>
     );
 }
