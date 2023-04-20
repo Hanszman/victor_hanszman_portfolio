@@ -90,7 +90,7 @@
         },
         {
             "code": "portfolio",
-            "name": "Portfólio Victor Hanszman",
+            "name": "Portfólio - Victor Hanszman",
             "type": "personal",
             "description": "Portfolio",
             "imgIcon": "",
@@ -106,6 +106,7 @@
                 "javascript",
                 "html",
                 "css",
+                "jsx",
                 "json",
                 "npm",
                 "visualstudiocode",
@@ -163,6 +164,255 @@
                 "npm",
                 "visualstudiocode",
                 "github"
+            ]
+        },
+        {
+            "code": "stefanini-ford",
+            "name": "Customer & Dealer Transformation App",
+            "type": "experiences",
+            "description": "StefaniniFord",
+            "imgIcon": "",
+            "prodLinks": [],
+            "gitLinks": [],
+            "startDate": "2022-03-01",
+            "endDate": "",
+            "customers": [
+                "ford"
+            ],
+            "technologies": [
+                "angular",
+                "typescript",
+                "javascript",
+                "html",
+                "css",
+                "sass",
+                "json",
+                "bootstrap",
+                "npm",
+                "java",
+                "sqlserver",
+                "dbeaver",
+                "visualstudiocode",
+                "github",
+                "jenkins",
+                "scrum"
+            ]
+        },
+        {
+            "code": "stefanini-ale",
+            "name": "Clube Ale",
+            "type": "experiences",
+            "description": "StefaniniAle",
+            "imgIcon": "",
+            "prodLinks": [],
+            "gitLinks": [],
+            "startDate": "2021-09-23",
+            "endDate": "2022-03-01",
+            "customers": [
+                "ale"
+            ],
+            "technologies": [
+                "angular",
+                "typescript",
+                "javascript",
+                "html",
+                "css",
+                "sass",
+                "json",
+                "bootstrap",
+                "node",
+                "npm",
+                "knex",
+                "sqlserver",
+                "dbeaver",
+                "visualstudiocode",
+                "github",
+                "azure",
+                "scrum"
+            ]
+        },
+        {
+            "code": "m2m-lecto",
+            "name": "Lecto",
+            "type": "experiences",
+            "description": "M2MLecto",
+            "imgIcon": "",
+            "prodLinks": [],
+            "gitLinks": [],
+            "startDate": "2020-04-01",
+            "endDate": "2021-09-23",
+            "customers": [
+                "cemig"
+            ],
+            "technologies": [
+                "angular",
+                "typescript",
+                "javascript",
+                "html",
+                "css",
+                "sass",
+                "json",
+                "xml",
+                "bootstrap",
+                "node",
+                "npm",
+                "chart",
+                "knex",
+                "mysql",
+                "sqlserver",
+                "dbeaver",
+                "visualstudiocode",
+                "gitlab",
+                "azure",
+                "aws",
+                "scrum"
+            ]
+        },
+        {
+            "code": "m2m-nox",
+            "name": "NOX",
+            "type": "experiences",
+            "description": "M2MNox",
+            "imgIcon": "",
+            "prodLinks": [],
+            "gitLinks": [],
+            "startDate": "2020-04-01",
+            "endDate": "2021-09-23",
+            "customers": [
+                "cemig"
+            ],
+            "technologies": [
+                "laravel",
+                "php",
+                "composer",
+                "xampp",
+                "javascript",
+                "html",
+                "css",
+                "jquery",
+                "visualstudiocode",
+                "gitlab",
+                "azure",
+                "aws",
+                "scrum"
+            ]
+        },
+        {
+            "code": "4mti-cotz",
+            "name": "Cotz!",
+            "type": "experiences",
+            "description": "4MTICotz",
+            "imgIcon": "",
+            "prodLinks": [],
+            "gitLinks": [],
+            "startDate": "2018-09-03",
+            "endDate": "2020-04-01",
+            "customers": [
+                "4mti",
+                "costaetavares"
+            ],
+            "technologies": [
+                "php",
+                "xampp",
+                "javascript",
+                "html",
+                "css",
+                "json",
+                "jquery",
+                "ajax",
+                "mysql",
+                "dbeaver",
+                "phpstorm",
+                "gitlab",
+                "aws",
+                "kanban"
+            ]
+        },
+        {
+            "code": "4mti-dp",
+            "name": "Diagnóstico Público",
+            "type": "experiences",
+            "description": "4MTIDP",
+            "imgIcon": "",
+            "prodLinks": [],
+            "gitLinks": [],
+            "startDate": "2018-09-03",
+            "endDate": "2020-04-01",
+            "customers": [
+                "localiza"
+            ],
+            "technologies": [
+                "php",
+                "xampp",
+                "javascript",
+                "html",
+                "css",
+                "json",
+                "jquery",
+                "ajax",
+                "postgresql",
+                "dbeaver",
+                "phpstorm",
+                "gitlab",
+                "aws",
+                "kanban"
+            ]
+        },
+        {
+            "code": "4mti-mapa-especialistas",
+            "name": "Mapa Especialistas",
+            "type": "experiences",
+            "description": "4MTIMapaEspecialistas",
+            "imgIcon": "",
+            "prodLinks": [],
+            "gitLinks": [],
+            "startDate": "2018-09-03",
+            "endDate": "2020-04-01",
+            "customers": [
+                "nescon"
+            ],
+            "technologies": [
+                "php",
+                "xampp",
+                "javascript",
+                "html",
+                "css",
+                "json",
+                "jquery",
+                "ajax",
+                "postgresql",
+                "dbeaver",
+                "phpstorm",
+                "gitlab",
+                "aws",
+                "kanban"
+            ]
+        },
+        {
+            "code": "4mti-aduna-lins",
+            "name": "Aduna & Lins",
+            "type": "experiences",
+            "description": "4MTIAdunaLins",
+            "imgIcon": "",
+            "prodLinks": [],
+            "gitLinks": [],
+            "startDate": "2018-09-03",
+            "endDate": "2020-04-01",
+            "customers": [
+                "mpmg"
+            ],
+            "technologies": [
+                "react",
+                "javascript",
+                "html",
+                "css",
+                "jsx",
+                "json",
+                "npm",
+                "phpstorm",
+                "gitlab",
+                "aws",
+                "kanban"
             ]
         }
     ]

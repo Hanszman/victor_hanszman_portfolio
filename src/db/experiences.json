@@ -26,7 +26,10 @@
                 "jenkins",
                 "scrum"
             ],
-            "projects": ["string"]
+            "projects": [
+                "stefanini-ford",
+                "stefanini-ale"
+            ]
         },
         {
             "code": "m2m",
@@ -62,7 +65,10 @@
                 "aws",
                 "scrum"
             ],
-            "projects": ["string"]
+            "projects": [
+                "m2m-lecto",
+                "m2m-nox"
+            ]
         },
         {
             "code": "4mti",
@@ -87,7 +93,12 @@
                 "aws",
                 "kanban"
             ],
-            "projects": ["string"]
+            "projects": [
+                "4mti-cotz",
+                "4mti-dp",
+                "4mti-mapa-especialistas",
+                "4mti-aduna-lins"
+            ]
         }
     ]
 }

@@ -409,6 +409,8 @@
                     "javascript",
                     "html",
                     "css",
+                    "jquery",
+                    "ajax",
                     "csharp",
                     "java",
                     "sql",
