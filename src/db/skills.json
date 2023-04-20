@@ -186,6 +186,14 @@
                 "stack": "Others"
             },
             {
+                "code": "kanban",
+                "name": "Kanban",
+                "level": "Advanced",
+                "imgIcon": "skills/kanban",
+                "type": "Methodologies",
+                "stack": "Others"
+            },
+            {
                 "code": "knex",
                 "name": "Knex.js",
                 "level": "Intermediate",
@@ -248,6 +256,14 @@
                 "imgIcon": "skills/php",
                 "type": "ProgrammingLanguages",
                 "stack": "BackEnd"
+            },
+            {
+                "code": "phpstorm",
+                "name": "PHP Storm",
+                "level": "Advanced",
+                "imgIcon": "skills/phpstorm",
+                "type": "CodeEditors",
+                "stack": "Others"
             },
             {
                 "code": "postgresql",
@@ -340,7 +356,7 @@
             {
                 "code": "visualstudio",
                 "name": "Visual Studio",
-                "level": "Advanced",
+                "level": "Beginner",
                 "imgIcon": "skills/visualstudio",
                 "type": "CodeEditors",
                 "stack": "Others"

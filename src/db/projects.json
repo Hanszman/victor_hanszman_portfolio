@@ -10,6 +10,7 @@
             "gitLinks": [],
             "startDate": "2018-01-01",
             "endDate": "2018-12-01",
+            "customers": [],
             "technologies": [
                 "laravel",
                 "php",
@@ -36,6 +37,7 @@
             ],
             "startDate": "2020-10-01",
             "endDate": "2021-06-01",
+            "customers": [],
             "technologies": [
                 "angular",
                 "typescript",
@@ -69,6 +71,7 @@
             ],
             "startDate": "2020-03-30",
             "endDate": "2020-04-03",
+            "customers": [],
             "technologies": [
                 "angular",
                 "typescript",
@@ -97,6 +100,7 @@
             ],
             "startDate": "2023-04-11",
             "endDate": "",
+            "customers": [],
             "technologies": [
                 "react",
                 "javascript",
@@ -121,6 +125,7 @@
             ],
             "startDate": "2020-03-23",
             "endDate": "2020-03-27",
+            "customers": [],
             "technologies": [
                 "laravel",
                 "php",
@@ -146,6 +151,7 @@
             ],
             "startDate": "2020-04-06",
             "endDate": "2020-04-10",
+            "customers": [],
             "technologies": [
                 "angular",
                 "typescript",
