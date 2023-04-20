@@ -74,6 +74,14 @@
                 "stack": "FrontEnd"
             },
             {
+                "code": "dbeaver",
+                "name": "dBeaver",
+                "level": "Advanced",
+                "imgIcon": "skills/dbeaver",
+                "type": "DatabasesManagementSystems",
+                "stack": "DataBases"
+            },
+            {
                 "code": "expo",
                 "name": "Expo",
                 "level": "Studing",
@@ -370,7 +378,7 @@
         ],
         "formations": [
             {
-                "code": "puc-graduacao",
+                "code": "puc-graduation",
                 "title": "Graduation",
                 "level": "Bachelor",
                 "institution": "Pontifícia Universidade Católica de Minas Gerais",
@@ -382,7 +390,7 @@
                 "projects": ["string"]
             },
             {
-                "code": "puc-pos-graduacao",
+                "code": "puc-post-graduation",
                 "title": "PostGraduation",
                 "level": "Especialist",
                 "institution": "Pontifícia Universidade Católica de Minas Gerais",
@@ -394,9 +402,9 @@
                 "projects": ["string"]
             },
             {
-                "code": "curso-angular-node",
-                "title": "Curso de Programador Fullstack Angular e Node",
-                "level": "Especialist",
+                "code": "course-angular-node",
+                "title": "Fullstack Angular & Node",
+                "level": "Course",
                 "institution": "Udemy",
                 "imgIcon": "skills/udemy",
                 "certificate": "",

@@ -1,15 +1,89 @@
 {
     "projects": [
         {
-            "code": "string",
-            "name": "string",
-            "type": "string",
-            "description": "string",
-            "imgIcon": "string",
-            "gitLink": "string",
-            "startDate": "string",
-            "endDate": "string",
-            "technologies": ["string"]
+            "code": "graduation-tcc",
+            "name": "CRM GO",
+            "type": "formations",
+            "description": "GraduationTCC",
+            "imgIcon": "",
+            "gitLink": "",
+            "startDate": "2018-01-01",
+            "endDate": "2018-12-01",
+            "technologies": [
+                "laravel",
+                "php",
+                "composer",
+                "xampp",
+                "bootstrap",
+                "javascript",
+                "html",
+                "css",
+                "mysql",
+                "visualstudiocode"
+            ]
+        },
+        {
+            "code": "post-graduation-tcc",
+            "name": "HardWorker",
+            "type": "formations",
+            "description": "PostGraduationTCC",
+            "imgIcon": "",
+            "gitLink": "",
+            "startDate": "2020-10-01",
+            "endDate": "2021-06-01",
+            "technologies": [
+                "angular",
+                "typescript",
+                "javascript",
+                "html",
+                "css",
+                "sass",
+                "json",
+                "bootstrap",
+                "node",
+                "npm",
+                "chart",
+                "knex",
+                "mysql",
+                "dbeaver",
+                "visualstudiocode",
+                "github",
+                "heroku"
+            ]
+        },
+        {
+            "code": "course-angular-node-galeria",
+            "name": "Galeria",
+            "type": "formations",
+            "description": "",
+            "imgIcon": "",
+            "gitLink": "",
+            "startDate": "",
+            "endDate": "",
+            "technologies": [
+                
+            ]
+        },
+        {
+            "code": "portfolio",
+            "name": "Portfólio Victor Hanszman",
+            "type": "personal",
+            "description": "Portfolio",
+            "imgIcon": "",
+            "gitLink": "",
+            "startDate": "2023-04-11",
+            "endDate": "",
+            "technologies": [
+                "react",
+                "javascript",
+                "html",
+                "css",
+                "json",
+                "npm",
+                "visualstudiocode",
+                "github",
+                "vercel"
+            ]
         }
     ]
 }

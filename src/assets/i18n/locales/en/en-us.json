@@ -16,6 +16,7 @@
         "PostGraduation": "Post-Graduation",
         "Bachelor": "Bachelor",
         "Especialist": "Especialist",
+        "Course": "Course",
         "Studing": "Studing",
         "Beginner": "Beginner",
         "Intermediate": "Intermediate",
@@ -42,8 +43,13 @@
         "DeploymentTools": "Deployment Tools",
         "DevelopmentPlataforms": "Development Plataforms",
         "CodeEditors": "Code Editors",
+        "DatabasesManagementSystems": "Databases Management Systems",
         "Relationals": "Relationals",
         "NonRelationals": "Non-Relationals",
+
+        "GraduationTCC": "Graduation's Final Paper",
+        "PostGraduationTCC": "Post-Graduation's Final Paper",
+        "Portfolio": "Portfolio developed by Victor Hanszman to show the projects and technologies",
 
         "IntroText": "I am a Full Stack Web Developer, working on Front-End and Back-End. I live in the metropolitan region of Belo Horizonte in the state of Minas Gerais in Brazil. Currently I'm working remotely and looking for some new home office opportunities. I wish to continue growing and gaining professional experience in the field of Software Development.",
         "Age": "Age",
