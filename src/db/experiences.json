@@ -59,6 +59,7 @@
                 "visualstudiocode",
                 "gitlab",
                 "azure",
+                "aws",
                 "scrum"
             ],
             "projects": ["string"]
@@ -83,6 +84,7 @@
                 "dbeaver",
                 "phpstorm",
                 "gitlab",
+                "aws",
                 "kanban"
             ],
             "projects": ["string"]

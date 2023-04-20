@@ -402,8 +402,24 @@
                 "certificate": "",
                 "startDate": "2015-02-01",
                 "endDate": "2018-12-15",
-                "technologies": ["string"],
-                "projects": ["string"]
+                "technologies": [
+                    "php",
+                    "xampp",
+                    "bootstrap",
+                    "javascript",
+                    "html",
+                    "css",
+                    "csharp",
+                    "java",
+                    "sql",
+                    "sqlserver",
+                    "mysql",
+                    "visualstudio",
+                    "notepadplusplus"
+                ],
+                "projects": [
+                    "graduation-tcc"
+                ]
             },
             {
                 "code": "puc-post-graduation",
@@ -414,8 +430,28 @@
                 "certificate": "",
                 "startDate": "2019-03-01",
                 "endDate": "2021-06-20",
-                "technologies": ["string"],
-                "projects": ["string"]
+                "technologies": [
+                    "angular",
+                    "react",
+                    "typescript",
+                    "javascript",
+                    "html",
+                    "css",
+                    "sass",
+                    "json",
+                    "bootstrap",
+                    "node",
+                    "npm",
+                    "php",
+                    "java",
+                    "csharp",
+                    "visualstudiocode",
+                    "github",
+                    "heroku"
+                ],
+                "projects": [
+                    "post-graduation-tcc"
+                ]
             },
             {
                 "code": "course-angular-node",
@@ -426,8 +462,24 @@
                 "certificate": "",
                 "startDate": "2020-03-30",
                 "endDate": "2020-04-03",
-                "technologies": ["string"],
-                "projects": ["string"]
+                "technologies": [
+                    "angular",
+                    "typescript",
+                    "javascript",
+                    "html",
+                    "css",
+                    "json",
+                    "bootstrap",
+                    "node",
+                    "npm",
+                    "mysql",
+                    "dbeaver",
+                    "visualstudiocode",
+                    "github"
+                ],
+                "projects": [
+                    "course-galeria"
+                ]
             }
         ]
     }
