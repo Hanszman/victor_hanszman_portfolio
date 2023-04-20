@@ -14,7 +14,7 @@
                 "name": "Angular",
                 "level": "Advanced",
                 "imgIcon": "skills/angular",
-                "type": "ProgrammingLanguages",
+                "type": "Frameworks",
                 "stack": "FrontEnd"
             },
             {
@@ -58,300 +58,300 @@
                 "stack": "Others"
             },
             {
-                "code": "string",
-                "name": "string",
-                "level": "string",
-                "imgIcon": "skills/string",
+                "code": "csharp",
+                "name": "C#",
+                "level": "Beginner",
+                "imgIcon": "skills/csharp",
+                "type": "ProgrammingLanguages",
+                "stack": "BackEnd"
+            },
+            {
+                "code": "css",
+                "name": "CSS",
+                "level": "Advanced",
+                "imgIcon": "skills/css",
+                "type": "WebLanguages",
+                "stack": "FrontEnd"
+            },
+            {
+                "code": "expo",
+                "name": "Expo",
+                "level": "Studing",
+                "imgIcon": "skills/expo",
+                "type": "DevelopmentPlataforms",
+                "stack": "Mobile"
+            },
+            {
+                "code": "express",
+                "name": "Express.js",
+                "level": "Intermediate",
+                "imgIcon": "skills/express",
+                "type": "Frameworks",
+                "stack": "BackEnd"
+            },
+            {
+                "code": "git",
+                "name": "Git",
+                "level": "Advanced",
+                "imgIcon": "skills/git",
+                "type": "VersioningPlatforms",
+                "stack": "Others"
+            },
+            {
+                "code": "github",
+                "name": "GitHub",
+                "level": "Advanced",
+                "imgIcon": "skills/github",
+                "type": "VersioningPlatforms",
+                "stack": "Others"
+            },
+            {
+                "code": "gitlab",
+                "name": "GitLab",
+                "level": "Advanced",
+                "imgIcon": "skills/gitlab",
+                "type": "VersioningPlatforms",
+                "stack": "Others"
+            },
+            {
+                "code": "heroku",
+                "name": "Heroku",
+                "level": "Intermediate",
+                "imgIcon": "skills/heroku",
+                "type": "CloudHostingPlataforms",
+                "stack": "Others"
+            },
+            {
+                "code": "html",
+                "name": "HTML",
+                "level": "Advanced",
+                "imgIcon": "skills/html",
+                "type": "WebLanguages",
+                "stack": "FrontEnd"
+            },
+            {
+                "code": "java",
+                "name": "Java",
+                "level": "Beginner",
+                "imgIcon": "skills/java",
+                "type": "ProgrammingLanguages",
+                "stack": "BackEnd"
+            },
+            {
+                "code": "javascript",
+                "name": "JavaScript",
+                "level": "Advanced",
+                "imgIcon": "skills/javascript",
+                "type": "ProgrammingLanguages",
+                "stack": "FrontEnd"
+            },
+            {
+                "code": "jenkins",
+                "name": "Jenkins",
+                "level": "Beginner",
+                "imgIcon": "skills/jenkins",
+                "type": "DeploymentTools",
+                "stack": "Others"
+            },
+            {
+                "code": "jquery",
+                "name": "jQuery",
+                "level": "Beginner",
+                "imgIcon": "skills/jquery",
+                "type": "Libraries",
+                "stack": "FrontEnd"
+            },
+            {
+                "code": "json",
+                "name": "JSON",
+                "level": "Advanced",
+                "imgIcon": "skills/json",
+                "type": "ObjectNotations",
+                "stack": "Others"
+            },
+            {
+                "code": "jsx",
+                "name": "JSX",
+                "level": "Studing",
+                "imgIcon": "skills/jsx",
+                "type": "Techniques",
+                "stack": "Others"
+            },
+            {
+                "code": "knex",
+                "name": "Knex.js",
+                "level": "Intermediate",
+                "imgIcon": "skills/knex",
                 "type": "string",
                 "stack": "string"
             },
             {
-                "code": "string",
-                "name": "string",
-                "level": "string",
-                "imgIcon": "skills/string",
-                "type": "string",
-                "stack": "string"
+                "code": "laravel",
+                "name": "Laravel",
+                "level": "Intermediate",
+                "imgIcon": "skills/laravel",
+                "type": "Frameworks",
+                "stack": "BackEnd"
             },
             {
-                "code": "string",
-                "name": "string",
-                "level": "string",
-                "imgIcon": "skills/string",
-                "type": "string",
-                "stack": "string"
+                "code": "mongodb",
+                "name": "MongoDB",
+                "level": "Studing",
+                "imgIcon": "skills/mongodb",
+                "type": "NonRelationals",
+                "stack": "DataBases"
             },
             {
-                "code": "string",
-                "name": "string",
-                "level": "string",
-                "imgIcon": "skills/string",
-                "type": "string",
-                "stack": "string"
+                "code": "mysql",
+                "name": "MySQL",
+                "level": "Advanced",
+                "imgIcon": "skills/mysql",
+                "type": "Relationals",
+                "stack": "DataBases"
             },
             {
-                "code": "string",
-                "name": "string",
-                "level": "string",
-                "imgIcon": "skills/string",
-                "type": "string",
-                "stack": "string"
+                "code": "node",
+                "name": "Node.js",
+                "level": "Advanced",
+                "imgIcon": "skills/node",
+                "type": "ProgrammingLanguages",
+                "stack": "BackEnd"
             },
             {
-                "code": "string",
-                "name": "string",
-                "level": "string",
-                "imgIcon": "skills/string",
-                "type": "string",
-                "stack": "string"
+                "code": "notepadplusplus",
+                "name": "Notepad++",
+                "level": "Advanced",
+                "imgIcon": "skills/notepadplusplus",
+                "type": "CodeEditors",
+                "stack": "Others"
             },
             {
-                "code": "string",
-                "name": "string",
-                "level": "string",
-                "imgIcon": "skills/string",
-                "type": "string",
-                "stack": "string"
+                "code": "npm",
+                "name": "npm",
+                "level": "Advanced",
+                "imgIcon": "skills/npm",
+                "type": "PackageManagers",
+                "stack": "Others"
             },
             {
-                "code": "string",
-                "name": "string",
-                "level": "string",
-                "imgIcon": "skills/string",
-                "type": "string",
-                "stack": "string"
+                "code": "php",
+                "name": "PHP",
+                "level": "Advanced",
+                "imgIcon": "skills/php",
+                "type": "ProgrammingLanguages",
+                "stack": "BackEnd"
             },
             {
-                "code": "string",
-                "name": "string",
-                "level": "string",
-                "imgIcon": "skills/string",
-                "type": "string",
-                "stack": "string"
+                "code": "postgresql",
+                "name": "PostgreSQL",
+                "level": "Intermediate",
+                "imgIcon": "skills/postgresql",
+                "type": "Relationals",
+                "stack": "DataBases"
             },
             {
-                "code": "string",
-                "name": "string",
-                "level": "string",
-                "imgIcon": "skills/string",
-                "type": "string",
-                "stack": "string"
+                "code": "react",
+                "name": "React",
+                "level": "Studing",
+                "imgIcon": "skills/react",
+                "type": "Libraries",
+                "stack": "FrontEnd"
             },
             {
-                "code": "string",
-                "name": "string",
-                "level": "string",
-                "imgIcon": "skills/string",
-                "type": "string",
-                "stack": "string"
+                "code": "reactnative",
+                "name": "React Native",
+                "level": "Studing",
+                "imgIcon": "skills/reactnative",
+                "type": "Libraries",
+                "stack": "Mobile"
             },
             {
-                "code": "string",
-                "name": "string",
-                "level": "string",
-                "imgIcon": "skills/string",
-                "type": "string",
-                "stack": "string"
+                "code": "sass",
+                "name": "Sass",
+                "level": "Advanced",
+                "imgIcon": "skills/sass",
+                "type": "WebLanguages",
+                "stack": "FrontEnd"
             },
             {
-                "code": "string",
-                "name": "string",
-                "level": "string",
-                "imgIcon": "skills/string",
-                "type": "string",
-                "stack": "string"
+                "code": "scrum",
+                "name": "Scrum",
+                "level": "Advanced",
+                "imgIcon": "skills/scrum",
+                "type": "Methodologies",
+                "stack": "Others"
             },
             {
-                "code": "string",
-                "name": "string",
-                "level": "string",
-                "imgIcon": "skills/string",
-                "type": "string",
-                "stack": "string"
+                "code": "sql",
+                "name": "SQL",
+                "level": "Advanced",
+                "imgIcon": "skills/sql",
+                "type": "Relationals",
+                "stack": "DataBases"
             },
             {
-                "code": "string",
-                "name": "string",
-                "level": "string",
-                "imgIcon": "skills/string",
-                "type": "string",
-                "stack": "string"
+                "code": "sqlserver",
+                "name": "Microsoft SQL Server",
+                "level": "Advanced",
+                "imgIcon": "skills/sqlserver",
+                "type": "Relationals",
+                "stack": "DataBases"
             },
             {
-                "code": "string",
-                "name": "string",
-                "level": "string",
-                "imgIcon": "skills/string",
-                "type": "string",
-                "stack": "string"
+                "code": "typescript",
+                "name": "TypeScript",
+                "level": "Advanced",
+                "imgIcon": "skills/typescript",
+                "type": "ProgrammingLanguages",
+                "stack": "FrontEnd"
             },
             {
-                "code": "string",
-                "name": "string",
-                "level": "string",
-                "imgIcon": "skills/string",
-                "type": "string",
-                "stack": "string"
+                "code": "unity",
+                "name": "Unity",
+                "level": "Studing",
+                "imgIcon": "skills/unity",
+                "type": "DevelopmentPlataforms",
+                "stack": "Games"
             },
             {
-                "code": "string",
-                "name": "string",
-                "level": "string",
-                "imgIcon": "skills/string",
-                "type": "string",
-                "stack": "string"
+                "code": "vercel",
+                "name": "Vercel",
+                "level": "Studing",
+                "imgIcon": "skills/vercel",
+                "type": "CloudHostingPlataforms",
+                "stack": "Others"
             },
             {
-                "code": "string",
-                "name": "string",
-                "level": "string",
-                "imgIcon": "skills/string",
-                "type": "string",
-                "stack": "string"
+                "code": "visualstudiocode",
+                "name": "Visual Studio Code",
+                "level": "Advanced",
+                "imgIcon": "skills/visualstudiocode",
+                "type": "CodeEditors",
+                "stack": "Others"
             },
             {
-                "code": "string",
-                "name": "string",
-                "level": "string",
-                "imgIcon": "skills/string",
-                "type": "string",
-                "stack": "string"
+                "code": "visualstudio",
+                "name": "Visual Studio",
+                "level": "Advanced",
+                "imgIcon": "skills/visualstudio",
+                "type": "CodeEditors",
+                "stack": "Others"
             },
             {
-                "code": "string",
-                "name": "string",
-                "level": "string",
-                "imgIcon": "skills/string",
-                "type": "string",
-                "stack": "string"
+                "code": "xampp",
+                "name": "XAMPP",
+                "level": "Advanced",
+                "imgIcon": "skills/xampp",
+                "type": "Packages",
+                "stack": "Others"
             },
             {
-                "code": "string",
-                "name": "string",
-                "level": "string",
-                "imgIcon": "skills/string",
-                "type": "string",
-                "stack": "string"
-            },
-            {
-                "code": "string",
-                "name": "string",
-                "level": "string",
-                "imgIcon": "skills/string",
-                "type": "string",
-                "stack": "string"
-            },
-            {
-                "code": "string",
-                "name": "string",
-                "level": "string",
-                "imgIcon": "skills/string",
-                "type": "string",
-                "stack": "string"
-            },
-            {
-                "code": "string",
-                "name": "string",
-                "level": "string",
-                "imgIcon": "skills/string",
-                "type": "string",
-                "stack": "string"
-            },
-            {
-                "code": "string",
-                "name": "string",
-                "level": "string",
-                "imgIcon": "skills/string",
-                "type": "string",
-                "stack": "string"
-            },
-            {
-                "code": "string",
-                "name": "string",
-                "level": "string",
-                "imgIcon": "skills/string",
-                "type": "string",
-                "stack": "string"
-            },
-            {
-                "code": "string",
-                "name": "string",
-                "level": "string",
-                "imgIcon": "skills/string",
-                "type": "string",
-                "stack": "string"
-            },
-            {
-                "code": "string",
-                "name": "string",
-                "level": "string",
-                "imgIcon": "skills/string",
-                "type": "string",
-                "stack": "string"
-            },
-            {
-                "code": "string",
-                "name": "string",
-                "level": "string",
-                "imgIcon": "skills/string",
-                "type": "string",
-                "stack": "string"
-            },
-            {
-                "code": "string",
-                "name": "string",
-                "level": "string",
-                "imgIcon": "skills/string",
-                "type": "string",
-                "stack": "string"
-            },
-            {
-                "code": "string",
-                "name": "string",
-                "level": "string",
-                "imgIcon": "skills/string",
-                "type": "string",
-                "stack": "string"
-            },
-            {
-                "code": "string",
-                "name": "string",
-                "level": "string",
-                "imgIcon": "skills/string",
-                "type": "string",
-                "stack": "string"
-            },
-            {
-                "code": "string",
-                "name": "string",
-                "level": "string",
-                "imgIcon": "skills/string",
-                "type": "string",
-                "stack": "string"
-            },
-            {
-                "code": "string",
-                "name": "string",
-                "level": "string",
-                "imgIcon": "skills/string",
-                "type": "string",
-                "stack": "string"
-            },
-            {
-                "code": "string",
-                "name": "string",
-                "level": "string",
-                "imgIcon": "skills/string",
-                "type": "string",
-                "stack": "string"
-            },
-            {
-                "code": "string",
-                "name": "string",
-                "level": "string",
-                "imgIcon": "skills/string",
-                "type": "string",
-                "stack": "string"
+                "code": "xml",
+                "name": "XML",
+                "level": "Intermediate",
+                "imgIcon": "skills/xml",
+                "type": "ObjectNotations",
+                "stack": "Others"
             }
         ],
         "languages": [
@@ -375,6 +375,7 @@
                 "level": "Bachelor",
                 "institution": "Pontifícia Universidade Católica de Minas Gerais",
                 "imgIcon": "skills/puc",
+                "certificate": "",
                 "startDate": "2015-02-01",
                 "endDate": "2018-12-15",
                 "technologies": ["string"],
@@ -386,8 +387,21 @@
                 "level": "Especialist",
                 "institution": "Pontifícia Universidade Católica de Minas Gerais",
                 "imgIcon": "skills/puc",
+                "certificate": "",
                 "startDate": "2019-03-01",
                 "endDate": "2021-06-20",
+                "technologies": ["string"],
+                "projects": ["string"]
+            },
+            {
+                "code": "curso-angular-node",
+                "title": "Curso de Programador Fullstack Angular e Node",
+                "level": "Especialist",
+                "institution": "Udemy",
+                "imgIcon": "skills/udemy",
+                "certificate": "",
+                "startDate": "2020-04-03",
+                "endDate": "2020-03-30",
                 "technologies": ["string"],
                 "projects": ["string"]
             }
