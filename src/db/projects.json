@@ -6,7 +6,8 @@
             "type": "formations",
             "description": "GraduationTCC",
             "imgIcon": "",
-            "gitLink": "",
+            "prodLinks": [],
+            "gitLinks": [],
             "startDate": "2018-01-01",
             "endDate": "2018-12-01",
             "technologies": [
@@ -28,7 +29,11 @@
             "type": "formations",
             "description": "PostGraduationTCC",
             "imgIcon": "",
-            "gitLink": "",
+            "prodLinks": [],
+            "gitLinks": [
+                "https://github.com/Hanszman/tccWorkerFrontEnd",
+                "https://github.com/Hanszman/tccWorkerBackEnd"
+            ],
             "startDate": "2020-10-01",
             "endDate": "2021-06-01",
             "technologies": [
@@ -52,16 +57,32 @@
             ]
         },
         {
-            "code": "course-angular-node-galeria",
+            "code": "course-galeria",
             "name": "Galeria",
             "type": "formations",
-            "description": "",
+            "description": "CourseGalery",
             "imgIcon": "",
-            "gitLink": "",
-            "startDate": "",
-            "endDate": "",
+            "prodLinks": [],
+            "gitLinks": [
+                "https://github.com/Hanszman/projeto_galeria_web_app",
+                "https://github.com/Hanszman/projeto_galeria_rest_api"
+            ],
+            "startDate": "2020-03-30",
+            "endDate": "2020-04-03",
             "technologies": [
-                
+                "angular",
+                "typescript",
+                "javascript",
+                "html",
+                "css",
+                "json",
+                "bootstrap",
+                "node",
+                "npm",
+                "mysql",
+                "dbeaver",
+                "visualstudiocode",
+                "github"
             ]
         },
         {
@@ -70,7 +91,10 @@
             "type": "personal",
             "description": "Portfolio",
             "imgIcon": "",
-            "gitLink": "",
+            "prodLinks": [],
+            "gitLinks": [
+                "https://github.com/Hanszman/victor_hanszman_portfolio"
+            ],
             "startDate": "2023-04-11",
             "endDate": "",
             "technologies": [
@@ -83,6 +107,56 @@
                 "visualstudiocode",
                 "github",
                 "vercel"
+            ]
+        },
+        {
+            "code": "pokedex-laravel",
+            "name": "Pokédex (Laravel)",
+            "type": "personal",
+            "description": "PokedexLaravel",
+            "imgIcon": "",
+            "prodLinks": [],
+            "gitLinks": [
+                "https://github.com/Hanszman/pokedex_laravel"
+            ],
+            "startDate": "2020-03-23",
+            "endDate": "2020-03-27",
+            "technologies": [
+                "laravel",
+                "php",
+                "composer",
+                "xampp",
+                "bootstrap",
+                "javascript",
+                "html",
+                "css",
+                "visualstudiocode",
+                "github"
+            ]
+        },
+        {
+            "code": "pokedex-angular",
+            "name": "Pokédex (Angular)",
+            "type": "personal",
+            "description": "PokedexAngular",
+            "imgIcon": "",
+            "prodLinks": [],
+            "gitLinks": [
+                "https://github.com/Hanszman/pokedexAngular"
+            ],
+            "startDate": "2020-04-06",
+            "endDate": "2020-04-10",
+            "technologies": [
+                "angular",
+                "typescript",
+                "javascript",
+                "html",
+                "css",
+                "json",
+                "bootstrap",
+                "npm",
+                "visualstudiocode",
+                "github"
             ]
         }
     ]

@@ -47,9 +47,12 @@
         "Relationals": "Relationals",
         "NonRelationals": "Non-Relationals",
 
-        "GraduationTCC": "Graduation's Final Paper",
-        "PostGraduationTCC": "Post-Graduation's Final Paper",
+        "GraduationTCC": "Customer relationship management system (CRM) developed for the Graduation's Final Paper",
+        "PostGraduationTCC": "Projects, people and tasks management system (Kanban) developed for the Post-Graduation's Final Paper",
+        "CourseGalery": "Pictures Galery project developed with the course of programming Fullstack Angular & Node",
         "Portfolio": "Portfolio developed by Victor Hanszman to show the projects and technologies",
+        "PokedexLaravel": "Pokédex developed consuming the Pokémon data API using Laravel and Bootstrap to study the technologies",
+        "PokedexAngular": "Pokédex developed consuming the Pokémon data API using Angular to study the technology",
 
         "IntroText": "I am a Full Stack Web Developer, working on Front-End and Back-End. I live in the metropolitan region of Belo Horizonte in the state of Minas Gerais in Brazil. Currently I'm working remotely and looking for some new home office opportunities. I wish to continue growing and gaining professional experience in the field of Software Development.",
         "Age": "Age",
