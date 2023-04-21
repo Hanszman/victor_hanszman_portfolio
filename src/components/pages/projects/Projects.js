@@ -2,12 +2,14 @@
 import './Projects.css';
 import { useTranslation } from 'react-i18next';
 import projectsJson from '../../../db/projects.json';
+import skillsJson from '../../../db/skills.json';
 
 // Component
 function Projects() {
     // Declarations
     const { t } = useTranslation();
     const projects = projectsJson.projects;
+    const technologies = skillsJson.skills.technologies;
 
     return (
         <div>
