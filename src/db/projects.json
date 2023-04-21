@@ -89,6 +89,85 @@
             ]
         },
         {
+            "code": "course-costs",
+            "name": "Costs",
+            "type": "formations",
+            "description": "CourseCosts",
+            "imgIcon": "",
+            "prodLinks": [],
+            "gitLinks": [
+                "https://github.com/Hanszman/costs_react"
+            ],
+            "startDate": "2023-01-30",
+            "endDate": "2023-02-01",
+            "customers": [],
+            "technologies": [
+                "react",
+                "javascript",
+                "html",
+                "css",
+                "json",
+                "jsx",
+                "npm",
+                "visualstudiocode",
+                "github"
+            ]
+        },
+        {
+            "code": "course-rocket-box",
+            "name": "RocketBox",
+            "type": "formations",
+            "description": "CourseRocketBox",
+            "imgIcon": "",
+            "prodLinks": [],
+            "gitLinks": [
+                "https://github.com/Hanszman/week-6-frontend",
+                "https://github.com/Hanszman/week-6-backend"
+            ],
+            "startDate": "2022-11-10",
+            "endDate": "2022-11-07",
+            "customers": [],
+            "technologies": [
+                "react",
+                "javascript",
+                "html",
+                "css",
+                "json",
+                "jsx",
+                "node",
+                "npm",
+                "visualstudiocode",
+                "github"
+            ]
+        },
+        {
+            "code": "course-rocket-help",
+            "name": "RocketHelp",
+            "type": "formations",
+            "description": "CourseRocketHelp",
+            "imgIcon": "",
+            "prodLinks": [],
+            "gitLinks": [
+                "https://github.com/Hanszman/rockethelp"
+            ],
+            "startDate": "2023-02-02",
+            "endDate": "2023-02-03",
+            "customers": [],
+            "technologies": [
+                "reactnative",
+                "javascript",
+                "html",
+                "css",
+                "json",
+                "jsx",
+                "expo",
+                "node",
+                "npm",
+                "visualstudiocode",
+                "github"
+            ]
+        },
+        {
             "code": "portfolio",
             "name": "Portfólio - Victor Hanszman",
             "type": "personal",
@@ -161,6 +240,33 @@
                 "css",
                 "json",
                 "bootstrap",
+                "npm",
+                "visualstudiocode",
+                "github"
+            ]
+        },
+        {
+            "code": "battle-of-monsters",
+            "name": "Battle Of Monsters",
+            "type": "personal",
+            "description": "BattleOfMonsters",
+            "imgIcon": "",
+            "prodLinks": [],
+            "gitLinks": [
+                "https://github.com/Hanszman/BattleOfMonstersTestFrontEnd",
+                "https://github.com/Hanszman/BattleOfMonstersTestBackEnd"
+            ],
+            "startDate": "2022-11-26",
+            "endDate": "2022-11-26",
+            "customers": [],
+            "technologies": [
+                "angular",
+                "typescript",
+                "javascript",
+                "html",
+                "css",
+                "json",
+                "node",
                 "npm",
                 "visualstudiocode",
                 "github"

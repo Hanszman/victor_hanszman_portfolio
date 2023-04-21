@@ -1,104 +1,148 @@
 {
-    "experiences": [
-        {
-            "code": "stefanini",
-            "companyName": "Stefanini Group",
-            "imgIcon": "experiences/stefanini",
-            "startDate": "2021-09-23",
-            "endDate": "",
-            "technologies": [
-                "angular",
-                "typescript",
-                "javascript",
-                "html",
-                "css",
-                "sass",
-                "json",
-                "bootstrap",
-                "node",
-                "npm",
-                "knex",
-                "sqlserver",
-                "dbeaver",
-                "visualstudiocode",
-                "github",
-                "azure",
-                "jenkins",
-                "scrum"
-            ],
-            "projects": [
-                "stefanini-ford",
-                "stefanini-ale"
-            ]
-        },
-        {
-            "code": "m2m",
-            "companyName": "M2M Telemetria",
-            "imgIcon": "experiences/m2m",
-            "startDate": "2020-04-01",
-            "endDate": "2021-09-23",
-            "technologies": [
-                "angular",
-                "typescript",
-                "javascript",
-                "html",
-                "css",
-                "sass",
-                "json",
-                "xml",
-                "bootstrap",
-                "laravel",
-                "php",
-                "composer",
-                "xampp",
-                "node",
-                "npm",
-                "jquery",
-                "chart",
-                "knex",
-                "mysql",
-                "sqlserver",
-                "dbeaver",
-                "visualstudiocode",
-                "gitlab",
-                "azure",
-                "aws",
-                "scrum"
-            ],
-            "projects": [
-                "m2m-lecto",
-                "m2m-nox"
-            ]
-        },
-        {
-            "code": "4mti",
-            "companyName": "4MTI Soluções",
-            "imgIcon": "experiences/4mti",
-            "startDate": "2018-09-03",
-            "endDate": "2020-04-01",
-            "technologies": [
-                "php",
-                "xampp",
-                "javascript",
-                "html",
-                "css",
-                "json",
-                "jquery",
-                "ajax",
-                "mysql",
-                "postgresql",
-                "dbeaver",
-                "phpstorm",
-                "gitlab",
-                "aws",
-                "kanban"
-            ],
-            "projects": [
-                "4mti-cotz",
-                "4mti-dp",
-                "4mti-mapa-especialistas",
-                "4mti-aduna-lins"
-            ]
-        }
-    ]
+    "experiences": {
+        "jobs": [
+            {
+                "code": "stefanini",
+                "companyName": "Stefanini Group",
+                "imgIcon": "experiences/stefanini",
+                "startDate": "2021-09-23",
+                "endDate": "",
+                "technologies": [
+                    "angular",
+                    "typescript",
+                    "javascript",
+                    "html",
+                    "css",
+                    "sass",
+                    "json",
+                    "bootstrap",
+                    "node",
+                    "npm",
+                    "knex",
+                    "sqlserver",
+                    "dbeaver",
+                    "visualstudiocode",
+                    "github",
+                    "azure",
+                    "jenkins",
+                    "scrum"
+                ],
+                "projects": [
+                    "stefanini-ford",
+                    "stefanini-ale"
+                ]
+            },
+            {
+                "code": "m2m",
+                "companyName": "M2M Telemetria",
+                "imgIcon": "experiences/m2m",
+                "startDate": "2020-04-01",
+                "endDate": "2021-09-23",
+                "technologies": [
+                    "angular",
+                    "typescript",
+                    "javascript",
+                    "html",
+                    "css",
+                    "sass",
+                    "json",
+                    "xml",
+                    "bootstrap",
+                    "laravel",
+                    "php",
+                    "composer",
+                    "xampp",
+                    "node",
+                    "npm",
+                    "jquery",
+                    "chart",
+                    "knex",
+                    "mysql",
+                    "sqlserver",
+                    "dbeaver",
+                    "visualstudiocode",
+                    "gitlab",
+                    "azure",
+                    "aws",
+                    "scrum"
+                ],
+                "projects": [
+                    "m2m-lecto",
+                    "m2m-nox"
+                ]
+            },
+            {
+                "code": "4mti",
+                "companyName": "4MTI Soluções",
+                "imgIcon": "experiences/4mti",
+                "startDate": "2018-09-03",
+                "endDate": "2020-04-01",
+                "technologies": [
+                    "php",
+                    "xampp",
+                    "javascript",
+                    "html",
+                    "css",
+                    "json",
+                    "jquery",
+                    "ajax",
+                    "mysql",
+                    "postgresql",
+                    "dbeaver",
+                    "phpstorm",
+                    "gitlab",
+                    "aws",
+                    "kanban"
+                ],
+                "projects": [
+                    "4mti-cotz",
+                    "4mti-dp",
+                    "4mti-mapa-especialistas",
+                    "4mti-aduna-lins"
+                ]
+            }
+        ],
+        "customers": [
+            {
+                "code": "ford",
+                "companyName": "Ford",
+                "imgIcon": "experiences/ford"
+            },
+            {
+                "code": "ale",
+                "companyName": "Ale",
+                "imgIcon": "experiences/ale"
+            },
+            {
+                "code": "cemig",
+                "companyName": "CEMIG",
+                "imgIcon": "experiences/cemig"
+            },
+            {
+                "code": "4mti",
+                "companyName": "4MTI Soluções",
+                "imgIcon": "experiences/4mti"
+            },
+            {
+                "code": "costaetavares",
+                "companyName": "Costa & Tavares",
+                "imgIcon": "experiences/costaetavares"
+            },
+            {
+                "code": "localiza",
+                "companyName": "Localiza",
+                "imgIcon": "experiences/localiza"
+            },
+            {
+                "code": "nescon",
+                "companyName": "NESCON (UFMG)",
+                "imgIcon": "experiences/nescon"
+            },
+            {
+                "code": "mpmg",
+                "companyName": "Ministério Público de Minas Gerais (MPMG)",
+                "imgIcon": "experiences/mpmg"
+            }
+        ]
+    }
 }
