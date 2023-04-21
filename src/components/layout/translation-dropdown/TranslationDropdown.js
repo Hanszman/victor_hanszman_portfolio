@@ -3,13 +3,13 @@ import './TranslationDropdown.css';
 import { useTranslation } from 'react-i18next';
 import { changeLanguage } from 'i18next';
 import { FaGlobe } from 'react-icons/fa';
-import LanguagesJson from '../../../db/languages.json';
+import languagesJson from '../../../db/languages.json';
 
 // Component
 function TranslationDropdown() {
     // Declarations
     const { t } = useTranslation();
-    const languages = LanguagesJson.languages;
+    const languages = languagesJson.languages;
 
     return (
         <div className='dropdown dropdownTranslation'>

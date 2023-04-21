@@ -1,12 +1,15 @@
 // Imports
+import './Experiences.css';
 import { useTranslation } from 'react-i18next';
+import experiencesJson from '../../../db/experiences.json';
 
 // Component
 function Experiences() {
     // Declarations
     const { t } = useTranslation();
+    const jobs = experiencesJson.experiences.jobs;
+    const customers = experiencesJson.experiences.customers;
 
-    // TODO: Listar experiências de acordo com o json
     return (
         <div>
             <h1 className='highText centerText boldText'>{t('Experiences')}</h1>
