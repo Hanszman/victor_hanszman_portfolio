@@ -4,7 +4,7 @@ import './Container.css';
 // Component
 function Container(props) {
     return (
-        <div className='container'>
+        <div className='containerDisplay'>
             {props.children}
         </div>
     );

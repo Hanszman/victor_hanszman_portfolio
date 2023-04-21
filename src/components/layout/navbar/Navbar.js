@@ -41,7 +41,7 @@ function Navbar() {
                         <Link to='/projects'>{t('Projects')}</Link>
                     </li>
                 </ul>
-                <div className='responsiveMenu'>
+                <div className='displayFlex'>
                     <TranslationDropdown/>
                     <button
                         className='btnMenu'

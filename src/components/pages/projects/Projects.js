@@ -14,6 +14,39 @@ function Projects() {
     return (
         <div>
             <h1 className='highText centerText boldText'>{t('Projects')}</h1>
+            <div className="container">
+                <div className="row">
+                    <div className="col-sm">
+                    {
+                        projects.length > 0 && projects.map((project) => (
+                            <div id={project.code} key={project.code} className="card">
+                                {
+                                    project.imgIcon &&
+                                    <img className="card-img-top" src={`../../../assets/img/${project.imgIcon}`} alt={project.name}/>
+                                }
+                                <div className="card-body">
+                                    <h5 className="card-title">{project.name}</h5>
+                                    <p className="card-text">{t(project.description)}</p>
+                                    {
+                                        project.technologies.length > 0 && project.technologies.map((projectTechnology) => (
+                                            technologies.length > 0 && technologies.map((technology) => (
+                                                technology.code === projectTechnology &&
+                                                <span id={technology.code} key={technology.code} title={technology.name}>
+                                                    {
+                                                        technology.imgIcon &&
+                                                        <img src={`../../../assets/img/${technology.imgIcon}`} alt={technology.name}/>
+                                                    }
+                                                </span>
+                                            ))
+                                        ))
+                                    }
+                                </div>
+                            </div>
+                        ))
+                    }
+                    </div>
+                </div>
+            </div>
         </div>
     );
 }

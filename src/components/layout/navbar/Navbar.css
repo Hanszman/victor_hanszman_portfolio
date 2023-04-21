@@ -43,10 +43,6 @@ ul, li {
     color: #7089fa;
 }
 
-.responsiveMenu {
-    display: flex;
-}
-
 .btnMenu {
     display: none;
     color: #FFFFFF;

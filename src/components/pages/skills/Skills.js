@@ -1,17 +1,17 @@
 // Imports
 import './Skills.css';
 import { useTranslation } from 'react-i18next';
-import skillsJson from '../../../db/skills.json';
-import projectsJson from '../../../db/projects.json';
+// import skillsJson from '../../../db/skills.json';
+// import projectsJson from '../../../db/projects.json';
 
 // Component
 function Skills() {
     // Declarations
     const { t } = useTranslation();
-    const technologies = skillsJson.skills.technologies;
-    const languages = skillsJson.skills.languages;
-    const formations = skillsJson.skills.formations;
-    const projects = projectsJson.projects;
+    // const technologies = skillsJson.skills.technologies;
+    // const languages = skillsJson.skills.languages;
+    // const formations = skillsJson.skills.formations;
+    // const projects = projectsJson.projects;
 
     return (
         <div>
