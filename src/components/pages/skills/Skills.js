@@ -31,6 +31,7 @@ function Skills() {
                                 }
                                 <div className="card-body">
                                     <h5 className="card-title">{technology.name}</h5>
+                                    <p className="card-text">{t(technology.level)}</p>
                                     <p className="card-text">{t(technology.type)}</p>
                                     <p className="card-text">{t(technology.stack)}</p>
                                 </div>
