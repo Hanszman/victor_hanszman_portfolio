@@ -1,9 +1,14 @@
-.imgProject {
+.cardLong {
+    margin: 10px
+}
+
+.imgPrint {
     width: 500px;
     height: auto;
 }
 
-.imgTechnology {
+.imgIcon {
+    cursor: pointer;
     width: 50px;
     height: auto;
     margin: 5px;

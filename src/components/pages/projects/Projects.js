@@ -19,12 +19,12 @@ function Projects() {
                     <div className="col-sm">
                     {
                         projects.length > 0 && projects.map((project) => (
-                            <div id={project.code} key={project.code} className="card">
+                            <div id={project.code} key={project.code} className="card cardLong">
                                 {
                                     project.imgIcon &&
                                     <img
-                                        className="card-img-top imgProject"
-                                        src={require(`../../../assets/img/${project.imgIcon}.png`)}
+                                        className="card-img-top imgPrint"
+                                        src={require(`../../../assets/img/${project.imgIcon}`)}
                                         alt={project.name}
                                     />
                                 }
@@ -39,8 +39,8 @@ function Projects() {
                                                     {
                                                         technology.imgIcon &&
                                                         <img
-                                                            className='imgTechnology'
-                                                            src={require(`../../../assets/img/${technology.imgIcon}.png`)}
+                                                            className='imgIcon'
+                                                            src={require(`../../../assets/img/${technology.imgIcon}`)}
                                                             alt={technology.name}
                                                         />
                                                     }

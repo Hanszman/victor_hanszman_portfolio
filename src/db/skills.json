@@ -5,7 +5,7 @@
                 "code": "ajax",
                 "name": "AJAX",
                 "level": "Beginner",
-                "imgIcon": "skills/ajax",
+                "imgIcon": "skills/ajax.png",
                 "type": "Techniques",
                 "stack": "FrontEnd"
             },
@@ -13,7 +13,7 @@
                 "code": "angular",
                 "name": "Angular",
                 "level": "Advanced",
-                "imgIcon": "skills/angular",
+                "imgIcon": "skills/angular.png",
                 "type": "Frameworks",
                 "stack": "FrontEnd"
             },
@@ -21,7 +21,7 @@
                 "code": "aws",
                 "name": "Amazon Web Sevices",
                 "level": "Beginner",
-                "imgIcon": "skills/aws",
+                "imgIcon": "skills/aws.png",
                 "type": "CloudHostingPlataforms",
                 "stack": "Others"
             },
@@ -29,7 +29,7 @@
                 "code": "azure",
                 "name": "Microsoft Azure",
                 "level": "Beginner",
-                "imgIcon": "skills/azure",
+                "imgIcon": "skills/azure.png",
                 "type": "VersioningPlatforms",
                 "stack": "Others"
             },
@@ -37,7 +37,7 @@
                 "code": "bootstrap",
                 "name": "Bootstrap",
                 "level": "Advanced",
-                "imgIcon": "skills/bootstrap",
+                "imgIcon": "skills/bootstrap.png",
                 "type": "Frameworks",
                 "stack": "FrontEnd"
             },
@@ -45,7 +45,7 @@
                 "code": "chart",
                 "name": "Chart.js",
                 "level": "Intermediate",
-                "imgIcon": "skills/chart",
+                "imgIcon": "skills/chart.png",
                 "type": "Libraries",
                 "stack": "FrontEnd"
             },
@@ -53,7 +53,7 @@
                 "code": "composer",
                 "name": "Composer",
                 "level": "Intermediate",
-                "imgIcon": "skills/composer",
+                "imgIcon": "skills/composer.png",
                 "type": "PackageManagers",
                 "stack": "Others"
             },
@@ -61,7 +61,7 @@
                 "code": "csharp",
                 "name": "C#",
                 "level": "Beginner",
-                "imgIcon": "skills/csharp",
+                "imgIcon": "skills/csharp.png",
                 "type": "ProgrammingLanguages",
                 "stack": "BackEnd"
             },
@@ -69,7 +69,7 @@
                 "code": "css",
                 "name": "CSS",
                 "level": "Advanced",
-                "imgIcon": "skills/css",
+                "imgIcon": "skills/css.png",
                 "type": "WebLanguages",
                 "stack": "FrontEnd"
             },
@@ -77,7 +77,7 @@
                 "code": "dbeaver",
                 "name": "dBeaver",
                 "level": "Advanced",
-                "imgIcon": "skills/dbeaver",
+                "imgIcon": "skills/dbeaver.png",
                 "type": "DatabasesManagementSystems",
                 "stack": "DataBases"
             },
@@ -85,7 +85,7 @@
                 "code": "expo",
                 "name": "Expo",
                 "level": "Studing",
-                "imgIcon": "skills/expo",
+                "imgIcon": "skills/expo.png",
                 "type": "DevelopmentPlataforms",
                 "stack": "Mobile"
             },
@@ -93,7 +93,7 @@
                 "code": "express",
                 "name": "Express.js",
                 "level": "Intermediate",
-                "imgIcon": "skills/express",
+                "imgIcon": "skills/express.png",
                 "type": "Frameworks",
                 "stack": "BackEnd"
             },
@@ -101,7 +101,7 @@
                 "code": "git",
                 "name": "Git",
                 "level": "Advanced",
-                "imgIcon": "skills/git",
+                "imgIcon": "skills/git.png",
                 "type": "VersioningPlatforms",
                 "stack": "Others"
             },
@@ -109,7 +109,7 @@
                 "code": "github",
                 "name": "GitHub",
                 "level": "Advanced",
-                "imgIcon": "skills/github",
+                "imgIcon": "skills/github.png",
                 "type": "VersioningPlatforms",
                 "stack": "Others"
             },
@@ -117,7 +117,7 @@
                 "code": "gitlab",
                 "name": "GitLab",
                 "level": "Advanced",
-                "imgIcon": "skills/gitlab",
+                "imgIcon": "skills/gitlab.png",
                 "type": "VersioningPlatforms",
                 "stack": "Others"
             },
@@ -125,7 +125,7 @@
                 "code": "heroku",
                 "name": "Heroku",
                 "level": "Intermediate",
-                "imgIcon": "skills/heroku",
+                "imgIcon": "skills/heroku.png",
                 "type": "CloudHostingPlataforms",
                 "stack": "Others"
             },
@@ -133,7 +133,7 @@
                 "code": "html",
                 "name": "HTML",
                 "level": "Advanced",
-                "imgIcon": "skills/html",
+                "imgIcon": "skills/html.png",
                 "type": "WebLanguages",
                 "stack": "FrontEnd"
             },
@@ -141,7 +141,7 @@
                 "code": "java",
                 "name": "Java",
                 "level": "Beginner",
-                "imgIcon": "skills/java",
+                "imgIcon": "skills/java.png",
                 "type": "ProgrammingLanguages",
                 "stack": "BackEnd"
             },
@@ -149,7 +149,7 @@
                 "code": "javascript",
                 "name": "JavaScript",
                 "level": "Advanced",
-                "imgIcon": "skills/javascript",
+                "imgIcon": "skills/javascript.png",
                 "type": "ProgrammingLanguages",
                 "stack": "FrontEnd"
             },
@@ -157,7 +157,7 @@
                 "code": "jenkins",
                 "name": "Jenkins",
                 "level": "Beginner",
-                "imgIcon": "skills/jenkins",
+                "imgIcon": "skills/jenkins.png",
                 "type": "DeploymentTools",
                 "stack": "Others"
             },
@@ -165,7 +165,7 @@
                 "code": "jquery",
                 "name": "jQuery",
                 "level": "Beginner",
-                "imgIcon": "skills/jquery",
+                "imgIcon": "skills/jquery.png",
                 "type": "Libraries",
                 "stack": "FrontEnd"
             },
@@ -173,7 +173,7 @@
                 "code": "json",
                 "name": "JSON",
                 "level": "Advanced",
-                "imgIcon": "skills/json",
+                "imgIcon": "skills/json.png",
                 "type": "ObjectNotations",
                 "stack": "Others"
             },
@@ -181,7 +181,7 @@
                 "code": "jsx",
                 "name": "JSX",
                 "level": "Studing",
-                "imgIcon": "skills/jsx",
+                "imgIcon": "skills/jsx.png",
                 "type": "Techniques",
                 "stack": "Others"
             },
@@ -189,7 +189,7 @@
                 "code": "kanban",
                 "name": "Kanban",
                 "level": "Advanced",
-                "imgIcon": "skills/kanban",
+                "imgIcon": "skills/kanban.png",
                 "type": "Methodologies",
                 "stack": "Others"
             },
@@ -197,7 +197,7 @@
                 "code": "knex",
                 "name": "Knex.js",
                 "level": "Intermediate",
-                "imgIcon": "skills/knex",
+                "imgIcon": "skills/knex.png",
                 "type": "string",
                 "stack": "string"
             },
@@ -205,7 +205,7 @@
                 "code": "laravel",
                 "name": "Laravel",
                 "level": "Intermediate",
-                "imgIcon": "skills/laravel",
+                "imgIcon": "skills/laravel.png",
                 "type": "Frameworks",
                 "stack": "BackEnd"
             },
@@ -213,7 +213,7 @@
                 "code": "mongodb",
                 "name": "MongoDB",
                 "level": "Studing",
-                "imgIcon": "skills/mongodb",
+                "imgIcon": "skills/mongodb.png",
                 "type": "NonRelationals",
                 "stack": "DataBases"
             },
@@ -221,7 +221,7 @@
                 "code": "mysql",
                 "name": "MySQL",
                 "level": "Advanced",
-                "imgIcon": "skills/mysql",
+                "imgIcon": "skills/mysql.png",
                 "type": "Relationals",
                 "stack": "DataBases"
             },
@@ -229,7 +229,7 @@
                 "code": "node",
                 "name": "Node.js",
                 "level": "Advanced",
-                "imgIcon": "skills/node",
+                "imgIcon": "skills/node.png",
                 "type": "ProgrammingLanguages",
                 "stack": "BackEnd"
             },
@@ -237,7 +237,7 @@
                 "code": "notepadplusplus",
                 "name": "Notepad++",
                 "level": "Advanced",
-                "imgIcon": "skills/notepadplusplus",
+                "imgIcon": "skills/notepadplusplus.png",
                 "type": "CodeEditors",
                 "stack": "Others"
             },
@@ -245,7 +245,7 @@
                 "code": "npm",
                 "name": "npm",
                 "level": "Advanced",
-                "imgIcon": "skills/npm",
+                "imgIcon": "skills/npm.png",
                 "type": "PackageManagers",
                 "stack": "Others"
             },
@@ -253,7 +253,7 @@
                 "code": "php",
                 "name": "PHP",
                 "level": "Advanced",
-                "imgIcon": "skills/php",
+                "imgIcon": "skills/php.png",
                 "type": "ProgrammingLanguages",
                 "stack": "BackEnd"
             },
@@ -261,7 +261,7 @@
                 "code": "phpstorm",
                 "name": "PHP Storm",
                 "level": "Advanced",
-                "imgIcon": "skills/phpstorm",
+                "imgIcon": "skills/phpstorm.png",
                 "type": "CodeEditors",
                 "stack": "Others"
             },
@@ -269,7 +269,7 @@
                 "code": "postgresql",
                 "name": "PostgreSQL",
                 "level": "Intermediate",
-                "imgIcon": "skills/postgresql",
+                "imgIcon": "skills/postgresql.png",
                 "type": "Relationals",
                 "stack": "DataBases"
             },
@@ -277,7 +277,7 @@
                 "code": "react",
                 "name": "React",
                 "level": "Studing",
-                "imgIcon": "skills/react",
+                "imgIcon": "skills/react.png",
                 "type": "Libraries",
                 "stack": "FrontEnd"
             },
@@ -285,7 +285,7 @@
                 "code": "reactnative",
                 "name": "React Native",
                 "level": "Studing",
-                "imgIcon": "skills/reactnative",
+                "imgIcon": "skills/reactnative.png",
                 "type": "Libraries",
                 "stack": "Mobile"
             },
@@ -293,7 +293,7 @@
                 "code": "sass",
                 "name": "Sass",
                 "level": "Advanced",
-                "imgIcon": "skills/sass",
+                "imgIcon": "skills/sass.png",
                 "type": "WebLanguages",
                 "stack": "FrontEnd"
             },
@@ -301,7 +301,7 @@
                 "code": "scrum",
                 "name": "Scrum",
                 "level": "Advanced",
-                "imgIcon": "skills/scrum",
+                "imgIcon": "skills/scrum.png",
                 "type": "Methodologies",
                 "stack": "Others"
             },
@@ -309,7 +309,7 @@
                 "code": "sql",
                 "name": "SQL",
                 "level": "Advanced",
-                "imgIcon": "skills/sql",
+                "imgIcon": "skills/sql.png",
                 "type": "Relationals",
                 "stack": "DataBases"
             },
@@ -317,7 +317,7 @@
                 "code": "sqlserver",
                 "name": "Microsoft SQL Server",
                 "level": "Advanced",
-                "imgIcon": "skills/sqlserver",
+                "imgIcon": "skills/sqlserver.png",
                 "type": "Relationals",
                 "stack": "DataBases"
             },
@@ -325,7 +325,7 @@
                 "code": "typescript",
                 "name": "TypeScript",
                 "level": "Advanced",
-                "imgIcon": "skills/typescript",
+                "imgIcon": "skills/typescript.png",
                 "type": "ProgrammingLanguages",
                 "stack": "FrontEnd"
             },
@@ -333,7 +333,7 @@
                 "code": "unity",
                 "name": "Unity",
                 "level": "Studing",
-                "imgIcon": "skills/unity",
+                "imgIcon": "skills/unity.png",
                 "type": "DevelopmentPlataforms",
                 "stack": "Games"
             },
@@ -341,7 +341,7 @@
                 "code": "vercel",
                 "name": "Vercel",
                 "level": "Studing",
-                "imgIcon": "skills/vercel",
+                "imgIcon": "skills/vercel.png",
                 "type": "CloudHostingPlataforms",
                 "stack": "Others"
             },
@@ -349,7 +349,7 @@
                 "code": "visualstudiocode",
                 "name": "Visual Studio Code",
                 "level": "Advanced",
-                "imgIcon": "skills/visualstudiocode",
+                "imgIcon": "skills/visualstudiocode.png",
                 "type": "CodeEditors",
                 "stack": "Others"
             },
@@ -357,7 +357,7 @@
                 "code": "visualstudio",
                 "name": "Visual Studio",
                 "level": "Beginner",
-                "imgIcon": "skills/visualstudio",
+                "imgIcon": "skills/visualstudio.png",
                 "type": "CodeEditors",
                 "stack": "Others"
             },
@@ -365,7 +365,7 @@
                 "code": "xampp",
                 "name": "XAMPP",
                 "level": "Advanced",
-                "imgIcon": "skills/xampp",
+                "imgIcon": "skills/xampp.png",
                 "type": "Packages",
                 "stack": "Others"
             },
@@ -373,7 +373,7 @@
                 "code": "xml",
                 "name": "XML",
                 "level": "Intermediate",
-                "imgIcon": "skills/xml",
+                "imgIcon": "skills/xml.png",
                 "type": "ObjectNotations",
                 "stack": "Others"
             }
@@ -383,13 +383,13 @@
                 "code": "pt-br",
                 "name": "Portuguese",
                 "level": "Fluent",
-                "imgIcon": "skills/brasil"
+                "imgIcon": "skills/brasil.png"
             },
             {
                 "code": "en-us",
                 "name": "English",
                 "level": "Advanced",
-                "imgIcon": "skills/usa"
+                "imgIcon": "skills/usa.png"
             }
         ],
         "formations": [
@@ -398,7 +398,7 @@
                 "title": "Graduation",
                 "level": "Bachelor",
                 "institution": "Pontifícia Universidade Católica de Minas Gerais",
-                "imgIcon": "skills/puc",
+                "imgIcon": "skills/puc.png",
                 "certificate": "",
                 "startDate": "2015-02-01",
                 "endDate": "2018-12-15",
@@ -428,7 +428,7 @@
                 "title": "PostGraduation",
                 "level": "Especialist",
                 "institution": "Pontifícia Universidade Católica de Minas Gerais",
-                "imgIcon": "skills/puc",
+                "imgIcon": "skills/puc.png",
                 "certificate": "",
                 "startDate": "2019-03-01",
                 "endDate": "2021-06-20",
@@ -460,7 +460,7 @@
                 "title": "Fullstack Angular & Node",
                 "level": "Course",
                 "institution": "Udemy",
-                "imgIcon": "skills/udemy",
+                "imgIcon": "skills/udemy.png",
                 "certificate": "",
                 "startDate": "2020-03-30",
                 "endDate": "2020-04-03",
