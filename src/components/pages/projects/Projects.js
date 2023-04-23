@@ -16,7 +16,6 @@ function Projects() {
             <h1 className='highText centerText boldText'>{t('Projects')}</h1>
             <div className="container">
                 <div className="row">
-                    <div className="col-sm">
                     {
                         projects.length > 0 && projects.map((project) => (
                             <div id={project.code} key={project.code} className="card cardLong">
@@ -52,7 +51,6 @@ function Projects() {
                             </div>
                         ))
                     }
-                    </div>
                 </div>
             </div>
         </div>

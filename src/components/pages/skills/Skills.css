@@ -1,0 +1,16 @@
+.cardShort {
+    margin: 10px;
+    max-width: fit-content;
+}
+
+.imgPrint {
+    width: 500px;
+    height: auto;
+}
+
+.imgIcon {
+    cursor: pointer;
+    width: 50px;
+    height: auto;
+    margin: 5px;
+}
