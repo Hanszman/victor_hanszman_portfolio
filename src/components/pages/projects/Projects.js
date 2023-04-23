@@ -22,7 +22,11 @@ function Projects() {
                             <div id={project.code} key={project.code} className="card">
                                 {
                                     project.imgIcon &&
-                                    <img className="card-img-top" src={`../../../assets/img/${project.imgIcon}`} alt={project.name}/>
+                                    <img
+                                        className="card-img-top imgProject"
+                                        src={require(`../../../assets/img/${project.imgIcon}.png`)}
+                                        alt={project.name}
+                                    />
                                 }
                                 <div className="card-body">
                                     <h5 className="card-title">{project.name}</h5>
@@ -34,7 +38,11 @@ function Projects() {
                                                 <span id={technology.code} key={technology.code} title={technology.name}>
                                                     {
                                                         technology.imgIcon &&
-                                                        <img src={`../../../assets/img/${technology.imgIcon}`} alt={technology.name}/>
+                                                        <img
+                                                            className='imgTechnology'
+                                                            src={require(`../../../assets/img/${technology.imgIcon}.png`)}
+                                                            alt={technology.name}
+                                                        />
                                                     }
                                                 </span>
                                             ))
