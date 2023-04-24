@@ -18,27 +18,12 @@ function Projects() {
             <CardGroup
                 arrayObject={projects}
                 arrayDetails={['description']}
+                arrayLists={[
+                    {name: 'Technologies', class: '', object: 'technologies', compare: technologies}
+                ]}
                 classCard='cardLong'
                 classImg='cardimgPrint'
-                classChildren=''
             >
-                {
-                    // project.technologies.length > 0 && project.technologies.map((projectTechnology) => (
-                    //     technologies.length > 0 && technologies.map((technology) => (
-                    //         technology.code === projectTechnology &&
-                    //         <span id={technology.code} key={technology.code} title={technology.name}>
-                    //             {
-                    //                 technology.imgIcon &&
-                    //                 <img
-                    //                     className='imgIcon'
-                    //                     src={require(`../../../assets/img/${technology.imgIcon}`)}
-                    //                     alt={technology.name}
-                    //                 />
-                    //             }
-                    //         </span>
-                    //     ))
-                    // ))
-                }
             </CardGroup>
         </div>
     );
