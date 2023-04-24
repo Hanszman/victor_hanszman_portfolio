@@ -7,6 +7,19 @@ function CardGroup(props) {
     // Declarations
     const { t } = useTranslation();
 
+    // Functions
+    function arraysComparation(listObject, listCompare) {
+        const finalArray = [];
+        listObject && listObject.length > 0 && listObject.map((object) => {
+            listCompare && listCompare.length > 0 && listCompare.map((compare) => {
+                compare.code === object &&
+                finalArray.push(compare);
+            });
+        });
+        console.log(finalArray);
+        return finalArray;
+    }
+
     return (
         <div className='container'>
             <div className='row'>
@@ -49,29 +62,32 @@ function CardGroup(props) {
                                 {
                                     props.arrayLists && props.arrayLists.length > 0 && props.arrayLists.map((list) => (
                                         <div key={list.name}>
-                                            <p className='text'>
-                                                {t(list.name) ? t(list.name) : list.name}:
-                                            </p>
+                                            {
+                                                arraysComparation(item[list.object], list.compare) &&
+                                                arraysComparation(item[list.object], list.compare).length > 0 &&
+                                                <p className='text'>
+                                                    {t(list.name) ? t(list.name) : list.name}:
+                                                </p>
+                                            }
                                             <div className={list.class}>
                                                 {
-                                                    item[list.object] && item[list.object].length > 0 && item[list.object].map((object) => (
-                                                        list.compare && list.compare.length > 0 && list.compare.map((compare) => (
-                                                            compare.code === object &&
-                                                            <span
-                                                                id={compare.code}
-                                                                key={compare.code}
-                                                                title={compare.name}
-                                                            >
-                                                                {
-                                                                    compare.imgIcon &&
-                                                                    <img
-                                                                        className='cardImgIcon'
-                                                                        src={require(`../../../assets/img/${compare.imgIcon}`)}
-                                                                        alt={compare.name}
-                                                                    />
-                                                                }
-                                                            </span>
-                                                        ))
+                                                    arraysComparation(item[list.object], list.compare) &&
+                                                    arraysComparation(item[list.object], list.compare).length > 0 &&
+                                                    arraysComparation(item[list.object], list.compare).map((comparedItem) => (
+                                                        <span
+                                                            id={comparedItem.code}
+                                                            key={comparedItem.code}
+                                                            title={comparedItem.name}
+                                                        >
+                                                            {
+                                                                comparedItem.imgIcon &&
+                                                                <img
+                                                                    className='cardImgIcon'
+                                                                    src={require(`../../../assets/img/${comparedItem.imgIcon}`)}
+                                                                    alt={comparedItem.name}
+                                                                />
+                                                            }
+                                                        </span>
                                                     ))
                                                 }
                                             </div>

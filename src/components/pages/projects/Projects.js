@@ -18,6 +18,7 @@ function Projects() {
         setTechnologiesGroups(groupByList(technologies, 'stack', 'technologies'));
     }, []);
 
+    // Functions
     function groupByList(list, group, nameObject) {
         const newObject = {};
         const newList = [];
