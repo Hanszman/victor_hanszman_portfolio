@@ -1,5 +1,6 @@
 // Imports
 import './Projects.css';
+import { useState, useEffect } from 'react';
 import { useTranslation } from 'react-i18next';
 import CardGroup from '../../layout/card-group/CardGroup';
 import projectsJson from '../../../db/projects.json';
@@ -11,6 +12,17 @@ function Projects() {
     const { t } = useTranslation();
     const projects = projectsJson.projects;
     const technologies = skillsJson.skills.technologies;
+    const [technologiesGroups, setTechnologiesGroups] = useState([]);
+
+    useEffect(() => {
+        setTechnologiesGroups(groupByList(technologiesGroups));
+    }, []);
+
+    function groupByList(list) {
+        list = [];
+        list.push({name: 'technologies', class: 'cardGroupList', object: 'technologies', compare: technologies});
+        return list;
+    }
 
     return (
         <div>
@@ -18,9 +30,8 @@ function Projects() {
             <CardGroup
                 arrayObject={projects}
                 arrayDetails={['description']}
-                arrayLists={[
-                    {name: 'Technologies', class: 'cardGroupList', object: 'technologies', compare: technologies}
-                ]}
+                arrayLists={technologiesGroups}
+                arrayListsTitle='technologies'
                 classCard='cardLong'
                 classImg='cardimgPrint'
             >

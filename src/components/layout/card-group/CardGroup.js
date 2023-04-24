@@ -41,32 +41,40 @@ function CardGroup(props) {
                                     ))
                                 }
                                 {
+                                    props.arrayLists && props.arrayLists.length > 0 && props.arrayListsTitle &&
+                                    <p className='text boldText'>
+                                        {t(props.arrayListsTitle) ? t(props.arrayListsTitle) : props.arrayListsTitle}:
+                                    </p>
+                                }
+                                {
                                     props.arrayLists && props.arrayLists.length > 0 && props.arrayLists.map((list) => (
-                                        <div
-                                            key={list.object}
-                                            className={list.class}
-                                        >
-                                            {
-                                                item[list.object] && item[list.object].length > 0 && item[list.object].map((object) => (
-                                                    list.compare && list.compare.length > 0 && list.compare.map((compare) => (
-                                                        compare.code === object &&
-                                                        <span
-                                                            id={compare.code}
-                                                            key={compare.code}
-                                                            title={compare.name}
-                                                        >
-                                                            {
-                                                                compare.imgIcon &&
-                                                                <img
-                                                                    className='cardImgIcon'
-                                                                    src={require(`../../../assets/img/${compare.imgIcon}`)}
-                                                                    alt={compare.name}
-                                                                />
-                                                            }
-                                                        </span>
+                                        <div key={list.object}>
+                                            <p className='text'>
+                                                {t(list.name) ? t(list.name) : list.name}:
+                                            </p>
+                                            <div className={list.class}>
+                                                {
+                                                    item[list.object] && item[list.object].length > 0 && item[list.object].map((object) => (
+                                                        list.compare && list.compare.length > 0 && list.compare.map((compare) => (
+                                                            compare.code === object &&
+                                                            <span
+                                                                id={compare.code}
+                                                                key={compare.code}
+                                                                title={compare.name}
+                                                            >
+                                                                {
+                                                                    compare.imgIcon &&
+                                                                    <img
+                                                                        className='cardImgIcon'
+                                                                        src={require(`../../../assets/img/${compare.imgIcon}`)}
+                                                                        alt={compare.name}
+                                                                    />
+                                                                }
+                                                            </span>
+                                                        ))
                                                     ))
-                                                ))
-                                            }
+                                                }
+                                            </div>
                                         </div>
                                     ))
                                 }
