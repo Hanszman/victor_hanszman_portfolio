@@ -44,7 +44,7 @@ function CardGroup(props) {
                                     props.arrayLists && props.arrayLists.length > 0 && props.arrayLists.map((list) => (
                                         <div
                                             key={list.object}
-                                            className={`displayFlex ${list.class}`}
+                                            className={list.class}
                                         >
                                             {
                                                 item[list.object] && item[list.object].length > 0 && item[list.object].map((object) => (

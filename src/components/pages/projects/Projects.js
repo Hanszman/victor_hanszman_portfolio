@@ -19,7 +19,7 @@ function Projects() {
                 arrayObject={projects}
                 arrayDetails={['description']}
                 arrayLists={[
-                    {name: 'Technologies', class: '', object: 'technologies', compare: technologies}
+                    {name: 'Technologies', class: 'cardGroupList', object: 'technologies', compare: technologies}
                 ]}
                 classCard='cardLong'
                 classImg='cardimgPrint'
