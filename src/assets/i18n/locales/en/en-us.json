@@ -63,8 +63,8 @@
         "DevelopmentPlataforms": "Development Plataforms",
         "CodeEditors": "Code Editors",
         "DatabasesManagementSystems": "Databases Management Systems",
-        "Relationals": "Relationals",
-        "NonRelationals": "Non-Relationals",
+        "Relationals": "Relational Data Bases",
+        "NonRelationals": "Non-Relational Data Bases",
 
         "GraduationTCC": "Customer relationship management system (CRM) developed for the Graduation's Final Paper.",
         "PostGraduationTCC": "Projects, people and tasks management system (Kanban) developed for the Post-Graduation's Final Paper.",

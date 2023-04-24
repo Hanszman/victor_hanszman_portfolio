@@ -16,7 +16,6 @@ function CardGroup(props) {
                 finalArray.push(compare);
             });
         });
-        console.log(finalArray);
         return finalArray;
     }
 

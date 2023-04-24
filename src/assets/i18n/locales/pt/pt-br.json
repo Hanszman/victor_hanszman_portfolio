@@ -63,8 +63,8 @@
         "DevelopmentPlataforms": "Plataformas de Desenvolvimento",
         "CodeEditors": "Editores de Código",
         "DatabasesManagementSystems": "Sistemas de Gestão de Bancos de Dados",
-        "Relationals": "Relacionais",
-        "NonRelationals": "Não-Relacionais",
+        "Relationals": "Bancos de Dados Relacionais",
+        "NonRelationals": "Bancos de Dados Não-Relacionais",
 
         "GraduationTCC": "Sistema de gestão de relacionamento com clientes (CRM) desenvolvido para o Trabalho de Conclusão de Curso da Graduação.",
         "PostGraduationTCC": "Sistema de gestão de projetos, pessoas e atividades (Kanban) desenvolvido para o Trabalho de Conclusão de Curso da Pós-Graduação.",
