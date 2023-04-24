@@ -1,6 +1,7 @@
 // Imports
 import './Experiences.css';
 import { useTranslation } from 'react-i18next';
+import CardGroup from '../../layout/card-group/CardGroup';
 import experiencesJson from '../../../db/experiences.json';
 // import projectsJson from '../../../db/projects.json';
 // import skillsJson from '../../../db/skills.json';
@@ -17,27 +18,14 @@ function Experiences() {
     return (
         <div>
             <h1 className='highText centerText boldText'>{t('Experiences')}</h1>
-            <div className="container">
-                <div className="row">
-                    {
-                        jobs.length > 0 && jobs.map((job) => (
-                            <div id={job.code} key={job.code} className="card cardLong">
-                                {
-                                    job.imgIcon &&
-                                    <img
-                                        className="card-img-top imgIcon"
-                                        src={require(`../../../assets/img/${job.imgIcon}`)}
-                                        alt={job.name}
-                                    />
-                                }
-                                <div className="card-body">
-                                    <h5 className="card-title">{job.companyName}</h5>
-                                </div>
-                            </div>
-                        ))
-                    }
-                </div>
-            </div>
+            <CardGroup
+                arrayObject={jobs}
+                arrayDetails={[]}
+                classCard='cardLong'
+                classImg='cardImgIcon'
+                classChildren=''
+            >
+            </CardGroup>
         </div>
     );
 }

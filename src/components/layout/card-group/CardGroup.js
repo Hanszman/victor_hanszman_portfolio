@@ -30,9 +30,11 @@ function CardGroup(props) {
                                 <h3 className='card-title highText'>{t(item.name) ? t(item.name) : item.name}</h3>
                                 {
                                     props.arrayDetails && props.arrayDetails.length > 0 && props.arrayDetails.map((detail) => (
-                                        <p className='card-text text'>
+                                        <p
+                                            key={detail}
+                                            className='card-text text'>
                                             <span className='boldText'>
-                                                {t(detail) ? t(detail) : detail}:
+                                                {t(detail) ? t(detail) : detail}:&nbsp;
                                             </span>
                                             {t(item[detail]) ? t(item[detail]) : item[detail]}
                                         </p>

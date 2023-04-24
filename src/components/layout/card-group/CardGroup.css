@@ -7,12 +7,12 @@
     max-width: fit-content;
 }
 
-.imgPrint {
+.cardImgPrint {
     width: 500px;
     height: auto;
 }
 
-.imgIcon {
+.cardImgIcon {
     cursor: pointer;
     width: 50px;
     height: auto;
