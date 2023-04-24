@@ -14,14 +14,19 @@
 
         "Graduation": "Graduation",
         "PostGraduation": "Post-Graduation",
+        "Course": "Course",
         "Bachelor": "Bachelor",
         "Especialist": "Especialist",
-        "Course": "Course",
+        "Certified": "Certified",
         "Studing": "Studing",
         "Beginner": "Beginner",
         "Intermediate": "Intermediate",
         "Advanced": "Advanced",
         "Fluent": "Fluent (Native)",
+
+        "InformationSystems": "Information Systems",
+        "FullStackWebDevelopment": "FullStack Web Development",
+        "FullStackAngularNodeProgrammer": "FullStack Angular & Node Programmer",
 
         "FrontEnd": "Front-End",
         "BackEnd": "Back-End",

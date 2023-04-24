@@ -3,7 +3,7 @@
         "jobs": [
             {
                 "code": "stefanini",
-                "companyName": "Stefanini Group",
+                "name": "Stefanini Group",
                 "imgIcon": "experiences/stefanini.jpg",
                 "startDate": "2021-09-23",
                 "endDate": "",
@@ -38,7 +38,7 @@
             },
             {
                 "code": "m2m",
-                "companyName": "M2M Telemetria",
+                "name": "M2M Telemetria",
                 "imgIcon": "experiences/m2m.jpg",
                 "startDate": "2020-04-01",
                 "endDate": "2021-09-23",
@@ -80,7 +80,7 @@
             },
             {
                 "code": "4mti",
-                "companyName": "4MTI Soluções",
+                "name": "4MTI Soluções",
                 "imgIcon": "experiences/4mti.jpg",
                 "startDate": "2018-09-03",
                 "endDate": "2020-04-01",
@@ -118,42 +118,42 @@
         "customers": [
             {
                 "code": "ford",
-                "companyName": "Ford",
+                "name": "Ford",
                 "imgIcon": "experiences/ford.jpg"
             },
             {
                 "code": "ale",
-                "companyName": "Ale",
+                "name": "Ale",
                 "imgIcon": "experiences/ale.jpg"
             },
             {
                 "code": "cemig",
-                "companyName": "CEMIG",
+                "name": "CEMIG",
                 "imgIcon": "experiences/cemig.jpg"
             },
             {
                 "code": "4mti",
-                "companyName": "4MTI Soluções",
+                "name": "4MTI Soluções",
                 "imgIcon": "experiences/4mti.jpg"
             },
             {
                 "code": "costaetavares",
-                "companyName": "Costa & Tavares",
+                "name": "Costa & Tavares",
                 "imgIcon": "experiences/costaetavares.jpg"
             },
             {
                 "code": "localiza",
-                "companyName": "Localiza",
+                "name": "Localiza",
                 "imgIcon": "experiences/localiza.jpg"
             },
             {
                 "code": "nescon",
-                "companyName": "NESCON (UFMG)",
+                "name": "NESCON (UFMG)",
                 "imgIcon": "experiences/nescon.jpg"
             },
             {
                 "code": "mpmg",
-                "companyName": "Ministério Público de Minas Gerais (MPMG)",
+                "name": "Ministério Público de Minas Gerais (MPMG)",
                 "imgIcon": "experiences/mpmg.jpg"
             }
         ]

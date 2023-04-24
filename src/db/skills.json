@@ -395,6 +395,7 @@
         "formations": [
             {
                 "code": "puc-graduation",
+                "name": "InformationSystems",
                 "title": "Graduation",
                 "level": "Bachelor",
                 "institution": "Pontifícia Universidade Católica de Minas Gerais",
@@ -425,6 +426,7 @@
             },
             {
                 "code": "puc-post-graduation",
+                "name": "FullStackWebDevelopment",
                 "title": "PostGraduation",
                 "level": "Especialist",
                 "institution": "Pontifícia Universidade Católica de Minas Gerais",
@@ -457,8 +459,9 @@
             },
             {
                 "code": "course-angular-node",
-                "title": "Fullstack Angular & Node",
-                "level": "Course",
+                "name": "FullStackAngularNodeProgrammer",
+                "title": "Course",
+                "level": "Certified",
                 "institution": "Udemy",
                 "imgIcon": "skills/udemy.png",
                 "certificate": "",
