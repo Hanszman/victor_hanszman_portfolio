@@ -23,7 +23,6 @@ function Experiences() {
                 arrayDetails={[]}
                 classCard='cardLong'
                 classImg='cardImgIcon'
-                classChildren=''
             >
             </CardGroup>
         </div>

@@ -22,6 +22,8 @@
         "certificate": "Certificado",
         "startDate": "Data de Início",
         "endDate": "Data de Conclusão",
+        "formations": "Formações",
+        "languages": "Idiomas",
         "technologies": "Tecnologias",
         "projects": "Projetos",
         "customers": "Clientes",
