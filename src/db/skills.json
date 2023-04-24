@@ -198,8 +198,8 @@
                 "name": "Knex.js",
                 "level": "Intermediate",
                 "imgIcon": "skills/knex.png",
-                "type": "string",
-                "stack": "string"
+                "type": "Libraries",
+                "stack": "BackEnd"
             },
             {
                 "code": "laravel",

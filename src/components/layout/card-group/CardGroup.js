@@ -48,7 +48,7 @@ function CardGroup(props) {
                                 }
                                 {
                                     props.arrayLists && props.arrayLists.length > 0 && props.arrayLists.map((list) => (
-                                        <div key={list.object}>
+                                        <div key={list.name}>
                                             <p className='text'>
                                                 {t(list.name) ? t(list.name) : list.name}:
                                             </p>

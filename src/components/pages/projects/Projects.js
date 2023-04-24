@@ -15,13 +15,29 @@ function Projects() {
     const [technologiesGroups, setTechnologiesGroups] = useState([]);
 
     useEffect(() => {
-        setTechnologiesGroups(groupByList(technologiesGroups));
+        setTechnologiesGroups(groupByList(technologies, 'stack', 'technologies'));
     }, []);
 
-    function groupByList(list) {
-        list = [];
-        list.push({name: 'technologies', class: 'cardGroupList', object: 'technologies', compare: technologies});
-        return list;
+    function groupByList(list, group, nameObject) {
+        const newObject = {};
+        const newList = [];
+        for (let i = 0; i < list.length; i++) {
+            if (!newObject.hasOwnProperty(list[i][group])) {
+                newObject[list[i][group]] = [];
+            }
+            newObject[list[i][group]].push(list[i]);
+        }
+        Object.keys(newObject).forEach((item) => {
+            if (newObject[item] && newObject[item].length > 0) {
+                newList.push({
+                    name: item,
+                    class: 'cardGroupList',
+                    object: nameObject,
+                    compare: newObject[item]
+                });
+            }
+        });
+        return newList;
     }
 
     return (
