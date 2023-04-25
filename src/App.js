@@ -8,7 +8,7 @@ import Experiences from './components/pages/experiences/Experiences';
 import Skills from './components/pages/skills/Skills';
 import Projects from './components/pages/projects/Projects';
 
-// TODO: Generalizar no arquivo utils as funções groupByList e getAge
+// TODO: Generalizar no arquivo utils as funções groupByList
 // TODO: Passar tipagem dos atributos no arrayDetails do CardGroup
 // TODO: Tratar as datas dos componentes com a função do arquivo utils
 // TODO: Agrupar arrayLists e arrayListsTitle no mesmo objeto
@@ -16,7 +16,7 @@ import Projects from './components/pages/projects/Projects';
 // TODO: Talvez transformar item do card em um componente separado
 // TODO: Transformar as sublistas em um componente separado
 // TODO: Talvez melhorar agrupamento da groupByList caso o usuário queira mudar agrupamentos de type ou stack ou os dois juntos
-// TODO: Criar lista de links de prod e git nos cards
+// TODO: Criar listas de links de prod e git nos cards
 // TODO: Fazer filtros nas páginas
 // TODO: Talvez fazer paginação
 // TODO: Instalar biblioteca chart.js e fazer gráficos

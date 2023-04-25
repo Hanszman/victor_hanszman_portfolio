@@ -2,25 +2,12 @@
 import './Home.css';
 import { useTranslation } from 'react-i18next';
 import profilePic from '../../../assets/img/profile/vh_profile.jpeg';
-import { formatDateString } from '../../../utils/Utils';
+import { getAge, formatDateString } from '../../../utils/Utils';
 
 // Component
 function Home() {
     // Declarations
     const { t } = useTranslation();
-
-    // Functions
-    function getAge(dateString) {
-        const today = new Date();
-        const date = new Date(dateString);
-        let birthDate = new Date(date.toISOString().slice(0, -1));
-        let age = today.getFullYear() - birthDate.getFullYear();
-        let m = today.getMonth() - birthDate.getMonth();
-        if (m < 0 || (m === 0 && today.getDate() < birthDate.getDate())) {
-            age--;
-        }
-        return age;
-    }
 
     return (
         <div>
@@ -35,9 +22,8 @@ function Home() {
                 <div className='infoText'>
                     <p className='text'>
                         <span className='boldText'>{t('Age')}: </span>
-                        {getAge('1996-11-09')} {t('YearsOld')}
+                        {getAge('1996-11-09')} {t('YearsOld')} ({formatDateString('1996-11-09')})
                     </p>
-                    {formatDateString('1996-11-09')}
                     <p className='text'>
                         <span className='boldText'>{t('CivilStatus')}: </span>
                         {t('Married')}
