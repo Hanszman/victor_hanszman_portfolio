@@ -7,6 +7,8 @@ import profilePic from '../../../assets/img/profile/vh_profile.jpeg';
 function Home() {
     // Declarations
     const { t } = useTranslation();
+
+    // Functions
     function getAge(dateString) {
         var today = new Date();
         var birthDate = new Date(dateString);
