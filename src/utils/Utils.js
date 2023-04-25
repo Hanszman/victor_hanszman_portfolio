@@ -13,7 +13,8 @@ const addZeroes = (num, len) => {
 };
 
 const formatDateString = (dateString) => {
-    const date = new Date(dateString);
+    const newDate = new Date(dateString);
+    const date = new Date(newDate.toISOString().slice(0, -1));
     const day = addZeroes(date.getDate().toString(), 2);
     const month = addZeroes(date.getMonth() + 1, 2).toString();
     const year = date.getFullYear();
@@ -28,7 +29,7 @@ const formatDateString = (dateString) => {
 };
 
 // Exportation
-export default {
+export {
     addZeroes,
     formatDateString
 };

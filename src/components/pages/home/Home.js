@@ -2,6 +2,7 @@
 import './Home.css';
 import { useTranslation } from 'react-i18next';
 import profilePic from '../../../assets/img/profile/vh_profile.jpeg';
+import { formatDateString } from '../../../utils/Utils';
 
 // Component
 function Home() {
@@ -10,10 +11,11 @@ function Home() {
 
     // Functions
     function getAge(dateString) {
-        var today = new Date();
-        var birthDate = new Date(dateString);
-        var age = today.getFullYear() - birthDate.getFullYear();
-        var m = today.getMonth() - birthDate.getMonth();
+        const today = new Date();
+        const date = new Date(dateString);
+        let birthDate = new Date(date.toISOString().slice(0, -1));
+        let age = today.getFullYear() - birthDate.getFullYear();
+        let m = today.getMonth() - birthDate.getMonth();
         if (m < 0 || (m === 0 && today.getDate() < birthDate.getDate())) {
             age--;
         }
@@ -35,6 +37,7 @@ function Home() {
                         <span className='boldText'>{t('Age')}: </span>
                         {getAge('1996-11-09')} {t('YearsOld')}
                     </p>
+                    {formatDateString('1996-11-09')}
                     <p className='text'>
                         <span className='boldText'>{t('CivilStatus')}: </span>
                         {t('Married')}
