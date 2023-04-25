@@ -55,6 +55,7 @@
                 "dbeaver",
                 "visualstudiocode",
                 "github",
+                "git",
                 "heroku"
             ]
         },
@@ -85,7 +86,8 @@
                 "mysql",
                 "dbeaver",
                 "visualstudiocode",
-                "github"
+                "github",
+                "git"
             ]
         },
         {
@@ -110,7 +112,8 @@
                 "jsx",
                 "npm",
                 "visualstudiocode",
-                "github"
+                "github",
+                "git"
             ]
         },
         {
@@ -138,7 +141,8 @@
                 "npm",
                 "mongodb",
                 "visualstudiocode",
-                "github"
+                "github",
+                "git"
             ]
         },
         {
@@ -165,7 +169,8 @@
                 "node",
                 "npm",
                 "visualstudiocode",
-                "github"
+                "github",
+                "git"
             ]
         },
         {
@@ -191,6 +196,7 @@
                 "npm",
                 "visualstudiocode",
                 "github",
+                "git",
                 "vercel"
             ]
         },
@@ -217,7 +223,8 @@
                 "html",
                 "css",
                 "visualstudiocode",
-                "github"
+                "github",
+                "git"
             ]
         },
         {
@@ -243,7 +250,8 @@
                 "bootstrap",
                 "npm",
                 "visualstudiocode",
-                "github"
+                "github",
+                "git"
             ]
         },
         {
@@ -269,8 +277,11 @@
                 "json",
                 "node",
                 "npm",
+                "mysql",
+                "dbeaver",
                 "visualstudiocode",
-                "github"
+                "github",
+                "git"
             ]
         },
         {
@@ -301,6 +312,7 @@
                 "dbeaver",
                 "visualstudiocode",
                 "github",
+                "git",
                 "jenkins",
                 "scrum"
             ]
@@ -334,6 +346,7 @@
                 "dbeaver",
                 "visualstudiocode",
                 "github",
+                "git",
                 "azure",
                 "scrum"
             ]
@@ -370,6 +383,7 @@
                 "dbeaver",
                 "visualstudiocode",
                 "gitlab",
+                "git",
                 "azure",
                 "aws",
                 "scrum"
@@ -399,6 +413,7 @@
                 "jquery",
                 "visualstudiocode",
                 "gitlab",
+                "git",
                 "azure",
                 "aws",
                 "scrum"
@@ -431,6 +446,7 @@
                 "dbeaver",
                 "phpstorm",
                 "gitlab",
+                "git",
                 "aws",
                 "kanban"
             ]
@@ -461,6 +477,7 @@
                 "dbeaver",
                 "phpstorm",
                 "gitlab",
+                "git",
                 "aws",
                 "kanban"
             ]
@@ -491,6 +508,7 @@
                 "dbeaver",
                 "phpstorm",
                 "gitlab",
+                "git",
                 "aws",
                 "kanban"
             ]
@@ -518,6 +536,7 @@
                 "npm",
                 "phpstorm",
                 "gitlab",
+                "git",
                 "aws",
                 "kanban"
             ]

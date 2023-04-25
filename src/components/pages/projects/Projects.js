@@ -46,7 +46,7 @@ function Projects() {
             <h1 className='highText centerText boldText'>{t('Projects')}</h1>
             <CardGroup
                 arrayObject={projects}
-                arrayDetails={['description']}
+                arrayDetails={['description','startDate','endDate']}
                 arrayLists={technologiesGroups}
                 arrayListsTitle='technologies'
                 classCard='cardLong'

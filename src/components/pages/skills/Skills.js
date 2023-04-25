@@ -20,7 +20,7 @@ function Skills() {
             <h2 className='text boldText'>{t('formations')}:</h2>
             <CardGroup
                 arrayObject={formations}
-                arrayDetails={['title','level','institution', 'startDate', 'endDate']}
+                arrayDetails={['title','level','institution','startDate','endDate']}
                 classCard='cardLong'
                 classImg='cardImgIcon'
             >
