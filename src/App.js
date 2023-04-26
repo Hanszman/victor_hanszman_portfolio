@@ -11,6 +11,7 @@ import Projects from './components/pages/projects/Projects';
 // TODO: Generalizar no arquivo utils as funções groupByList
 // TODO: Passar tipagem dos atributos no arrayDetails do CardGroup
 // TODO: Tratar as datas dos componentes com a função do arquivo utils
+// TODO: Acrescentar o campo array de intervalos de experiência em cada tecnologia e adaptar a função getAge para isso
 // TODO: Agrupar arrayLists e arrayListsTitle no mesmo objeto
 // TODO: Enviar mais de um vetor no arrayLists
 // TODO: Talvez transformar item do card em um componente separado
