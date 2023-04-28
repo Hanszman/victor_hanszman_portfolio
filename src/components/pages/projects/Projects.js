@@ -12,6 +12,11 @@ function Projects() {
     // Declarations
     const { t } = useTranslation();
     const projects = projectsJson.projects;
+    const projectsArrayDetails = [
+        { type: 'string', detail: 'description' },
+        { type: 'date', detail: 'startDate' },
+        { type: 'date', detail: 'endDate' }
+    ];
     const technologies = skillsJson.skills.technologies;
     const [technologiesGroups, setTechnologiesGroups] = useState([]);
 
@@ -24,7 +29,7 @@ function Projects() {
             <h1 className='highText centerText boldText'>{t('Projects')}</h1>
             <CardGroup
                 arrayObject={projects}
-                arrayDetails={['description','startDate','endDate']}
+                arrayDetails={projectsArrayDetails}
                 arrayLists={technologiesGroups}
                 arrayListsTitle='technologies'
                 classCard='cardLong'

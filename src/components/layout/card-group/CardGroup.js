@@ -1,6 +1,7 @@
 // Imports
 import './CardGroup.css';
 import { useTranslation } from 'react-i18next';
+import { formatDateString } from '../../../utils/Utils';
 
 // Component
 function CardGroup(props) {
@@ -17,6 +18,18 @@ function CardGroup(props) {
             });
         });
         return finalArray;
+    }
+
+    function formatTypeDetail(type, detail) {
+        console.log(type)
+        console.log(detail)
+        let result = '';
+        if (type === 'date') {
+            result = detail ? formatDateString(detail) : `(${t('currently')})`;
+        } else {
+            result = t(detail) ? t(detail) : detail;
+        }
+        return result;
     }
 
     return (
@@ -43,12 +56,12 @@ function CardGroup(props) {
                                 {
                                     props.arrayDetails && props.arrayDetails.length > 0 && props.arrayDetails.map((detail) => (
                                         <p
-                                            key={detail}
+                                            key={detail.detail}
                                             className='card-text text'>
                                             <span className='boldText'>
-                                                {t(detail) ? t(detail) : detail}:&nbsp;
+                                                {t(detail.detail) ? t(detail.detail) : detail.detail}:&nbsp;
                                             </span>
-                                            {t(item[detail]) ? t(item[detail]) : item[detail]}
+                                            {formatTypeDetail(detail.type, item[detail.detail])}
                                         </p>
                                     ))
                                 }

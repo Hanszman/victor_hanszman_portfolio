@@ -22,6 +22,7 @@
         "certificate": "Certificate",
         "startDate": "Start Date",
         "endDate": "End Date",
+        "currently": "Atualmente",
         "formations": "Formations",
         "languages": "Languages",
         "technologies": "Technologies",

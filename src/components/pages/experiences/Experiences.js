@@ -11,6 +11,7 @@ function Experiences() {
     // Declarations
     const { t } = useTranslation();
     const jobs = experiencesJson.experiences.jobs;
+    const jobsArrayDetails = [];
     // const customers = experiencesJson.experiences.customers;
     // const projects = projectsJson.projects;
     // const technologies = skillsJson.skills.technologies;
@@ -20,7 +21,7 @@ function Experiences() {
             <h1 className='highText centerText boldText'>{t('Experiences')}</h1>
             <CardGroup
                 arrayObject={jobs}
-                arrayDetails={[]}
+                arrayDetails={jobsArrayDetails}
                 classCard='cardLong'
                 classImg='cardImgIcon'
             >

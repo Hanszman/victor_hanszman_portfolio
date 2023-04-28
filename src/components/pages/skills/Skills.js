@@ -9,9 +9,24 @@ import skillsJson from '../../../db/skills.json';
 function Skills() {
     // Declarations
     const { t } = useTranslation();
-    const technologies = skillsJson.skills.technologies;
-    const languages = skillsJson.skills.languages;
     const formations = skillsJson.skills.formations;
+    const formationsArrayDetails = [
+        { type: 'string', detail: 'title' },
+        { type: 'string', detail: 'level' },
+        { type: 'string', detail: 'institution' },
+        { type: 'date', detail: 'startDate' },
+        { type: 'date', detail: 'endDate' }
+    ];
+    const languages = skillsJson.skills.languages;
+    const languagesArrayDetails = [
+        { type: 'string', detail: 'level' }
+    ];
+    const technologies = skillsJson.skills.technologies;
+    const technologiesArrayDetails = [
+        { type: 'string', detail: 'level' },
+        { type: 'string', detail: 'type' },
+        { type: 'string', detail: 'stack' }
+    ];
     // const projects = projectsJson.projects;
 
     return (
@@ -20,7 +35,7 @@ function Skills() {
             <h2 className='text boldText'>{t('formations')}:</h2>
             <CardGroup
                 arrayObject={formations}
-                arrayDetails={['title','level','institution','startDate','endDate']}
+                arrayDetails={formationsArrayDetails}
                 classCard='cardLong'
                 classImg='cardImgIcon'
             >
@@ -28,7 +43,7 @@ function Skills() {
             <h2 className='text boldText'>{t('languages')}:</h2>
             <CardGroup
                 arrayObject={languages}
-                arrayDetails={['level']}
+                arrayDetails={languagesArrayDetails}
                 classCard='cardShort'
                 classImg='cardImgIcon'
             >
@@ -36,7 +51,7 @@ function Skills() {
             <h2 className='text boldText'>{t('technologies')}:</h2>
             <CardGroup
                 arrayObject={technologies}
-                arrayDetails={['level','type','stack']}
+                arrayDetails={technologiesArrayDetails}
                 classCard='cardShort'
                 classImg='cardImgIcon'
             >
