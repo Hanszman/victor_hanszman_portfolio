@@ -40,9 +40,32 @@ const getAge = (dateString) => {
     return age;
 }
 
+const groupByList = (list, group, nameObject, classGroup) => {
+    const newObject = {};
+    const newList = [];
+    for (let i = 0; i < list.length; i++) {
+        if (!newObject.hasOwnProperty(list[i][group])) {
+            newObject[list[i][group]] = [];
+        }
+        newObject[list[i][group]].push(list[i]);
+    }
+    Object.keys(newObject).forEach((item) => {
+        if (newObject[item] && newObject[item].length > 0) {
+            newList.push({
+                name: item,
+                class: classGroup,
+                object: nameObject,
+                compare: newObject[item]
+            });
+        }
+    });
+    return newList;
+}
+
 // Exportation
 export {
     addZeroes,
     formatDateString,
-    getAge
+    getAge,
+    groupByList
 };

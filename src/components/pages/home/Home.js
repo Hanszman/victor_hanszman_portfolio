@@ -1,8 +1,8 @@
 // Imports
 import './Home.css';
 import { useTranslation } from 'react-i18next';
-import profilePic from '../../../assets/img/profile/vh_profile.jpeg';
 import { getAge, formatDateString } from '../../../utils/Utils';
+import profilePic from '../../../assets/img/profile/vh_profile.jpeg';
 
 // Component
 function Home() {

@@ -2,6 +2,7 @@
 import './Projects.css';
 import { useState, useEffect } from 'react';
 import { useTranslation } from 'react-i18next';
+import { groupByList } from '../../../utils/Utils';
 import CardGroup from '../../layout/card-group/CardGroup';
 import projectsJson from '../../../db/projects.json';
 import skillsJson from '../../../db/skills.json';
@@ -15,31 +16,8 @@ function Projects() {
     const [technologiesGroups, setTechnologiesGroups] = useState([]);
 
     useEffect(() => {
-        setTechnologiesGroups(groupByList(technologies, 'stack', 'technologies'));
+        setTechnologiesGroups(groupByList(technologies, 'stack', 'technologies', 'cardGroupList'));
     }, []);
-
-    // Functions
-    function groupByList(list, group, nameObject) {
-        const newObject = {};
-        const newList = [];
-        for (let i = 0; i < list.length; i++) {
-            if (!newObject.hasOwnProperty(list[i][group])) {
-                newObject[list[i][group]] = [];
-            }
-            newObject[list[i][group]].push(list[i]);
-        }
-        Object.keys(newObject).forEach((item) => {
-            if (newObject[item] && newObject[item].length > 0) {
-                newList.push({
-                    name: item,
-                    class: 'cardGroupList',
-                    object: nameObject,
-                    compare: newObject[item]
-                });
-            }
-        });
-        return newList;
-    }
 
     return (
         <div>
