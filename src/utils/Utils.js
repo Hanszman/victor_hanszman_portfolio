@@ -28,9 +28,9 @@ const formatDateString = (dateString) => {
     return formatedDate;
 };
 
-const getAge = (dateString) => {
-    const today = new Date();
-    const date = new Date(dateString);
+const getAge = (firstDate, lastDate = '') => {
+    const today = lastDate ? new Date(lastDate) : new Date();
+    const date = new Date(firstDate);
     let birthDate = new Date(date.toISOString().slice(0, -1));
     let age = today.getFullYear() - birthDate.getFullYear();
     let m = today.getMonth() - birthDate.getMonth();
