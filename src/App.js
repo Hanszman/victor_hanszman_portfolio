@@ -20,6 +20,7 @@ import Projects from './components/pages/projects/Projects';
 // TODO: Instalar biblioteca chart.js e fazer gráficos
 // TODO: Talvez fazer página sobre meus gostos e vida pessoal
 // TODO: Terminar de fazer os projetos que estão inacabados, fazer o deploy deles e atualizar os dados deles nos jsons do portfólio
+// TODO: Colocar nos README de todos os projetos as versões das tecnologias para facilitar a instação
 
 // Component
 function App() {
