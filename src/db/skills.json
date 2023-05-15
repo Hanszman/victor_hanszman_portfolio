@@ -7,7 +7,19 @@
                 "level": "Beginner",
                 "imgIcon": "skills/ajax.png",
                 "type": "Techniques",
-                "stack": "FrontEnd"
+                "stack": "FrontEnd",
+                "intervalExperiencie": [
+                    {
+                        "startDate": "2017-08-01",
+                        "endDate": "2017-12-01",
+                        "type": "formations"
+                    },
+                    {
+                        "startDate": "2018-09-03",
+                        "endDate": "2020-04-01",
+                        "type": "jobs"
+                    }
+                ]
             },
             {
                 "code": "angular",
@@ -15,7 +27,19 @@
                 "level": "Advanced",
                 "imgIcon": "skills/angular.png",
                 "type": "Frameworks",
-                "stack": "FrontEnd"
+                "stack": "FrontEnd",
+                "intervalExperiencie": [
+                    {
+                        "startDate": "2020-04-01",
+                        "endDate": "2020-03-30",
+                        "type": "jobs"
+                    },
+                    {
+                        "startDate": "2020-04-01",
+                        "endDate": "",
+                        "type": "jobs"
+                    }
+                ]
             },
             {
                 "code": "aws",
@@ -23,7 +47,14 @@
                 "level": "Beginner",
                 "imgIcon": "skills/aws.png",
                 "type": "CloudHostingPlataforms",
-                "stack": "Others"
+                "stack": "Others",
+                "intervalExperiencie": [
+                    {
+                        "startDate": "2018-09-03",
+                        "endDate": "2020-04-01",
+                        "type": "jobs"
+                    }
+                ]
             },
             {
                 "code": "azure",
@@ -31,7 +62,14 @@
                 "level": "Beginner",
                 "imgIcon": "skills/azure.png",
                 "type": "VersioningPlatforms",
-                "stack": "Others"
+                "stack": "Others",
+                "intervalExperiencie": [
+                    {
+                        "startDate": "2021-04-01",
+                        "endDate": "2022-03-01",
+                        "type": "jobs"
+                    }
+                ]
             },
             {
                 "code": "bootstrap",
@@ -39,7 +77,19 @@
                 "level": "Advanced",
                 "imgIcon": "skills/bootstrap.png",
                 "type": "Frameworks",
-                "stack": "FrontEnd"
+                "stack": "FrontEnd",
+                "intervalExperiencie": [
+                    {
+                        "startDate": "2017-08-01",
+                        "endDate": "2018-12-01",
+                        "type": "formations"
+                    },
+                    {
+                        "startDate": "2020-04-01",
+                        "endDate": "",
+                        "type": "jobs"
+                    }
+                ]
             },
             {
                 "code": "chart",
@@ -47,7 +97,14 @@
                 "level": "Intermediate",
                 "imgIcon": "skills/chart.png",
                 "type": "Libraries",
-                "stack": "FrontEnd"
+                "stack": "FrontEnd",
+                "intervalExperiencie": [
+                    {
+                        "startDate": "2020-04-01",
+                        "endDate": "2021-09-23",
+                        "type": "jobs"
+                    }
+                ]
             },
             {
                 "code": "composer",
@@ -55,7 +112,19 @@
                 "level": "Intermediate",
                 "imgIcon": "skills/composer.png",
                 "type": "PackageManagers",
-                "stack": "Others"
+                "stack": "Others",
+                "intervalExperiencie": [
+                    {
+                        "startDate": "2018-01-01",
+                        "endDate": "2018-12-01",
+                        "type": "formations"
+                    },
+                    {
+                        "startDate": "2020-04-01",
+                        "endDate": "2021-09-23",
+                        "type": "jobs"
+                    }
+                ]
             },
             {
                 "code": "csharp",
@@ -63,7 +132,14 @@
                 "level": "Beginner",
                 "imgIcon": "skills/csharp.png",
                 "type": "ProgrammingLanguages",
-                "stack": "BackEnd"
+                "stack": "BackEnd",
+                "intervalExperiencie": [
+                    {
+                        "startDate": "2015-01-01",
+                        "endDate": "2016-06-01",
+                        "type": "formations"
+                    }
+                ]
             },
             {
                 "code": "css",
@@ -71,7 +147,19 @@
                 "level": "Advanced",
                 "imgIcon": "skills/css.png",
                 "type": "WebLanguages",
-                "stack": "FrontEnd"
+                "stack": "FrontEnd",
+                "intervalExperiencie": [
+                    {
+                        "startDate": "2017-01-01",
+                        "endDate": "2018-09-03",
+                        "type": "formations"
+                    },
+                    {
+                        "startDate": "2018-09-03",
+                        "endDate": "",
+                        "type": "jobs"
+                    }
+                ]
             },
             {
                 "code": "dbeaver",
@@ -79,7 +167,19 @@
                 "level": "Advanced",
                 "imgIcon": "skills/dbeaver.png",
                 "type": "DatabasesManagementSystems",
-                "stack": "DataBases"
+                "stack": "DataBases",
+                "intervalExperiencie": [
+                    {
+                        "startDate": "2018-09-03",
+                        "endDate": "2022-03-01",
+                        "type": "jobs"
+                    },
+                    {
+                        "startDate": "2022-03-01",
+                        "endDate": "",
+                        "type": "personal"
+                    }
+                ]
             },
             {
                 "code": "expo",
@@ -87,7 +187,14 @@
                 "level": "Studing",
                 "imgIcon": "skills/expo.png",
                 "type": "DevelopmentPlataforms",
-                "stack": "Mobile"
+                "stack": "Mobile",
+                "intervalExperiencie": [
+                    {
+                        "startDate": "2023-02-02",
+                        "endDate": "2023-02-03",
+                        "type": "personal"
+                    }
+                ]
             },
             {
                 "code": "express",
@@ -95,7 +202,24 @@
                 "level": "Intermediate",
                 "imgIcon": "skills/express.png",
                 "type": "Frameworks",
-                "stack": "BackEnd"
+                "stack": "BackEnd",
+                "intervalExperiencie": [
+                    {
+                        "startDate": "2019-03-01",
+                        "endDate": "2020-04-01",
+                        "type": "formations"
+                    },
+                    {
+                        "startDate": "2020-04-01",
+                        "endDate": "2022-03-01",
+                        "type": "jobs"
+                    },
+                    {
+                        "startDate": "2022-03-01",
+                        "endDate": "",
+                        "type": "personal"
+                    }
+                ]
             },
             {
                 "code": "git",
@@ -103,7 +227,19 @@
                 "level": "Advanced",
                 "imgIcon": "skills/git.png",
                 "type": "VersioningPlatforms",
-                "stack": "Others"
+                "stack": "Others",
+                "intervalExperiencie": [
+                    {
+                        "startDate": "2017-09-01",
+                        "endDate": "2017-10-01",
+                        "type": "formations"
+                    },
+                    {
+                        "startDate": "2018-09-03",
+                        "endDate": "",
+                        "type": "jobs"
+                    }
+                ]
             },
             {
                 "code": "github",
@@ -111,7 +247,24 @@
                 "level": "Advanced",
                 "imgIcon": "skills/github.png",
                 "type": "VersioningPlatforms",
-                "stack": "Others"
+                "stack": "Others",
+                "intervalExperiencie": [
+                    {
+                        "startDate": "2017-09-01",
+                        "endDate": "2017-10-01",
+                        "type": "formations"
+                    },
+                    {
+                        "startDate": "2019-06-01",
+                        "endDate": "2022-03-01",
+                        "type": "personal"
+                    },
+                    {
+                        "startDate": "2022-03-01",
+                        "endDate": "",
+                        "type": "jobs"
+                    }
+                ]
             },
             {
                 "code": "gitlab",
@@ -119,7 +272,14 @@
                 "level": "Advanced",
                 "imgIcon": "skills/gitlab.png",
                 "type": "VersioningPlatforms",
-                "stack": "Others"
+                "stack": "Others",
+                "intervalExperiencie": [
+                    {
+                        "startDate": "2018-09-03",
+                        "endDate": "2021-09-23",
+                        "type": "jobs"
+                    }
+                ]
             },
             {
                 "code": "heroku",
@@ -127,7 +287,14 @@
                 "level": "Intermediate",
                 "imgIcon": "skills/heroku.png",
                 "type": "CloudHostingPlataforms",
-                "stack": "Others"
+                "stack": "Others",
+                "intervalExperiencie": [
+                    {
+                        "startDate": "2020-10-01",
+                        "endDate": "2021-06-01",
+                        "type": "formations"
+                    }
+                ]
             },
             {
                 "code": "html",
@@ -135,7 +302,19 @@
                 "level": "Advanced",
                 "imgIcon": "skills/html.png",
                 "type": "WebLanguages",
-                "stack": "FrontEnd"
+                "stack": "FrontEnd",
+                "intervalExperiencie": [
+                    {
+                        "startDate": "2017-01-01",
+                        "endDate": "2018-09-03",
+                        "type": "formations"
+                    },
+                    {
+                        "startDate": "2018-09-03",
+                        "endDate": "",
+                        "type": "jobs"
+                    }
+                ]
             },
             {
                 "code": "java",
@@ -143,7 +322,14 @@
                 "level": "Beginner",
                 "imgIcon": "skills/java.png",
                 "type": "ProgrammingLanguages",
-                "stack": "BackEnd"
+                "stack": "BackEnd",
+                "intervalExperiencie": [
+                    {
+                        "startDate": "2015-08-01",
+                        "endDate": "2015-12-01",
+                        "type": "formations"
+                    }
+                ]
             },
             {
                 "code": "javascript",
@@ -151,7 +337,19 @@
                 "level": "Advanced",
                 "imgIcon": "skills/javascript.png",
                 "type": "ProgrammingLanguages",
-                "stack": "FrontEnd"
+                "stack": "FrontEnd",
+                "intervalExperiencie": [
+                    {
+                        "startDate": "2017-08-01",
+                        "endDate": "2018-09-03",
+                        "type": "formations"
+                    },
+                    {
+                        "startDate": "2018-09-03",
+                        "endDate": "",
+                        "type": "jobs"
+                    }
+                ]
             },
             {
                 "code": "jenkins",
@@ -159,15 +357,34 @@
                 "level": "Beginner",
                 "imgIcon": "skills/jenkins.png",
                 "type": "DeploymentTools",
-                "stack": "Others"
+                "stack": "Others",
+                "intervalExperiencie": [
+                    {
+                        "startDate": "2022-03-01",
+                        "endDate": "",
+                        "type": "jobs"
+                    }
+                ]
             },
             {
                 "code": "jquery",
                 "name": "jQuery",
-                "level": "Beginner",
+                "level": "Intermediate",
                 "imgIcon": "skills/jquery.png",
                 "type": "Libraries",
-                "stack": "FrontEnd"
+                "stack": "FrontEnd",
+                "intervalExperiencie": [
+                    {
+                        "startDate": "2017-08-01",
+                        "endDate": "2018-09-03",
+                        "type": "formations"
+                    },
+                    {
+                        "startDate": "2018-09-03",
+                        "endDate": "2021-09-23",
+                        "type": "jobs"
+                    }
+                ]
             },
             {
                 "code": "json",
@@ -175,7 +392,19 @@
                 "level": "Advanced",
                 "imgIcon": "skills/json.png",
                 "type": "ObjectNotations",
-                "stack": "Others"
+                "stack": "Others",
+                "intervalExperiencie": [
+                    {
+                        "startDate": "2017-08-01",
+                        "endDate": "2018-09-03",
+                        "type": "formations"
+                    },
+                    {
+                        "startDate": "2018-09-03",
+                        "endDate": "",
+                        "type": "jobs"
+                    }
+                ]
             },
             {
                 "code": "jsx",
@@ -183,7 +412,14 @@
                 "level": "Studing",
                 "imgIcon": "skills/jsx.png",
                 "type": "Techniques",
-                "stack": "Others"
+                "stack": "Others",
+                "intervalExperiencie": [
+                    {
+                        "startDate": "2022-11-10",
+                        "endDate": "",
+                        "type": "personal"
+                    }
+                ]
             },
             {
                 "code": "kanban",
@@ -191,7 +427,14 @@
                 "level": "Advanced",
                 "imgIcon": "skills/kanban.png",
                 "type": "Methodologies",
-                "stack": "Others"
+                "stack": "Others",
+                "intervalExperiencie": [
+                    {
+                        "startDate": "2018-09-03",
+                        "endDate": "2020-04-01",
+                        "type": "jobs"
+                    }
+                ]
             },
             {
                 "code": "knex",
@@ -199,7 +442,14 @@
                 "level": "Intermediate",
                 "imgIcon": "skills/knex.png",
                 "type": "Libraries",
-                "stack": "BackEnd"
+                "stack": "BackEnd",
+                "intervalExperiencie": [
+                    {
+                        "startDate": "",
+                        "endDate": "",
+                        "type": ""
+                    }
+                ]
             },
             {
                 "code": "laravel",
@@ -207,7 +457,19 @@
                 "level": "Intermediate",
                 "imgIcon": "skills/laravel.png",
                 "type": "Frameworks",
-                "stack": "BackEnd"
+                "stack": "BackEnd",
+                "intervalExperiencie": [
+                    {
+                        "startDate": "2018-01-01",
+                        "endDate": "2018-12-01",
+                        "type": "formations"
+                    },
+                    {
+                        "startDate": "2020-04-01",
+                        "endDate": "2021-09-23",
+                        "type": "jobs"
+                    }
+                ]
             },
             {
                 "code": "mongodb",
@@ -215,7 +477,14 @@
                 "level": "Studing",
                 "imgIcon": "skills/mongodb.png",
                 "type": "NonRelationals",
-                "stack": "DataBases"
+                "stack": "DataBases",
+                "intervalExperiencie": [
+                    {
+                        "startDate": "",
+                        "endDate": "",
+                        "type": ""
+                    }
+                ]
             },
             {
                 "code": "mysql",
@@ -223,7 +492,14 @@
                 "level": "Advanced",
                 "imgIcon": "skills/mysql.png",
                 "type": "Relationals",
-                "stack": "DataBases"
+                "stack": "DataBases",
+                "intervalExperiencie": [
+                    {
+                        "startDate": "",
+                        "endDate": "",
+                        "type": ""
+                    }
+                ]
             },
             {
                 "code": "node",
@@ -231,7 +507,24 @@
                 "level": "Advanced",
                 "imgIcon": "skills/node.png",
                 "type": "ProgrammingLanguages",
-                "stack": "BackEnd"
+                "stack": "BackEnd",
+                "intervalExperiencie": [
+                    {
+                        "startDate": "2019-03-01",
+                        "endDate": "2020-04-01",
+                        "type": "formations"
+                    },
+                    {
+                        "startDate": "2020-04-01",
+                        "endDate": "2022-03-01",
+                        "type": "jobs"
+                    },
+                    {
+                        "startDate": "2022-03-01",
+                        "endDate": "",
+                        "type": "personal"
+                    }
+                ]
             },
             {
                 "code": "notepadplusplus",
@@ -239,7 +532,14 @@
                 "level": "Advanced",
                 "imgIcon": "skills/notepadplusplus.png",
                 "type": "CodeEditors",
-                "stack": "Others"
+                "stack": "Others",
+                "intervalExperiencie": [
+                    {
+                        "startDate": "",
+                        "endDate": "",
+                        "type": ""
+                    }
+                ]
             },
             {
                 "code": "npm",
@@ -247,7 +547,14 @@
                 "level": "Advanced",
                 "imgIcon": "skills/npm.png",
                 "type": "PackageManagers",
-                "stack": "Others"
+                "stack": "Others",
+                "intervalExperiencie": [
+                    {
+                        "startDate": "",
+                        "endDate": "",
+                        "type": ""
+                    }
+                ]
             },
             {
                 "code": "php",
@@ -255,7 +562,19 @@
                 "level": "Advanced",
                 "imgIcon": "skills/php.png",
                 "type": "ProgrammingLanguages",
-                "stack": "BackEnd"
+                "stack": "BackEnd",
+                "intervalExperiencie": [
+                    {
+                        "startDate": "2017-08-01",
+                        "endDate": "2018-09-03",
+                        "type": "formations"
+                    },
+                    {
+                        "startDate": "2018-09-03",
+                        "endDate": "2021-09-23",
+                        "type": "jobs"
+                    }
+                ]
             },
             {
                 "code": "phpstorm",
@@ -263,7 +582,14 @@
                 "level": "Advanced",
                 "imgIcon": "skills/phpstorm.png",
                 "type": "CodeEditors",
-                "stack": "Others"
+                "stack": "Others",
+                "intervalExperiencie": [
+                    {
+                        "startDate": "",
+                        "endDate": "",
+                        "type": ""
+                    }
+                ]
             },
             {
                 "code": "postgresql",
@@ -271,7 +597,14 @@
                 "level": "Intermediate",
                 "imgIcon": "skills/postgresql.png",
                 "type": "Relationals",
-                "stack": "DataBases"
+                "stack": "DataBases",
+                "intervalExperiencie": [
+                    {
+                        "startDate": "",
+                        "endDate": "",
+                        "type": ""
+                    }
+                ]
             },
             {
                 "code": "react",
@@ -279,7 +612,14 @@
                 "level": "Studing",
                 "imgIcon": "skills/react.png",
                 "type": "Libraries",
-                "stack": "FrontEnd"
+                "stack": "FrontEnd",
+                "intervalExperiencie": [
+                    {
+                        "startDate": "2022-11-10",
+                        "endDate": "",
+                        "type": "personal"
+                    }
+                ]
             },
             {
                 "code": "reactnative",
@@ -287,7 +627,14 @@
                 "level": "Studing",
                 "imgIcon": "skills/reactnative.png",
                 "type": "Libraries",
-                "stack": "Mobile"
+                "stack": "Mobile",
+                "intervalExperiencie": [
+                    {
+                        "startDate": "2023-02-02",
+                        "endDate": "2023-02-03",
+                        "type": "personal"
+                    }
+                ]
             },
             {
                 "code": "sass",
@@ -295,7 +642,14 @@
                 "level": "Advanced",
                 "imgIcon": "skills/sass.png",
                 "type": "WebLanguages",
-                "stack": "FrontEnd"
+                "stack": "FrontEnd",
+                "intervalExperiencie": [
+                    {
+                        "startDate": "",
+                        "endDate": "",
+                        "type": ""
+                    }
+                ]
             },
             {
                 "code": "scrum",
@@ -303,7 +657,14 @@
                 "level": "Advanced",
                 "imgIcon": "skills/scrum.png",
                 "type": "Methodologies",
-                "stack": "Others"
+                "stack": "Others",
+                "intervalExperiencie": [
+                    {
+                        "startDate": "2020-04-01",
+                        "endDate": "",
+                        "type": "jobs"
+                    }
+                ]
             },
             {
                 "code": "sql",
@@ -311,7 +672,14 @@
                 "level": "Advanced",
                 "imgIcon": "skills/sql.png",
                 "type": "Relationals",
-                "stack": "DataBases"
+                "stack": "DataBases",
+                "intervalExperiencie": [
+                    {
+                        "startDate": "",
+                        "endDate": "",
+                        "type": ""
+                    }
+                ]
             },
             {
                 "code": "sqlserver",
@@ -319,7 +687,14 @@
                 "level": "Advanced",
                 "imgIcon": "skills/sqlserver.png",
                 "type": "Relationals",
-                "stack": "DataBases"
+                "stack": "DataBases",
+                "intervalExperiencie": [
+                    {
+                        "startDate": "",
+                        "endDate": "",
+                        "type": ""
+                    }
+                ]
             },
             {
                 "code": "typescript",
@@ -327,7 +702,14 @@
                 "level": "Advanced",
                 "imgIcon": "skills/typescript.png",
                 "type": "ProgrammingLanguages",
-                "stack": "FrontEnd"
+                "stack": "FrontEnd",
+                "intervalExperiencie": [
+                    {
+                        "startDate": "",
+                        "endDate": "",
+                        "type": ""
+                    }
+                ]
             },
             {
                 "code": "unity",
@@ -335,7 +717,14 @@
                 "level": "Studing",
                 "imgIcon": "skills/unity.png",
                 "type": "DevelopmentPlataforms",
-                "stack": "Games"
+                "stack": "Games",
+                "intervalExperiencie": [
+                    {
+                        "startDate": "",
+                        "endDate": "",
+                        "type": ""
+                    }
+                ]
             },
             {
                 "code": "vercel",
@@ -343,7 +732,14 @@
                 "level": "Studing",
                 "imgIcon": "skills/vercel.png",
                 "type": "CloudHostingPlataforms",
-                "stack": "Others"
+                "stack": "Others",
+                "intervalExperiencie": [
+                    {
+                        "startDate": "",
+                        "endDate": "",
+                        "type": ""
+                    }
+                ]
             },
             {
                 "code": "visualstudiocode",
@@ -351,7 +747,14 @@
                 "level": "Advanced",
                 "imgIcon": "skills/visualstudiocode.png",
                 "type": "CodeEditors",
-                "stack": "Others"
+                "stack": "Others",
+                "intervalExperiencie": [
+                    {
+                        "startDate": "",
+                        "endDate": "",
+                        "type": ""
+                    }
+                ]
             },
             {
                 "code": "visualstudio",
@@ -359,7 +762,14 @@
                 "level": "Beginner",
                 "imgIcon": "skills/visualstudio.png",
                 "type": "CodeEditors",
-                "stack": "Others"
+                "stack": "Others",
+                "intervalExperiencie": [
+                    {
+                        "startDate": "",
+                        "endDate": "",
+                        "type": ""
+                    }
+                ]
             },
             {
                 "code": "xampp",
@@ -367,7 +777,14 @@
                 "level": "Advanced",
                 "imgIcon": "skills/xampp.png",
                 "type": "Packages",
-                "stack": "Others"
+                "stack": "Others",
+                "intervalExperiencie": [
+                    {
+                        "startDate": "",
+                        "endDate": "",
+                        "type": ""
+                    }
+                ]
             },
             {
                 "code": "xml",
@@ -375,7 +792,14 @@
                 "level": "Intermediate",
                 "imgIcon": "skills/xml.png",
                 "type": "ObjectNotations",
-                "stack": "Others"
+                "stack": "Others",
+                "intervalExperiencie": [
+                    {
+                        "startDate": "",
+                        "endDate": "",
+                        "type": ""
+                    }
+                ]
             }
         ],
         "languages": [
