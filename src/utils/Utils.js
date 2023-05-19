@@ -28,16 +28,17 @@ const formatDateString = (dateString) => {
     return formatedDate;
 };
 
-const getAge = (firstDate, lastDate = '') => {
-    const today = lastDate ? new Date(lastDate) : new Date();
-    const date = new Date(firstDate);
-    let birthDate = new Date(date.toISOString().slice(0, -1));
-    let age = today.getFullYear() - birthDate.getFullYear();
-    let m = today.getMonth() - birthDate.getMonth();
-    if (m < 0 || (m === 0 && today.getDate() < birthDate.getDate())) {
-        age--;
+const getAge = (intervalArray) => {
+    const lastDate = intervalArray.endDate ? new Date(intervalArray.endDate) : new Date();
+    const firstDate = new Date(intervalArray.startDate);
+    const beginDate = new Date(firstDate.toISOString().slice(0, -1));
+    const monthDifference = lastDate.getMonth() - beginDate.getMonth();
+    const ageMonths = monthDifference >= 0 ? monthDifference : 12 + monthDifference;
+    let ageYears = lastDate.getFullYear() - beginDate.getFullYear();
+    if (monthDifference < 0 || (monthDifference === 0 && lastDate.getDate() < beginDate.getDate())) {
+        ageYears--;
     }
-    return age;
+    return {ageYears, ageMonths};
 }
 
 const groupByList = (list, group, nameObject, classGroup) => {

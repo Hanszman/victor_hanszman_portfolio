@@ -22,7 +22,7 @@ function Home() {
                 <div className='infoText'>
                     <p className='text'>
                         <span className='boldText'>{t('Age')}: </span>
-                        {getAge('1996-11-09')} {t('YearsOld')} ({formatDateString('1996-11-09')})
+                        {getAge({startDate: '1996-11-09'}).ageYears} {t('YearsOld')} ({formatDateString('1996-11-09')})
                     </p>
                     <p className='text'>
                         <span className='boldText'>{t('CivilStatus')}: </span>
