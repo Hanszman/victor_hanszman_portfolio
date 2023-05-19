@@ -1,7 +1,7 @@
 // Imports
 import './CardGroup.css';
 import { useTranslation } from 'react-i18next';
-import { formatDateString } from '../../../utils/Utils';
+import { sumAges, formatDateString } from '../../../utils/Utils';
 
 // Component
 function CardGroup(props) {
@@ -21,11 +21,11 @@ function CardGroup(props) {
     }
 
     function formatTypeDetail(type, detail) {
-        console.log(type)
-        console.log(detail)
         let result = '';
         if (type === 'date') {
             result = detail ? formatDateString(detail) : `(${t('currently')})`;
+        } else if (type === 'interval') {
+            result = detail && detail.length && detail.length > 0 ? sumAges(detail).full : '';
         } else {
             result = t(detail) ? t(detail) : detail;
         }

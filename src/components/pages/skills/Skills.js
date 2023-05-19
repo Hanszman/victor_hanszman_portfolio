@@ -25,7 +25,8 @@ function Skills() {
     const technologiesArrayDetails = [
         { type: 'string', detail: 'level' },
         { type: 'string', detail: 'type' },
-        { type: 'string', detail: 'stack' }
+        { type: 'string', detail: 'stack' },
+        { type: 'interval', detail: 'intervalExperiencie' },
     ];
     // const projects = projectsJson.projects;
 
