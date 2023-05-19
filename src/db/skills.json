@@ -31,11 +31,6 @@
                 "intervalExperiencie": [
                     {
                         "startDate": "2020-04-01",
-                        "endDate": "2020-03-30",
-                        "type": "jobs"
-                    },
-                    {
-                        "startDate": "2020-04-01",
                         "endDate": "",
                         "type": "jobs"
                     }
@@ -445,9 +440,9 @@
                 "stack": "BackEnd",
                 "intervalExperiencie": [
                     {
-                        "startDate": "",
-                        "endDate": "",
-                        "type": ""
+                        "startDate": "2020-04-01",
+                        "endDate": "2022-03-01",
+                        "type": "jobs"
                     }
                 ]
             },
@@ -480,9 +475,9 @@
                 "stack": "DataBases",
                 "intervalExperiencie": [
                     {
-                        "startDate": "",
-                        "endDate": "",
-                        "type": ""
+                        "startDate": "2023-02-02",
+                        "endDate": "2023-02-03",
+                        "type": "personal"
                     }
                 ]
             },
@@ -495,9 +490,19 @@
                 "stack": "DataBases",
                 "intervalExperiencie": [
                     {
-                        "startDate": "",
+                        "startDate": "2017-08-01",
+                        "endDate": "2018-09-03",
+                        "type": "formations"
+                    },
+                    {
+                        "startDate": "2018-09-03",
+                        "endDate": "2021-09-23",
+                        "type": "jobs"
+                    },
+                    {
+                        "startDate": "2021-09-23",
                         "endDate": "",
-                        "type": ""
+                        "type": "personal"
                     }
                 ]
             },
@@ -535,9 +540,9 @@
                 "stack": "Others",
                 "intervalExperiencie": [
                     {
-                        "startDate": "",
+                        "startDate": "2017-08-01",
                         "endDate": "",
-                        "type": ""
+                        "type": "personal"
                     }
                 ]
             },
@@ -550,9 +555,14 @@
                 "stack": "Others",
                 "intervalExperiencie": [
                     {
-                        "startDate": "",
+                        "startDate": "2019-03-01",
+                        "endDate": "2020-04-01",
+                        "type": "formations"
+                    },
+                    {
+                        "startDate": "2020-04-01",
                         "endDate": "",
-                        "type": ""
+                        "type": "jobs"
                     }
                 ]
             },
@@ -585,9 +595,9 @@
                 "stack": "Others",
                 "intervalExperiencie": [
                     {
-                        "startDate": "",
-                        "endDate": "",
-                        "type": ""
+                        "startDate": "2018-09-03",
+                        "endDate": "2020-04-01",
+                        "type": "jobs"
                     }
                 ]
             },
@@ -600,9 +610,9 @@
                 "stack": "DataBases",
                 "intervalExperiencie": [
                     {
-                        "startDate": "",
-                        "endDate": "",
-                        "type": ""
+                        "startDate": "2018-09-03",
+                        "endDate": "2020-04-01",
+                        "type": "jobs"
                     }
                 ]
             },
@@ -645,9 +655,9 @@
                 "stack": "FrontEnd",
                 "intervalExperiencie": [
                     {
-                        "startDate": "",
+                        "startDate": "2019-03-01",
                         "endDate": "",
-                        "type": ""
+                        "type": "jobs"
                     }
                 ]
             },
@@ -675,9 +685,19 @@
                 "stack": "DataBases",
                 "intervalExperiencie": [
                     {
-                        "startDate": "",
+                        "startDate": "2017-08-01",
+                        "endDate": "2018-09-03",
+                        "type": "formations"
+                    },
+                    {
+                        "startDate": "2018-09-03",
+                        "endDate": "2022-03-01",
+                        "type": "jobs"
+                    },
+                    {
+                        "startDate": "2022-03-01",
                         "endDate": "",
-                        "type": ""
+                        "type": "personal"
                     }
                 ]
             },
@@ -690,9 +710,24 @@
                 "stack": "DataBases",
                 "intervalExperiencie": [
                     {
-                        "startDate": "",
-                        "endDate": "",
-                        "type": ""
+                        "startDate": "2020-04-01",
+                        "endDate": "2022-03-01",
+                        "type": "jobs"
+                    }
+                ]
+            },
+            {
+                "code": "swagger",
+                "name": "Swagger",
+                "level": "Intermediate",
+                "imgIcon": "skills/swagger.png",
+                "type": "Libraries",
+                "stack": "BackEnd",
+                "intervalExperiencie": [
+                    {
+                        "startDate": "2020-04-01",
+                        "endDate": "2022-03-01",
+                        "type": "jobs"
                     }
                 ]
             },
@@ -705,9 +740,9 @@
                 "stack": "FrontEnd",
                 "intervalExperiencie": [
                     {
-                        "startDate": "",
+                        "startDate": "2020-04-01",
                         "endDate": "",
-                        "type": ""
+                        "type": "jobs"
                     }
                 ]
             },
@@ -720,9 +755,9 @@
                 "stack": "Games",
                 "intervalExperiencie": [
                     {
-                        "startDate": "",
+                        "startDate": "2021-09-01",
                         "endDate": "",
-                        "type": ""
+                        "type": "personal"
                     }
                 ]
             },
@@ -735,9 +770,9 @@
                 "stack": "Others",
                 "intervalExperiencie": [
                     {
-                        "startDate": "",
+                        "startDate": "2023-04-11",
                         "endDate": "",
-                        "type": ""
+                        "type": "personal"
                     }
                 ]
             },
@@ -750,9 +785,9 @@
                 "stack": "Others",
                 "intervalExperiencie": [
                     {
-                        "startDate": "",
+                        "startDate": "2020-04-01",
                         "endDate": "",
-                        "type": ""
+                        "type": "jobs"
                     }
                 ]
             },
@@ -765,9 +800,9 @@
                 "stack": "Others",
                 "intervalExperiencie": [
                     {
-                        "startDate": "",
-                        "endDate": "",
-                        "type": ""
+                        "startDate": "2015-01-01",
+                        "endDate": "2016-06-01",
+                        "type": "formations"
                     }
                 ]
             },
@@ -780,9 +815,14 @@
                 "stack": "Others",
                 "intervalExperiencie": [
                     {
-                        "startDate": "",
-                        "endDate": "",
-                        "type": ""
+                        "startDate": "2017-08-01",
+                        "endDate": "2018-09-03",
+                        "type": "formations"
+                    },
+                    {
+                        "startDate": "2018-09-03",
+                        "endDate": "2021-09-23",
+                        "type": "jobs"
                     }
                 ]
             },
@@ -795,9 +835,9 @@
                 "stack": "Others",
                 "intervalExperiencie": [
                     {
-                        "startDate": "",
-                        "endDate": "",
-                        "type": ""
+                        "startDate": "2020-04-01",
+                        "endDate": "2021-09-23",
+                        "type": "jobs"
                     }
                 ]
             }
