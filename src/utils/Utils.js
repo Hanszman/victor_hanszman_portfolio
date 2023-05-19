@@ -30,12 +30,13 @@ const formatDateString = (dateString) => {
 
 const getAge = (interval) => {
     const lastDate = interval.endDate ? new Date(interval.endDate) : new Date();
+    const endDate = new Date(lastDate.toISOString().slice(0, -1));
     const firstDate = new Date(interval.startDate);
-    const beginDate = new Date(firstDate.toISOString().slice(0, -1));
-    const monthDifference = lastDate.getMonth() - beginDate.getMonth();
+    const startDate = new Date(firstDate.toISOString().slice(0, -1));
+    const monthDifference = endDate.getMonth() - startDate.getMonth();
     const ageMonths = monthDifference >= 0 ? monthDifference : 12 + monthDifference;
-    let ageYears = lastDate.getFullYear() - beginDate.getFullYear();
-    if (monthDifference < 0 || (monthDifference === 0 && lastDate.getDate() < beginDate.getDate())) {
+    let ageYears = endDate.getFullYear() - startDate.getFullYear();
+    if (monthDifference < 0 || (monthDifference === 0 && endDate.getDate() < startDate.getDate())) {
         ageYears--;
     }
     return {ageMonths, ageYears};
