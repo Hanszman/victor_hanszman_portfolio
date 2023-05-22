@@ -21,7 +21,7 @@ function Projects() {
     const [technologiesGroups, setTechnologiesGroups] = useState([]);
 
     useEffect(() => {
-        setTechnologiesGroups(groupByList(technologies, 'stack', 'technologies', 'cardGroupList'));
+        setTechnologiesGroups(groupByList('technologies', technologies, 'stack', 'technologies', 'cardGroupList'));
     }, []);
 
     return (
@@ -31,7 +31,6 @@ function Projects() {
                 arrayObject={projects}
                 arrayDetails={projectsArrayDetails}
                 arrayLists={technologiesGroups}
-                arrayListsTitle='technologies'
                 classCard='cardLong'
                 classImg='cardimgPrint'
             >

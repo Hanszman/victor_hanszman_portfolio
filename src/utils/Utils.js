@@ -80,7 +80,7 @@ const sumAges = (intervalArray) => {
     return objectSum;
 }
 
-const groupByList = (list, group, nameObject, classGroup) => {
+const groupByList = (title, list, group, nameObject, classGroup) => {
     const newObject = {};
     const newList = [];
     for (let i = 0; i < list.length; i++) {
@@ -99,7 +99,11 @@ const groupByList = (list, group, nameObject, classGroup) => {
             });
         }
     });
-    return newList;
+    const result = {
+        title: title,
+        list: newList
+    }
+    return result;
 }
 
 // Exportation

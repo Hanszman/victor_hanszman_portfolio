@@ -66,13 +66,13 @@ function CardGroup(props) {
                                     ))
                                 }
                                 {
-                                    props.arrayLists && props.arrayLists.length > 0 && props.arrayListsTitle &&
+                                    props.arrayLists && props.arrayLists.list && props.arrayLists.list.length > 0 && props.arrayLists.title &&
                                     <p className='text boldText'>
-                                        {t(props.arrayListsTitle) ? t(props.arrayListsTitle) : props.arrayListsTitle}:
+                                        {t(props.arrayLists.title) ? t(props.arrayLists.title) : props.arrayLists.title}:
                                     </p>
                                 }
                                 {
-                                    props.arrayLists && props.arrayLists.length > 0 && props.arrayLists.map((list) => (
+                                    props.arrayLists && props.arrayLists.list && props.arrayLists.list.length > 0 && props.arrayLists.list.map((list) => (
                                         <div key={list.name}>
                                             {
                                                 arraysComparation(item[list.object], list.compare) &&
