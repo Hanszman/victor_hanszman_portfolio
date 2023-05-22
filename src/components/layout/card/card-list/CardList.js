@@ -20,15 +20,15 @@ function CardList(props) {
     }
 
     return (
-        <div className='container'>
+        <div>
             {
-                props.arrayLists && props.arrayLists.list && props.arrayLists.list.length > 0 && props.arrayLists.title &&
+                props.arrayList && props.arrayList.list && props.arrayList.list.length > 0 && props.arrayList.title &&
                 <p className='text boldText'>
-                    {t(props.arrayLists.title) ? t(props.arrayLists.title) : props.arrayLists.title}:
+                    {t(props.arrayList.title) ? t(props.arrayList.title) : props.arrayList.title}:
                 </p>
             }
             {
-                props.arrayLists && props.arrayLists.list && props.arrayLists.list.length > 0 && props.arrayLists.list.map((list) => (
+                props.arrayList && props.arrayList.list && props.arrayList.list.length > 0 && props.arrayList.list.map((list) => (
                     <div key={list.name}>
                         {
                             arraysComparation(props.item[list.object], list.compare) &&

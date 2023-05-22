@@ -30,7 +30,7 @@ function Projects() {
             <CardGroup
                 arrayObject={projects}
                 arrayDetails={projectsArrayDetails}
-                arrayLists={technologiesGroups}
+                arrayLists={[technologiesGroups]}
                 classCard='cardLong'
                 classImg='cardimgPrint'
             >

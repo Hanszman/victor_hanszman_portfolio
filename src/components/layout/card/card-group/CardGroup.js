@@ -54,11 +54,16 @@ function CardGroup(props) {
                                         </p>
                                     ))
                                 }
-                                <CardList
-                                    item={item}
-                                    arrayLists={props.arrayLists}
-                                >
-                                </CardList>
+                                {
+                                    props.arrayLists && props.arrayLists.length > 0 && props.arrayLists.map((list, index) => (
+                                        <CardList
+                                            key={index}
+                                            item={item}
+                                            arrayList={list}
+                                        >
+                                        </CardList>
+                                    ))
+                                }
                             </div>
                         </div>
                     ))
