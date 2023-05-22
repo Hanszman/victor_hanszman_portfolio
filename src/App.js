@@ -17,6 +17,7 @@ import Projects from './components/pages/projects/Projects';
 // TODO: Fazer filtros nas páginas
 // TODO: Talvez fazer paginação
 // TODO: Instalar biblioteca chart.js e fazer gráficos
+// TODO: Talvez inserir no json de skills os padrões de projeto como POO e MVC por exemplo
 // TODO: Talvez fazer página sobre meus gostos e vida pessoal
 // TODO: Terminar de fazer os projetos que estão inacabados, fazer o deploy deles e atualizar os dados deles nos jsons do portfólio
 // TODO: Colocar nos README de todos os projetos as versões das tecnologias para facilitar a instação

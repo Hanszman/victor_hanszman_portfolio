@@ -18,8 +18,3 @@
     height: auto;
     margin: 5px;
 }
-
-.cardGroupList {
-    display: flex;
-    flex-wrap: wrap;
-}

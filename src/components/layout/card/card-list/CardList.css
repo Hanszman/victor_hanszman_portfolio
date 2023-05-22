@@ -1,0 +1,4 @@
+.cardGroupList {
+    display: flex;
+    flex-wrap: wrap;
+}

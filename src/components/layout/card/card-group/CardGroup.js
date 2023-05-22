@@ -2,23 +2,12 @@
 import './CardGroup.css';
 import { useTranslation } from 'react-i18next';
 import { sumAges, formatDateString } from '../../../../utils/Utils';
+import CardList from '../card-list/CardList';
 
 // Component
 function CardGroup(props) {
     // Declarations
     const { t } = useTranslation();
-
-    // Functions
-    function arraysComparation(listObject, listCompare) {
-        const finalArray = [];
-        listObject && listObject.length > 0 && listObject.map((object) => {
-            listCompare && listCompare.length > 0 && listCompare.map((compare) => {
-                compare.code === object &&
-                finalArray.push(compare);
-            });
-        });
-        return finalArray;
-    }
 
     function formatTypeDetail(type, detail) {
         let result = '';
@@ -65,47 +54,11 @@ function CardGroup(props) {
                                         </p>
                                     ))
                                 }
-                                {
-                                    props.arrayLists && props.arrayLists.list && props.arrayLists.list.length > 0 && props.arrayLists.title &&
-                                    <p className='text boldText'>
-                                        {t(props.arrayLists.title) ? t(props.arrayLists.title) : props.arrayLists.title}:
-                                    </p>
-                                }
-                                {
-                                    props.arrayLists && props.arrayLists.list && props.arrayLists.list.length > 0 && props.arrayLists.list.map((list) => (
-                                        <div key={list.name}>
-                                            {
-                                                arraysComparation(item[list.object], list.compare) &&
-                                                arraysComparation(item[list.object], list.compare).length > 0 &&
-                                                <p className='text'>
-                                                    {t(list.name) ? t(list.name) : list.name}:
-                                                </p>
-                                            }
-                                            <div className={list.class}>
-                                                {
-                                                    arraysComparation(item[list.object], list.compare) &&
-                                                    arraysComparation(item[list.object], list.compare).length > 0 &&
-                                                    arraysComparation(item[list.object], list.compare).map((comparedItem) => (
-                                                        <span
-                                                            id={comparedItem.code}
-                                                            key={comparedItem.code}
-                                                            title={comparedItem.name}
-                                                        >
-                                                            {
-                                                                comparedItem.imgIcon &&
-                                                                <img
-                                                                    className='cardImgIcon'
-                                                                    src={require(`../../../../assets/img/${comparedItem.imgIcon}`)}
-                                                                    alt={comparedItem.name}
-                                                                />
-                                                            }
-                                                        </span>
-                                                    ))
-                                                }
-                                            </div>
-                                        </div>
-                                    ))
-                                }
+                                <CardList
+                                    item={item}
+                                    arrayLists={props.arrayLists}
+                                >
+                                </CardList>
                             </div>
                         </div>
                     ))
