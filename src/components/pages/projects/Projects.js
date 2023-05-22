@@ -3,7 +3,7 @@ import './Projects.css';
 import { useState, useEffect } from 'react';
 import { useTranslation } from 'react-i18next';
 import { groupByList } from '../../../utils/Utils';
-import CardGroup from '../../layout/card-group/CardGroup';
+import CardGroup from '../../layout/card/card-group/CardGroup';
 import projectsJson from '../../../db/projects.json';
 import skillsJson from '../../../db/skills.json';
 

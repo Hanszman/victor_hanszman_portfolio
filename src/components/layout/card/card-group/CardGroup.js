@@ -1,7 +1,7 @@
 // Imports
 import './CardGroup.css';
 import { useTranslation } from 'react-i18next';
-import { sumAges, formatDateString } from '../../../utils/Utils';
+import { sumAges, formatDateString } from '../../../../utils/Utils';
 
 // Component
 function CardGroup(props) {
@@ -47,7 +47,7 @@ function CardGroup(props) {
                                 item.imgIcon &&
                                 <img
                                     className={`card-img-top ${props.classImg}`}
-                                    src={require(`../../../assets/img/${item.imgIcon}`)}
+                                    src={require(`../../../../assets/img/${item.imgIcon}`)}
                                     alt={t(item.name) ? t(item.name) : item.name}
                                 />
                             }
@@ -95,7 +95,7 @@ function CardGroup(props) {
                                                                 comparedItem.imgIcon &&
                                                                 <img
                                                                     className='cardImgIcon'
-                                                                    src={require(`../../../assets/img/${comparedItem.imgIcon}`)}
+                                                                    src={require(`../../../../assets/img/${comparedItem.imgIcon}`)}
                                                                     alt={comparedItem.name}
                                                                 />
                                                             }

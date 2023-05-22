@@ -8,11 +8,11 @@ import Experiences from './components/pages/experiences/Experiences';
 import Skills from './components/pages/skills/Skills';
 import Projects from './components/pages/projects/Projects';
 
+// TODO: Transformar as sublistas em um componente separado
 // TODO: Enviar mais de um vetor no arrayLists
 // TODO: Ordenar por prioridade os agrupamentos na função groupByList
 // TODO: Talvez melhorar agrupamento da groupByList caso o usuário queira mudar agrupamentos de type ou stack ou os dois juntos
 // TODO: Talvez transformar item do card em um componente separado
-// TODO: Transformar as sublistas em um componente separado
 // TODO: Criar listas de links de prod e git nos cards
 // TODO: Fazer filtros nas páginas
 // TODO: Talvez fazer paginação

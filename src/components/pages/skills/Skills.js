@@ -1,7 +1,7 @@
 // Imports
 import './Skills.css';
 import { useTranslation } from 'react-i18next';
-import CardGroup from '../../layout/card-group/CardGroup';
+import CardGroup from '../../layout/card/card-group/CardGroup';
 import skillsJson from '../../../db/skills.json';
 // import projectsJson from '../../../db/projects.json';
 
