@@ -6,6 +6,7 @@ import { groupByList } from '../../../utils/Utils';
 import CardGroup from '../../layout/card/card-group/CardGroup';
 import projectsJson from '../../../db/projects.json';
 import skillsJson from '../../../db/skills.json';
+import experiencesJson from '../../../db/experiences.json';
 
 // Component
 function Projects() {
@@ -17,12 +18,15 @@ function Projects() {
         { type: 'date', detail: 'startDate' },
         { type: 'date', detail: 'endDate' }
     ];
+    const customers = experiencesJson.experiences.customers;
+    const [customersGroups, setCustomersGroups] = useState([]);
     const technologies = skillsJson.skills.technologies;
     const [technologiesGroups, setTechnologiesGroups] = useState([]);
 
     useEffect(() => {
+        setCustomersGroups(groupByList('customers', customers, 'code', 'customers', 'cardGroupList'));
         setTechnologiesGroups(groupByList('technologies', technologies, 'stack', 'technologies', 'cardGroupList'));
-    }, []);
+    }, [customers, technologies]);
 
     return (
         <div>
@@ -30,7 +34,7 @@ function Projects() {
             <CardGroup
                 arrayObject={projects}
                 arrayDetails={projectsArrayDetails}
-                arrayLists={[technologiesGroups]}
+                arrayLists={[customersGroups, technologiesGroups]}
                 classCard='cardLong'
                 classImg='cardimgPrint'
             >
