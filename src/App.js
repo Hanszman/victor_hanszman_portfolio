@@ -8,7 +8,6 @@ import Experiences from './components/pages/experiences/Experiences';
 import Skills from './components/pages/skills/Skills';
 import Projects from './components/pages/projects/Projects';
 
-// TODO: Replicar as outras listas nos cards correspondentes para finalizar as informações de cada componente
 // TODO: Fazer filtros nas páginas
 // TODO: Fazer paginação
 // TODO: Instalar biblioteca chart.js e fazer gráficos
