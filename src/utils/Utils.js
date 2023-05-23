@@ -12,6 +12,40 @@ const addZeroes = (num, len) => {
     return numberWithZeroes;
 };
 
+const formatList = (title, list, group, nameObject, classGroup) => {
+    const newObject = {};
+    const newList = [];
+    if (group !== '') {
+        for (let i = 0; i < list.length; i++) {
+            if (!newObject.hasOwnProperty(list[i][group])) {
+                newObject[list[i][group]] = [];
+            }
+            newObject[list[i][group]].push(list[i]);
+        }
+    } else {
+        newObject['Full'] = [];
+        for (let i = 0; i < list.length; i++) {
+            newObject['Full'].push(list[i]);
+        }
+    }
+    Object.keys(newObject).forEach((item) => {
+        if (newObject[item] && newObject[item].length > 0) {
+            newList.push({
+                name: item,
+                class: classGroup,
+                object: nameObject,
+                compare: newObject[item]
+            });
+        }
+    });
+    const result = {
+        title: title,
+        group: group !== '' ? true : false,
+        list: newList
+    }
+    return result;
+}
+
 const formatDateString = (dateString) => {
     const newDate = new Date(dateString);
     const date = new Date(newDate.toISOString().slice(0, -1));
@@ -66,7 +100,6 @@ const sumAges = (intervalArray) => {
         fullMonths = sumFullMonths;
         fullYears = sumFullYears;
     }
-
     const stringFullMonths = fullMonths !== 1 ? fullMonths + ' ' + i18n.t('Months') : fullMonths + ' ' + i18n.t('Month');
     const stringFullYears = fullYears !== 1 ? fullYears + ' ' + i18n.t('Years') : fullYears + ' ' + i18n.t('Year');
     if (fullMonths > 0 && fullYears > 0) {
@@ -76,52 +109,14 @@ const sumAges = (intervalArray) => {
     } else {
         objectSum['full'] = stringFullMonths;
     }
-
     return objectSum;
-}
-
-const formatList = (title, list, group, nameObject, classGroup) => {
-    console.log(list);
-    const newObject = {};
-    const newList = [];
-    if (group !== '') {
-        for (let i = 0; i < list.length; i++) {
-            if (!newObject.hasOwnProperty(list[i][group])) {
-                newObject[list[i][group]] = [];
-            }
-            newObject[list[i][group]].push(list[i]);
-        }
-    } else {
-        newObject['Full'] = [];
-        for (let i = 0; i < list.length; i++) {
-            newObject['Full'].push(list[i]);
-        }
-    }
-    Object.keys(newObject).forEach((item) => {
-        if (newObject[item] && newObject[item].length > 0) {
-            newList.push({
-                name: item,
-                class: classGroup,
-                object: nameObject,
-                compare: newObject[item]
-            });
-        }
-    });
-    const result = {
-        title: title,
-        group: group !== '' ? true : false,
-        list: newList
-    }
-    console.log(newObject);
-    console.log(result);
-    return result;
 }
 
 // Exportation
 export {
     addZeroes,
+    formatList,
     formatDateString,
     getAge,
-    sumAges,
-    formatList
+    sumAges
 };
