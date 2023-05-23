@@ -75,6 +75,10 @@ function CardList(props) {
                                                 alt={comparedItem.name}
                                             />
                                         }
+                                        {
+                                            !comparedItem.imgIcon &&
+                                            <p className='text'>{comparedItem.name}</p>
+                                        }
                                     </span>
                                 ))
                             }
