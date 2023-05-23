@@ -2,7 +2,7 @@
 import './Projects.css';
 import { useState, useEffect } from 'react';
 import { useTranslation } from 'react-i18next';
-import { groupByList } from '../../../utils/Utils';
+import { formatList } from '../../../utils/Utils';
 import CardGroup from '../../layout/card/card-group/CardGroup';
 import projectsJson from '../../../db/projects.json';
 import skillsJson from '../../../db/skills.json';
@@ -24,8 +24,8 @@ function Projects() {
     const [technologiesGroups, setTechnologiesGroups] = useState([]);
 
     useEffect(() => {
-        setCustomersGroups(groupByList('customers', customers, 'code', 'customers', 'cardGroupList'));
-        setTechnologiesGroups(groupByList('technologies', technologies, 'stack', 'technologies', 'cardGroupList'));
+        setCustomersGroups(formatList('customers', customers, '', 'customers', 'cardGroupList'));
+        setTechnologiesGroups(formatList('technologies', technologies, 'stack', 'technologies', 'cardGroupList'));
     }, [customers, technologies]);
 
     return (
