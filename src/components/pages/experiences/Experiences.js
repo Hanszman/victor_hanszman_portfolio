@@ -26,7 +26,7 @@ function Experiences() {
 
     useEffect(() => {
         setCustomersGroups(formatList('customers', customers, '', 'customers', 'cardGroupList'));
-        setProjectsGroups(formatList('projects', projects, '', 'projects', 'cardGroupList'));
+        setProjectsGroups(formatList('projects', projects, '', 'projects', 'cardGroupList breakLine'));
         setTechnologiesGroups(formatList('technologies', technologies, 'stack', 'technologies', 'cardGroupList'));
     }, [customers, projects, technologies]);
 

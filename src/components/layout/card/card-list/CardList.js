@@ -10,16 +10,12 @@ function CardList(props) {
     // Functions
     function arraysComparation(listObject, listCompare) {
         const finalArray = [];
-        listObject && listObject.length > 0 && listObject.map((object) => {
-            if (object) {
-                listCompare && listCompare.length > 0 && listCompare.map((compare) => {
-                    if (compare) {
-                        compare.code === object &&
-                        finalArray.push(compare);
-                    }
-                });
-            }
-        });
+        listObject && listObject.length > 0 && listObject.map((object) => (
+            listCompare && listCompare.length > 0 && listCompare.map((compare) => (
+                compare.code === object &&
+                finalArray.push(compare)
+            ))
+        ))
         return finalArray;
     }
 
@@ -77,7 +73,7 @@ function CardList(props) {
                                         }
                                         {
                                             !comparedItem.imgIcon &&
-                                            <p className='text'>{comparedItem.name}</p>
+                                            <p className='text'>- {`${comparedItem.name}\n`}</p>
                                         }
                                     </span>
                                 ))
