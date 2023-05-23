@@ -4,6 +4,7 @@ import { useState, useEffect } from 'react';
 import { useTranslation } from 'react-i18next';
 import { formatList } from '../../../utils/Utils';
 import CardGroup from '../../layout/card/card-group/CardGroup';
+import Filter from '../../layout/filter/Filter';
 import projectsJson from '../../../db/projects.json';
 import skillsJson from '../../../db/skills.json';
 import experiencesJson from '../../../db/experiences.json';
@@ -29,7 +30,7 @@ function Projects() {
     }, [customers, technologies]);
 
     return (
-        <div>
+        <div className='container'>
             <h1 className='highText centerText boldText'>{t('Projects')}</h1>
             <CardGroup
                 arrayObject={projects}
@@ -38,6 +39,7 @@ function Projects() {
                 classCard='cardLong'
                 classImg='cardimgPrint'
             >
+                <Filter></Filter>
             </CardGroup>
         </div>
     );

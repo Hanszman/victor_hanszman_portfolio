@@ -2,6 +2,7 @@
 import './Skills.css';
 import { useTranslation } from 'react-i18next';
 import CardGroup from '../../layout/card/card-group/CardGroup';
+import Filter from '../../layout/filter/Filter';
 import skillsJson from '../../../db/skills.json';
 
 // Component
@@ -29,7 +30,7 @@ function Skills() {
     ];
 
     return (
-        <div>
+        <div className='container'>
             <h1 className='highText centerText boldText'>{t('Skills')}</h1>
             <h2 className='text boldText'>{t('formations')}:</h2>
             <CardGroup
@@ -54,6 +55,7 @@ function Skills() {
                 classCard='cardShort'
                 classImg='cardImgIcon'
             >
+                <Filter></Filter>
             </CardGroup>
         </div>
     );

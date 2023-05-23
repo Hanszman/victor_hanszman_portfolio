@@ -24,6 +24,9 @@ function CardGroup(props) {
     return (
         <div className='container'>
             <div className='row'>
+                {props.children}
+            </div>
+            <div className='row'>
                 {
                     props.arrayObject && props.arrayObject.length > 0 && props.arrayObject.map((item) => (
                         <div

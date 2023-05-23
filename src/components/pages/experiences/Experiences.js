@@ -31,7 +31,7 @@ function Experiences() {
     }, [customers, projects, technologies]);
 
     return (
-        <div>
+        <div className='container'>
             <h1 className='highText centerText boldText'>{t('Experiences')}</h1>
             <CardGroup
                 arrayObject={jobs}
