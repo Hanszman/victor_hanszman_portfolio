@@ -44,6 +44,14 @@
         ],
         "type": [
             {
+                "code": "ProgrammingLanguages",
+                "name": "ProgrammingLanguages"
+            },
+            {
+                "code": "WebLanguages",
+                "name": "WebLanguages"
+            },
+            {
                 "code": "Libraries",
                 "name": "Libraries"
             },
@@ -52,20 +60,28 @@
                 "name": "Frameworks"
             },
             {
+                "code": "Relationals",
+                "name": "Relationals"
+            },
+            {
+                "code": "NonRelationals",
+                "name": "NonRelationals"
+            },
+            {
+                "code": "DatabasesManagementSystems",
+                "name": "DatabasesManagementSystems"
+            },
+            {
+                "code": "CodeEditors",
+                "name": "CodeEditors"
+            },
+            {
                 "code": "Techniques",
                 "name": "Techniques"
             },
             {
                 "code": "Methodologies",
                 "name": "Methodologies"
-            },
-            {
-                "code": "ProgrammingLanguages",
-                "name": "ProgrammingLanguages"
-            },
-            {
-                "code": "WebLanguages",
-                "name": "WebLanguages"
             },
             {
                 "code": "ObjectNotations",
@@ -94,22 +110,6 @@
             {
                 "code": "DevelopmentPlataforms",
                 "name": "DevelopmentPlataforms"
-            },
-            {
-                "code": "CodeEditors",
-                "name": "CodeEditors"
-            },
-            {
-                "code": "DatabasesManagementSystems",
-                "name": "DatabasesManagementSystems"
-            },
-            {
-                "code": "Relationals",
-                "name": "Relationals"
-            },
-            {
-                "code": "NonRelationals",
-                "name": "NonRelationals"
             }
         ],
         "stack": [
