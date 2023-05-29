@@ -42,6 +42,9 @@ function Home() {
                     </p>
                 </div>
             </div>
+            <div className='space'>
+                {/* Remover */}
+            </div>
         </div>
     );
 }
