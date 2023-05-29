@@ -35,3 +35,15 @@ html, body, #root {
 .displayFlex {
   display: flex;
 }
+
+.pageBtn {
+  color: #FFFFFF;
+  background-color: #7089fa;
+  border-radius: 7px;
+  padding: 5px 10px;
+}
+
+.pageBtn:hover {
+  color: #7089fa;
+  background-color: #FFFFFF;
+}

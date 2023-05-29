@@ -45,15 +45,6 @@ ul, li {
 
 .btnMenu {
     display: none;
-    color: #FFFFFF;
-    background-color: #7089fa;
-    border-radius: 7px;
-    padding: 5px 10px;
-}
-
-.btnMenu:hover {
-    color: #7089fa;
-    background-color: #FFFFFF;
 }
 
 .btnMenu svg {

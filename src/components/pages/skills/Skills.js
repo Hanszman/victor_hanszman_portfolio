@@ -2,7 +2,6 @@
 import './Skills.css';
 import { useTranslation } from 'react-i18next';
 import CardGroup from '../../layout/card/card-group/CardGroup';
-import Filter from '../../layout/filter/Filter';
 import skillsJson from '../../../db/skills.json';
 
 // Component
@@ -55,7 +54,7 @@ function Skills() {
                 classCard='cardShort'
                 classImg='cardImgIcon'
             >
-                <Filter></Filter>
+                {/* FILTERS */}
             </CardGroup>
         </div>
     );

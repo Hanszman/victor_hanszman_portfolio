@@ -4,18 +4,6 @@
     align-self: center;
 }
 
-.btnTranslation {
-    color: #FFFFFF;
-    background-color: #7089fa;
-    border-radius: 7px;
-    padding: 5px 10px;
-}
-
-.btnTranslation:hover {
-    color: #7089fa;
-    background-color: #FFFFFF;
-}
-
 .btnTranslation svg {
     font-size: 20px;
 }

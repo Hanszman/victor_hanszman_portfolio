@@ -44,7 +44,7 @@ function Navbar() {
                 <div className='displayFlex'>
                     <TranslationDropdown/>
                     <button
-                        className='btnMenu'
+                        className='pageBtn btnMenu'
                         type='button'
                         onClick={() => setShowNavList(!showNavList)}
                     >
