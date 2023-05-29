@@ -101,6 +101,8 @@
         "Brazilian": "Brasileiro",
         "CivilStatus": "Estado Civil",
         "Married": "Casado",
-        "PhoneNumber": "Telefone"
+        "PhoneNumber": "Telefone",
+
+        "SelectOption": "Selecione uma opção"
     }
 }
