@@ -73,7 +73,7 @@ function CardList(props) {
                                         }
                                         {
                                             !comparedItem.imgIcon &&
-                                            <p className='text'>- {`${comparedItem.name}\n`}</p>
+                                            <p className='text'>- {comparedItem.name}</p>
                                         }
                                     </span>
                                 ))

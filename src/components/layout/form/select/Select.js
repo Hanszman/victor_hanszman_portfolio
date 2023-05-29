@@ -10,11 +10,11 @@ function Select(props) {
     return (
         <div className='formSelect'>
             <label htmlFor={props.name}>{props.text}:</label>
+            <br/>
             <select
                 name={props.name}
                 id={props.name}
                 onChange={props.handleOnChange}
-                value={props.value || ''}
             >
                 <option value=''>{t('SelectOption')}</option>
                 {

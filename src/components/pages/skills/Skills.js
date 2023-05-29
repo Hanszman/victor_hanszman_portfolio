@@ -3,6 +3,7 @@ import './Skills.css';
 import { useTranslation } from 'react-i18next';
 import CardGroup from '../../layout/card/card-group/CardGroup';
 import Input from '../../layout/form/input/Input'
+import Select from '../../layout/form/select/Select'
 import skillsJson from '../../../db/skills.json';
 
 // Component
@@ -28,6 +29,15 @@ function Skills() {
         { type: 'string', detail: 'stack' },
         { type: 'interval', detail: 'intervalExperiencie' },
     ];
+
+    // Functions
+    function filterName(text) {
+        console.log(text);
+    }
+
+    function filterLevel(option) {
+        console.log(option);
+    }
 
     return (
         <div className='container'>
@@ -55,14 +65,24 @@ function Skills() {
                 classCard='cardShort'
                 classImg='cardImgIcon'
             >
-                <Input
-                    type='text'
-                    text='Tecnologia'
-                    name='technologyName'
-                    placeholder='Nome da Tecnologia'
-                    handleOnChange={''}
-                    value={''}
-                />
+                <div className='displayFlex'>
+                    <Input
+                        type='text'
+                        text='Tecnologia'
+                        name='technologyName'
+                        placeholder='Nome da Tecnologia'
+                        handleOnChange={filterName}
+                    />
+                    <Select
+                        text='Nível de Experiência'
+                        name='technologyLevel'
+                        options={[
+                            {id: 1, name: 'teste1'},
+                            {id: 2, name: 'teste2'}
+                        ]}
+                        handleOnChange={filterLevel}
+                    />
+                </div>
             </CardGroup>
         </div>
     );
