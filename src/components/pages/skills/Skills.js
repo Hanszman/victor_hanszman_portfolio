@@ -2,6 +2,7 @@
 import './Skills.css';
 import { useTranslation } from 'react-i18next';
 import CardGroup from '../../layout/card/card-group/CardGroup';
+import Input from '../../layout/form/input/Input'
 import skillsJson from '../../../db/skills.json';
 
 // Component
@@ -54,7 +55,14 @@ function Skills() {
                 classCard='cardShort'
                 classImg='cardImgIcon'
             >
-                {/* FILTERS */}
+                <Input
+                    type='text'
+                    text='Tecnologia'
+                    name='technologyName'
+                    placeholder='Nome da Tecnologia'
+                    handleOnChange={''}
+                    value={''}
+                />
             </CardGroup>
         </div>
     );
