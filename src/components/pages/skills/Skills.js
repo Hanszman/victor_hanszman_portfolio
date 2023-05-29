@@ -5,6 +5,7 @@ import CardGroup from '../../layout/card/card-group/CardGroup';
 import Input from '../../layout/form/input/Input'
 import Select from '../../layout/form/select/Select'
 import skillsJson from '../../../db/skills.json';
+import optionsJson from '../../../db/options.json';
 
 // Component
 function Skills() {
@@ -29,13 +30,16 @@ function Skills() {
         { type: 'string', detail: 'stack' },
         { type: 'interval', detail: 'intervalExperiencie' },
     ];
+    const levelOptions = optionsJson.options.level;
+    const typeOptions = optionsJson.options.type;
+    const stackOptions = optionsJson.options.stack;
 
     // Functions
-    function filterTechnology(text) {
+    function filterInput(text) {
         console.log(text);
     }
 
-    function filterLevel(option) {
+    function filterSelect(option) {
         console.log(option);
     }
 
@@ -71,16 +75,25 @@ function Skills() {
                         text={t('technology')}
                         name='technologyName'
                         placeholder={t('technology')}
-                        handleOnChange={filterTechnology}
+                        handleOnChange={filterInput}
                     />
                     <Select
                         text={t('level')}
                         name='technologyLevel'
-                        options={[
-                            {id: 1, name: 'teste1'},
-                            {id: 2, name: 'teste2'}
-                        ]}
-                        handleOnChange={filterLevel}
+                        options={levelOptions}
+                        handleOnChange={filterSelect}
+                    />
+                    <Select
+                        text={t('type')}
+                        name='technologyType'
+                        options={typeOptions}
+                        handleOnChange={filterSelect}
+                    />
+                    <Select
+                        text={t('stack')}
+                        name='technologyStack'
+                        options={stackOptions}
+                        handleOnChange={filterSelect}
                     />
                 </div>
             </CardGroup>

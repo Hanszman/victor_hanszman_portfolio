@@ -19,7 +19,7 @@ function Select(props) {
                 <option value=''>{t('SelectOption')}</option>
                 {
                     props.options.map((option) => (
-                        <option value={option.id} key={option.id}>
+                        <option value={option.code} key={option.code}>
                             {option.name}
                         </option>
                     ))
