@@ -31,7 +31,7 @@ function Skills() {
     ];
 
     // Functions
-    function filterName(text) {
+    function filterTechnology(text) {
         console.log(text);
     }
 
@@ -68,13 +68,13 @@ function Skills() {
                 <div className='displayFlex'>
                     <Input
                         type='text'
-                        text='Tecnologia'
+                        text={t('technology')}
                         name='technologyName'
-                        placeholder='Nome da Tecnologia'
-                        handleOnChange={filterName}
+                        placeholder={t('technology')}
+                        handleOnChange={filterTechnology}
                     />
                     <Select
-                        text='Nível de Experiência'
+                        text={t('level')}
                         name='technologyLevel'
                         options={[
                             {id: 1, name: 'teste1'},

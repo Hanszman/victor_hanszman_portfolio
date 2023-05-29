@@ -1,0 +1,142 @@
+{
+    "options": {
+        "level": [
+            {
+                "code": "Bachelor",
+                "name": "Bachelor",
+                "type": "formations"
+            },
+            {
+                "code": "Especialist",
+                "name": "Especialist",
+                "type": "formations"
+            },
+            {
+                "code": "Certified",
+                "name": "Certified",
+                "type": "formations"
+            },
+            {
+                "code": "Fluent",
+                "name": "Fluent",
+                "type": "languages"
+            },
+            {
+                "code": "Advanced",
+                "name": "Advanced",
+                "type": "skills"
+            },
+            {
+                "code": "Intermediate",
+                "name": "Intermediate",
+                "type": "skills"
+            },
+            {
+                "code": "Beginner",
+                "name": "Beginner",
+                "type": "skills"
+            },
+            {
+                "code": "Studing",
+                "name": "Studing",
+                "type": "skills"
+            }
+        ],
+        "type": [
+            {
+                "code": "Libraries",
+                "name": "Libraries"
+            },
+            {
+                "code": "Frameworks",
+                "name": "Frameworks"
+            },
+            {
+                "code": "Techniques",
+                "name": "Techniques"
+            },
+            {
+                "code": "Methodologies",
+                "name": "Methodologies"
+            },
+            {
+                "code": "ProgrammingLanguages",
+                "name": "ProgrammingLanguages"
+            },
+            {
+                "code": "WebLanguages",
+                "name": "WebLanguages"
+            },
+            {
+                "code": "ObjectNotations",
+                "name": "ObjectNotations"
+            },
+            {
+                "code": "PackageManagers",
+                "name": "PackageManagers"
+            },
+            {
+                "code": "Packages",
+                "name": "Packages"
+            },
+            {
+                "code": "VersioningPlatforms",
+                "name": "VersioningPlatforms"
+            },
+            {
+                "code": "CloudHostingPlataforms",
+                "name": "CloudHostingPlataforms"
+            },
+            {
+                "code": "DeploymentTools",
+                "name": "DeploymentTools"
+            },
+            {
+                "code": "DevelopmentPlataforms",
+                "name": "DevelopmentPlataforms"
+            },
+            {
+                "code": "CodeEditors",
+                "name": "CodeEditors"
+            },
+            {
+                "code": "DatabasesManagementSystems",
+                "name": "DatabasesManagementSystems"
+            },
+            {
+                "code": "Relationals",
+                "name": "Relationals"
+            },
+            {
+                "code": "NonRelationals",
+                "name": "NonRelationals"
+            }
+        ],
+        "stack": [
+            {
+                "code": "FrontEnd",
+                "name": "FrontEnd"
+            },
+            {
+                "code": "BackEnd",
+                "name": "BackEnd"
+            },
+            {
+                "code": "Mobile",
+                "name": "Mobile"
+            },
+            {
+                "code": "Games",
+                "name": "Games"
+            },
+            {
+                "code": "DataBases",
+                "name": "DataBases"
+            },
+            {
+                "code": "Others",
+                "name": "Others"
+            }
+        ]
+    }
+}
