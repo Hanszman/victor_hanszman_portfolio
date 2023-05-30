@@ -12,14 +12,24 @@ function Select(props) {
             <label htmlFor={props.name}>{props.text}:</label>
             <br/>
             <select
-                name={props.name}
                 id={props.name}
+                name={props.name}
                 onChange={props.handleOnChange}
             >
-                <option value=''>{t('SelectOption')}</option>
+                <option
+                    id='All'
+                    key='All'
+                    value=''
+                >
+                    {t('All')}
+                </option>
                 {
                     props.options.map((option) => (
-                        <option value={option.code} key={option.code}>
+                        <option
+                            key={option.code}
+                            id={option.code}
+                            value={option.code}
+                        >
                             {option.name}
                         </option>
                     ))

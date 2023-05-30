@@ -17,10 +17,10 @@
 
 .itemTranslation {
     color: #373b3e;
-    background-color: #FFFFFF;
+    background-color: white;
 }
 
 .itemTranslation:hover {
-    color: #FFFFFF;
+    color: white;
     background-color: #7089fa;
 }

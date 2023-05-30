@@ -1,3 +1,15 @@
 .formSelect {
-    border-radius: 7px;
+    margin: 10px;
+}
+
+.formSelect label {
+    color: #7089fa;
+    margin: 5px 0px;
+}
+
+.formSelect select {
+    border: 1px solid #d3d3d3;
+    border-radius: 10px;
+    outline: none;
+    padding: 5px 10px;
 }

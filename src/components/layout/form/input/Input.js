@@ -8,9 +8,9 @@ function Input(props) {
             <label htmlFor={props.name}>{props.text}:</label>
             <br/>
             <input
-                type={props.type}
-                name={props.name}
                 id={props.name}
+                name={props.name}
+                type={props.type}
                 placeholder={props.placeholder}
                 onChange={props.handleOnChange}
             />

@@ -69,7 +69,7 @@ function Skills() {
                 classCard='cardShort'
                 classImg='cardImgIcon'
             >
-                <div className='displayFlex'>
+                <div className='displayFlex flexWrap'>
                     <Input
                         type='text'
                         text={t('technology')}

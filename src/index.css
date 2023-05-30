@@ -36,8 +36,12 @@ html, body, #root {
   display: flex;
 }
 
+.flexWrap {
+  flex-wrap: wrap;
+}
+
 .pageBtn {
-  color: #FFFFFF;
+  color: white;
   background-color: #7089fa;
   border-radius: 7px;
   padding: 5px 10px;
@@ -45,5 +49,5 @@ html, body, #root {
 
 .pageBtn:hover {
   color: #7089fa;
-  background-color: #FFFFFF;
+  background-color: white;
 }

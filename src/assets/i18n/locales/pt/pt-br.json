@@ -109,7 +109,6 @@
         "CivilStatus": "Estado Civil",
         "Married": "Casado",
         "PhoneNumber": "Telefone",
-
-        "SelectOption": "Selecione uma opção"
+        "All": "Todos"
     }
 }
