@@ -30,7 +30,7 @@ function Select(props) {
                             id={option.code}
                             value={option.code}
                         >
-                            {option.name}
+                            {t(option.name)}
                         </option>
                     ))
                 }
