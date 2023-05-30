@@ -8,8 +8,9 @@ import Experiences from './components/pages/experiences/Experiences';
 import Skills from './components/pages/skills/Skills';
 import Projects from './components/pages/projects/Projects';
 
-// TODO: Fazer filtros nas páginas
-// TODO: Fazer paginação
+// TODO: Alterar o filtro de Skills para form para que o button seja tipo submit e o enter funcione
+// TODO: Fazer filtros na página de projeto
+// TODO: Fazer paginação e mensagem de nenhum dado encontrado com filtro inexistente
 // TODO: Instalar biblioteca chart.js e fazer gráficos
 // TODO: Melhorar a apresentação dos cards no css de cada página
 // TODO: Criar listas de links de prod e git nos cards
