@@ -1,10 +1,10 @@
 .formInput {
-    margin: 10px;
+    margin: 5px;
 }
 
 .formInput label {
     color: #7089fa;
-    margin: 5px 0px;
+    margin-bottom: 5px;
 }
 
 .formInput input {
