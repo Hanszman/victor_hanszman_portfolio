@@ -109,6 +109,8 @@
         "CivilStatus": "Civil Status",
         "Married": "Married",
         "PhoneNumber": "Phone Number",
-        "All": "All"
+
+        "All": "All",
+        "Search": "Search"
     }
 }

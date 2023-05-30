@@ -40,14 +40,33 @@ html, body, #root {
   flex-wrap: wrap;
 }
 
-.pageBtn {
-  color: white;
-  background-color: #7089fa;
-  border-radius: 7px;
+.formInput, .formSelect {
+  margin: 5px;
+}
+
+.formInput label, .formSelect label {
+  color: #7089fa;
+  margin-bottom: 5px;
+}
+
+.formInput input, .formSelect select {
+  border: 1px solid #d3d3d3;
+  border-radius: 10px;
+  outline: none;
   padding: 5px 10px;
 }
 
-.pageBtn:hover {
+.formButton {
+  color: white;
+  background-color: #7089fa;
+  border: none;
+  border-radius: 7px;
+  padding: 5px 10px;
+  outline: none;
+}
+
+.formButton:hover {
   color: #7089fa;
   background-color: white;
+  border: 1px solid #7089fa;
 }

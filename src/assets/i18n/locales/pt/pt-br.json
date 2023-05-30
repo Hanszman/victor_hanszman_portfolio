@@ -109,6 +109,8 @@
         "CivilStatus": "Estado Civil",
         "Married": "Casado",
         "PhoneNumber": "Telefone",
-        "All": "Todos"
+
+        "All": "Todos",
+        "Search": "Buscar"
     }
 }

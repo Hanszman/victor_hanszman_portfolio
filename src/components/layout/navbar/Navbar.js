@@ -7,6 +7,7 @@ import { FaBars } from 'react-icons/fa';
 import logoBlue from '../../../assets/img/logo/vh_logo_blue.png';
 import logoWhite from '../../../assets/img/logo/vh_logo_white.png';
 import TranslationDropdown from '../translation-dropdown/TranslationDropdown';
+import Button from '../form/button/Button';
 
 // Component
 function Navbar() {
@@ -43,13 +44,11 @@ function Navbar() {
                 </ul>
                 <div className='displayFlex'>
                     <TranslationDropdown/>
-                    <button
-                        className='pageBtn btnMenu'
-                        type='button'
-                        onClick={() => setShowNavList(!showNavList)}
-                    >
-                        <FaBars/>
-                    </button>
+                    <div className='btnMenu'>
+                        <Button handleOnClick={() => setShowNavList(!showNavList)}>
+                            <FaBars/>
+                        </Button>
+                    </div>
                 </div>
             </nav>
         </header>
