@@ -5,7 +5,7 @@ import './Button.css';
 function Button(props) {
     return (
         <button
-            type='button'
+            type={props.type}
             className='formButton'
             onClick={props.handleOnClick}
         >

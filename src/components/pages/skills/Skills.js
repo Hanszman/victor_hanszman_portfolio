@@ -42,13 +42,9 @@ function Skills() {
     const [stackFilter, setStackFilter] = useState('');
 
     // Functions
-    function filterTechnology() {
+    function filterTechnology(e) {
+        e.preventDefault();
         let filter = technologies;
-        console.log('technologies', technologies);
-        console.log('name', nameFilter);
-        console.log('level', levelFilter);
-        console.log('type', typeFilter);
-        console.log('stack', stackFilter);
         if (nameFilter)
             filter = filter.filter(obj => obj.name.toLowerCase().includes(nameFilter.toLowerCase()));
         if (levelFilter)
@@ -57,7 +53,6 @@ function Skills() {
             filter = filter.filter(obj => obj.type.toLowerCase().includes(typeFilter.toLowerCase()));
         if (stackFilter)
             filter = filter.filter(obj => obj.stack.toLowerCase().includes(stackFilter.toLowerCase()));
-        console.log('filter', filter);
         setTechnologiesFilter(filter);
     }
 
@@ -87,7 +82,7 @@ function Skills() {
                 classCard='cardShort'
                 classImg='cardImgIcon'
             >
-                <div className='displayFlex flexWrap'>
+                <form className='displayFlex flexWrap' onSubmit={(e) => filterTechnology(e)}>
                     <Input
                         type='text'
                         text={t('technology')}
@@ -114,11 +109,11 @@ function Skills() {
                         handleOnChange={e => setStackFilter(e.target.value)}
                     />
                     <div className='btnFilter'>
-                        <Button handleOnClick={() => filterTechnology()}>
+                        <Button type='submit'>
                             {t('Search')}
                         </Button>
                     </div>
-                </div>
+                </form>
             </CardGroup>
         </div>
     );

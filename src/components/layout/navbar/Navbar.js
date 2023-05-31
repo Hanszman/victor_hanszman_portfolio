@@ -45,7 +45,10 @@ function Navbar() {
                 <div className='displayFlex'>
                     <TranslationDropdown/>
                     <div className='btnMenu'>
-                        <Button handleOnClick={() => setShowNavList(!showNavList)}>
+                        <Button
+                            type='button'
+                            handleOnClick={() => setShowNavList(!showNavList)}
+                        >
                             <FaBars/>
                         </Button>
                     </div>
