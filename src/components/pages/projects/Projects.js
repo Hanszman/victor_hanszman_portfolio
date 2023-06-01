@@ -7,6 +7,7 @@ import CardGroup from '../../layout/card/card-group/CardGroup';
 import Input from '../../layout/form/input/Input';
 import Select from '../../layout/form/select/Select';
 import Button from '../../layout/form/button/Button';
+import Message from '../../layout/message/Message';
 import projectsJson from '../../../db/projects.json';
 import skillsJson from '../../../db/skills.json';
 import experiencesJson from '../../../db/experiences.json';
@@ -35,6 +36,8 @@ function Projects() {
     const [toDateFilter, setToDateFilter] = useState('');
     const [technologyFilter, setTechnologyFilter] = useState('');
     const technologyOptions = skillsJson.skills.technologies;
+    const [message, setMessage] = useState('');
+    const [typeMessage, setTypeMessage] = useState('');
 
     useEffect(() => {
         setCustomersGroups(formatList('customers', customers, '', 'customers', 'cardGroupList'));
@@ -44,18 +47,19 @@ function Projects() {
     // Functions
     function filterProject(e) {
         e.preventDefault();
+        setMessage('');
+        setTypeMessage('');
         let fromDate;
         let toDate;
         if (fromDateFilter) {
             fromDate = transformDate(fromDateFilter);
-            console.log('fromDate: ', fromDate);
         }
         if (toDateFilter) {
             toDate = transformDate(toDateFilter);
-            console.log('toDate: ', toDate);
         }
         if (fromDate && toDate && fromDate > toDate) {
-            console.log('ERRO!');
+            setMessage('DateError');
+            setTypeMessage('error');
             return;
         }
 
@@ -89,6 +93,11 @@ function Projects() {
                     transformDate(obj.startDate) <= toDate ||
                     transformDate(obj.endDate) <= toDate
                 ));
+        }
+
+        if (filter.length <= 0) {
+            setMessage('NoRecordFound');
+            setTypeMessage('');
         }
         setProjectsFilter(filter);
     }
@@ -141,6 +150,11 @@ function Projects() {
                         </Button>
                     </div>
                 </form>
+                {
+                    projectsFilter && projectsFilter.length > 0 &&
+                    <div>{`${projectsFilter.length} ${t('projects')}`}</div>
+                }
+                {message && <Message type={typeMessage} msg={message}/>}
             </CardGroup>
         </div>
     );

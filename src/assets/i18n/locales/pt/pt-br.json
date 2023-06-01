@@ -116,6 +116,8 @@
         "PhoneNumber": "Telefone",
 
         "All": "Todos",
-        "Search": "Buscar"
+        "Search": "Buscar",
+        "NoRecordFound": "Nenhum registro encontrado!",
+        "DateError": "As datas selecionadas estão inconsistentes!"
     }
 }

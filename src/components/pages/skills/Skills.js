@@ -6,6 +6,7 @@ import CardGroup from '../../layout/card/card-group/CardGroup';
 import Input from '../../layout/form/input/Input';
 import Select from '../../layout/form/select/Select';
 import Button from '../../layout/form/button/Button';
+import Message from '../../layout/message/Message';
 import skillsJson from '../../../db/skills.json';
 import optionsJson from '../../../db/options.json';
 
@@ -40,10 +41,14 @@ function Skills() {
     const [typeFilter, setTypeFilter] = useState('');
     const stackOptions = optionsJson.options.stack;
     const [stackFilter, setStackFilter] = useState('');
+    const [message, setMessage] = useState('');
+    const [typeMessage, setTypeMessage] = useState('');
 
     // Functions
     function filterTechnology(e) {
         e.preventDefault();
+        setMessage('');
+        setTypeMessage('');
         let filter = technologies;
         if (nameFilter)
             filter = filter.filter(obj => obj.name.toLowerCase().includes(nameFilter.toLowerCase()));
@@ -53,6 +58,10 @@ function Skills() {
             filter = filter.filter(obj => obj.type.toLowerCase() === typeFilter.toLowerCase());
         if (stackFilter)
             filter = filter.filter(obj => obj.stack.toLowerCase() === stackFilter.toLowerCase());
+        if (filter.length <= 0) {
+            setMessage('NoRecordFound');
+            setTypeMessage('');
+        }
         setTechnologiesFilter(filter);
     }
 
@@ -114,6 +123,11 @@ function Skills() {
                         </Button>
                     </div>
                 </form>
+                {
+                    technologiesFilter && technologiesFilter.length > 0 &&
+                    <div>{`${technologiesFilter.length} ${t('technologies')}`}</div>
+                }
+                {message && <Message type={typeMessage} msg={message}/>}
             </CardGroup>
         </div>
     );

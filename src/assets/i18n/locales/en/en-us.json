@@ -116,6 +116,8 @@
         "PhoneNumber": "Phone Number",
 
         "All": "All",
-        "Search": "Search"
+        "Search": "Search",
+        "NoRecordFound": "No record found!",
+        "DateError": "The selected dates are inconsistent!"
     }
 }
