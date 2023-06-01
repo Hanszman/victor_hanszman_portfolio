@@ -10,6 +10,7 @@ import Projects from './components/pages/projects/Projects';
 
 // TODO: Fazer filtros na página de projeto
 // TODO: Fazer paginação e mensagem de nenhum dado encontrado com filtro inexistente
+// TODO: Fazer mensagem de erro de datas inconsistentes
 // TODO: Instalar biblioteca chart.js e fazer gráficos
 // TODO: Colocar links de referência entre as entidades
 // TODO: Melhorar a apresentação dos cards no css de cada página
