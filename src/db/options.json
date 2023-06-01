@@ -137,6 +137,20 @@
                 "code": "Others",
                 "name": "Others"
             }
+        ],
+        "environment": [
+            {
+                "code": "formation",
+                "name": "formation"
+            },
+            {
+                "code": "personal",
+                "name": "personal"
+            },
+            {
+                "code": "professional",
+                "name": "professional"
+            }
         ]
     }
 }

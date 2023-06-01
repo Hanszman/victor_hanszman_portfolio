@@ -48,11 +48,11 @@ function Skills() {
         if (nameFilter)
             filter = filter.filter(obj => obj.name.toLowerCase().includes(nameFilter.toLowerCase()));
         if (levelFilter)
-            filter = filter.filter(obj => obj.level.toLowerCase().includes(levelFilter.toLowerCase()));
+            filter = filter.filter(obj => obj.level.toLowerCase() === levelFilter.toLowerCase());
         if (typeFilter)
-            filter = filter.filter(obj => obj.type.toLowerCase().includes(typeFilter.toLowerCase()));
+            filter = filter.filter(obj => obj.type.toLowerCase() === typeFilter.toLowerCase());
         if (stackFilter)
-            filter = filter.filter(obj => obj.stack.toLowerCase().includes(stackFilter.toLowerCase()));
+            filter = filter.filter(obj => obj.stack.toLowerCase() === stackFilter.toLowerCase());
         setTechnologiesFilter(filter);
     }
 

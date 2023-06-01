@@ -3,7 +3,7 @@
         {
             "code": "graduation-tcc",
             "name": "CRM GO",
-            "type": "formations",
+            "environment": "formation",
             "reference": "puc-graduation",
             "description": "GraduationTCC",
             "imgIcon": "",
@@ -29,7 +29,7 @@
         {
             "code": "post-graduation-tcc",
             "name": "HardWorker",
-            "type": "formations",
+            "environment": "formation",
             "reference": "puc-post-graduation",
             "description": "PostGraduationTCC",
             "imgIcon": "",
@@ -67,7 +67,7 @@
         {
             "code": "course-galeria",
             "name": "Galeria",
-            "type": "formations",
+            "environment": "formation",
             "reference": "course-angular-node",
             "description": "CourseGalery",
             "imgIcon": "",
@@ -101,7 +101,7 @@
         {
             "code": "course-costs",
             "name": "Costs",
-            "type": "formations",
+            "environment": "formation",
             "reference": "",
             "description": "CourseCosts",
             "imgIcon": "",
@@ -128,7 +128,7 @@
         {
             "code": "course-rocket-box",
             "name": "RocketBox",
-            "type": "formations",
+            "environment": "formation",
             "reference": "",
             "description": "CourseRocketBox",
             "imgIcon": "",
@@ -159,7 +159,7 @@
         {
             "code": "course-rocket-help",
             "name": "RocketHelp",
-            "type": "formations",
+            "environment": "formation",
             "reference": "",
             "description": "CourseRocketHelp",
             "imgIcon": "",
@@ -189,7 +189,7 @@
         {
             "code": "portfolio",
             "name": "Portfólio - Victor Hanszman",
-            "type": "personal",
+            "environment": "personal",
             "reference": "",
             "description": "Portfolio",
             "imgIcon": "",
@@ -217,7 +217,7 @@
         {
             "code": "pokedex-laravel",
             "name": "Pokédex (Laravel)",
-            "type": "personal",
+            "environment": "personal",
             "reference": "",
             "description": "PokedexLaravel",
             "imgIcon": "",
@@ -245,7 +245,7 @@
         {
             "code": "pokedex-angular",
             "name": "Pokédex (Angular)",
-            "type": "personal",
+            "environment": "personal",
             "reference": "",
             "description": "PokedexAngular",
             "imgIcon": "",
@@ -273,7 +273,7 @@
         {
             "code": "battle-of-monsters",
             "name": "Battle Of Monsters",
-            "type": "personal",
+            "environment": "personal",
             "reference": "",
             "description": "BattleOfMonsters",
             "imgIcon": "",
@@ -306,7 +306,7 @@
         {
             "code": "stefanini-ford",
             "name": "Customer & Dealer Transformation App",
-            "type": "jobs",
+            "environment": "professional",
             "reference": "stefanini",
             "description": "StefaniniFord",
             "imgIcon": "",
@@ -327,6 +327,7 @@
                 "json",
                 "bootstrap",
                 "npm",
+                "lint",
                 "java",
                 "sqlserver",
                 "sql",
@@ -341,7 +342,7 @@
         {
             "code": "stefanini-ale",
             "name": "Clube Ale",
-            "type": "jobs",
+            "environment": "professional",
             "reference": "stefanini",
             "description": "StefaniniAle",
             "imgIcon": "",
@@ -379,7 +380,7 @@
         {
             "code": "m2m-lecto",
             "name": "Lecto",
-            "type": "jobs",
+            "environment": "professional",
             "reference": "m2m",
             "description": "M2MLecto",
             "imgIcon": "",
@@ -421,7 +422,7 @@
         {
             "code": "m2m-nox",
             "name": "NOX",
-            "type": "jobs",
+            "environment": "professional",
             "reference": "m2m",
             "description": "M2MNox",
             "imgIcon": "",
@@ -452,7 +453,7 @@
         {
             "code": "4mti-cotz",
             "name": "Cotz!",
-            "type": "jobs",
+            "environment": "professional",
             "reference": "4mti",
             "description": "4MTICotz",
             "imgIcon": "",
@@ -486,7 +487,7 @@
         {
             "code": "4mti-dp",
             "name": "Diagnóstico Público",
-            "type": "jobs",
+            "environment": "professional",
             "reference": "4mti",
             "description": "4MTIDP",
             "imgIcon": "",
@@ -519,13 +520,13 @@
         {
             "code": "4mti-mapa-especialistas",
             "name": "Mapa Especialistas",
-            "type": "jobs",
+            "environment": "professional",
             "reference": "4mti",
             "description": "4MTIMapaEspecialistas",
             "imgIcon": "",
             "prodLinks": [],
             "gitLinks": [],
-            "startDate": "2018-09-03",
+            "startDate": "2019-06-01",
             "endDate": "2020-04-01",
             "customers": [
                 "nescon"
@@ -552,13 +553,13 @@
         {
             "code": "4mti-aduna-lins",
             "name": "Aduna & Lins",
-            "type": "jobs",
+            "environment": "professional",
             "reference": "4mti",
             "description": "4MTIAdunaLins",
             "imgIcon": "",
             "prodLinks": [],
             "gitLinks": [],
-            "startDate": "2018-09-03",
+            "startDate": "2019-04-01",
             "endDate": "2020-04-01",
             "customers": [
                 "mpmg"
@@ -571,6 +572,7 @@
                 "jsx",
                 "json",
                 "npm",
+                "jest",
                 "phpstorm",
                 "gitlab",
                 "git",

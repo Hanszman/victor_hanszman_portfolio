@@ -12,12 +12,12 @@
                     {
                         "startDate": "2017-08-01",
                         "endDate": "2017-12-01",
-                        "type": "formations"
+                        "environment": "formation"
                     },
                     {
                         "startDate": "2018-09-03",
                         "endDate": "2020-04-01",
-                        "type": "jobs"
+                        "environment": "professional"
                     }
                 ]
             },
@@ -32,7 +32,7 @@
                     {
                         "startDate": "2020-04-01",
                         "endDate": "",
-                        "type": "jobs"
+                        "environment": "professional"
                     }
                 ]
             },
@@ -47,7 +47,7 @@
                     {
                         "startDate": "2018-09-03",
                         "endDate": "2020-04-01",
-                        "type": "jobs"
+                        "environment": "professional"
                     }
                 ]
             },
@@ -62,7 +62,7 @@
                     {
                         "startDate": "2021-04-01",
                         "endDate": "2022-03-01",
-                        "type": "jobs"
+                        "environment": "professional"
                     }
                 ]
             },
@@ -77,12 +77,12 @@
                     {
                         "startDate": "2017-08-01",
                         "endDate": "2018-12-01",
-                        "type": "formations"
+                        "environment": "formation"
                     },
                     {
                         "startDate": "2020-04-01",
                         "endDate": "",
-                        "type": "jobs"
+                        "environment": "professional"
                     }
                 ]
             },
@@ -97,7 +97,7 @@
                     {
                         "startDate": "2020-04-01",
                         "endDate": "2021-09-23",
-                        "type": "jobs"
+                        "environment": "professional"
                     }
                 ]
             },
@@ -112,12 +112,12 @@
                     {
                         "startDate": "2018-01-01",
                         "endDate": "2018-12-01",
-                        "type": "formations"
+                        "environment": "formation"
                     },
                     {
                         "startDate": "2020-04-01",
                         "endDate": "2021-09-23",
-                        "type": "jobs"
+                        "environment": "professional"
                     }
                 ]
             },
@@ -132,7 +132,7 @@
                     {
                         "startDate": "2015-01-01",
                         "endDate": "2016-06-01",
-                        "type": "formations"
+                        "environment": "formation"
                     }
                 ]
             },
@@ -147,12 +147,12 @@
                     {
                         "startDate": "2017-01-01",
                         "endDate": "2018-09-03",
-                        "type": "formations"
+                        "environment": "formation"
                     },
                     {
                         "startDate": "2018-09-03",
                         "endDate": "",
-                        "type": "jobs"
+                        "environment": "professional"
                     }
                 ]
             },
@@ -167,12 +167,12 @@
                     {
                         "startDate": "2018-09-03",
                         "endDate": "2022-03-01",
-                        "type": "jobs"
+                        "environment": "professional"
                     },
                     {
                         "startDate": "2022-03-01",
                         "endDate": "",
-                        "type": "personal"
+                        "environment": "personal"
                     }
                 ]
             },
@@ -187,7 +187,7 @@
                     {
                         "startDate": "2023-02-01",
                         "endDate": "2023-03-01",
-                        "type": "personal"
+                        "environment": "personal"
                     }
                 ]
             },
@@ -202,17 +202,17 @@
                     {
                         "startDate": "2019-03-01",
                         "endDate": "2020-04-01",
-                        "type": "formations"
+                        "environment": "formation"
                     },
                     {
                         "startDate": "2020-04-01",
                         "endDate": "2022-03-01",
-                        "type": "jobs"
+                        "environment": "professional"
                     },
                     {
                         "startDate": "2022-03-01",
                         "endDate": "",
-                        "type": "personal"
+                        "environment": "personal"
                     }
                 ]
             },
@@ -227,12 +227,12 @@
                     {
                         "startDate": "2017-09-01",
                         "endDate": "2017-10-01",
-                        "type": "formations"
+                        "environment": "formation"
                     },
                     {
                         "startDate": "2018-09-03",
                         "endDate": "",
-                        "type": "jobs"
+                        "environment": "professional"
                     }
                 ]
             },
@@ -247,17 +247,17 @@
                     {
                         "startDate": "2017-09-01",
                         "endDate": "2017-10-01",
-                        "type": "formations"
+                        "environment": "formation"
                     },
                     {
                         "startDate": "2019-06-01",
                         "endDate": "2022-03-01",
-                        "type": "personal"
+                        "environment": "personal"
                     },
                     {
                         "startDate": "2022-03-01",
                         "endDate": "",
-                        "type": "jobs"
+                        "environment": "professional"
                     }
                 ]
             },
@@ -272,7 +272,7 @@
                     {
                         "startDate": "2018-09-03",
                         "endDate": "2021-09-23",
-                        "type": "jobs"
+                        "environment": "professional"
                     }
                 ]
             },
@@ -287,7 +287,7 @@
                     {
                         "startDate": "2020-10-01",
                         "endDate": "2021-06-01",
-                        "type": "formations"
+                        "environment": "formation"
                     }
                 ]
             },
@@ -302,12 +302,12 @@
                     {
                         "startDate": "2017-01-01",
                         "endDate": "2018-09-03",
-                        "type": "formations"
+                        "environment": "formation"
                     },
                     {
                         "startDate": "2018-09-03",
                         "endDate": "",
-                        "type": "jobs"
+                        "environment": "professional"
                     }
                 ]
             },
@@ -322,7 +322,7 @@
                     {
                         "startDate": "2015-08-01",
                         "endDate": "2015-12-01",
-                        "type": "formations"
+                        "environment": "formation"
                     }
                 ]
             },
@@ -337,12 +337,12 @@
                     {
                         "startDate": "2017-08-01",
                         "endDate": "2018-09-03",
-                        "type": "formations"
+                        "environment": "formation"
                     },
                     {
                         "startDate": "2018-09-03",
                         "endDate": "",
-                        "type": "jobs"
+                        "environment": "professional"
                     }
                 ]
             },
@@ -357,7 +357,22 @@
                     {
                         "startDate": "2022-03-01",
                         "endDate": "",
-                        "type": "jobs"
+                        "environment": "professional"
+                    }
+                ]
+            },
+            {
+                "code": "jest",
+                "name": "Jest",
+                "level": "Beginner",
+                "imgIcon": "skills/jest.png",
+                "type": "Libraries",
+                "stack": "Others",
+                "intervalExperiencie": [
+                    {
+                        "startDate": "2019-04-01",
+                        "endDate": "2020-04-01",
+                        "environment": "professional"
                     }
                 ]
             },
@@ -372,12 +387,12 @@
                     {
                         "startDate": "2017-08-01",
                         "endDate": "2018-09-03",
-                        "type": "formations"
+                        "environment": "formation"
                     },
                     {
                         "startDate": "2018-09-03",
                         "endDate": "2021-09-23",
-                        "type": "jobs"
+                        "environment": "professional"
                     }
                 ]
             },
@@ -392,12 +407,12 @@
                     {
                         "startDate": "2017-08-01",
                         "endDate": "2018-09-03",
-                        "type": "formations"
+                        "environment": "formation"
                     },
                     {
                         "startDate": "2018-09-03",
                         "endDate": "",
-                        "type": "jobs"
+                        "environment": "professional"
                     }
                 ]
             },
@@ -412,7 +427,7 @@
                     {
                         "startDate": "2022-11-10",
                         "endDate": "",
-                        "type": "personal"
+                        "environment": "personal"
                     }
                 ]
             },
@@ -427,7 +442,7 @@
                     {
                         "startDate": "2018-09-03",
                         "endDate": "2020-04-01",
-                        "type": "jobs"
+                        "environment": "professional"
                     }
                 ]
             },
@@ -442,7 +457,7 @@
                     {
                         "startDate": "2020-04-01",
                         "endDate": "2022-03-01",
-                        "type": "jobs"
+                        "environment": "professional"
                     }
                 ]
             },
@@ -457,12 +472,27 @@
                     {
                         "startDate": "2018-01-01",
                         "endDate": "2018-12-01",
-                        "type": "formations"
+                        "environment": "formation"
                     },
                     {
                         "startDate": "2020-04-01",
                         "endDate": "2021-09-23",
-                        "type": "jobs"
+                        "environment": "professional"
+                    }
+                ]
+            },
+            {
+                "code": "lint",
+                "name": "Lint",
+                "level": "Beginner",
+                "imgIcon": "skills/lint.png",
+                "type": "Libraries",
+                "stack": "Others",
+                "intervalExperiencie": [
+                    {
+                        "startDate": "2022-03-01",
+                        "endDate": "",
+                        "environment": "professional"
                     }
                 ]
             },
@@ -477,7 +507,7 @@
                     {
                         "startDate": "2023-02-01",
                         "endDate": "2023-03-01",
-                        "type": "personal"
+                        "environment": "personal"
                     }
                 ]
             },
@@ -492,17 +522,17 @@
                     {
                         "startDate": "2017-08-01",
                         "endDate": "2018-09-03",
-                        "type": "formations"
+                        "environment": "formation"
                     },
                     {
                         "startDate": "2018-09-03",
                         "endDate": "2021-09-23",
-                        "type": "jobs"
+                        "environment": "professional"
                     },
                     {
                         "startDate": "2021-09-23",
                         "endDate": "",
-                        "type": "personal"
+                        "environment": "personal"
                     }
                 ]
             },
@@ -517,17 +547,17 @@
                     {
                         "startDate": "2019-03-01",
                         "endDate": "2020-04-01",
-                        "type": "formations"
+                        "environment": "formation"
                     },
                     {
                         "startDate": "2020-04-01",
                         "endDate": "2022-03-01",
-                        "type": "jobs"
+                        "environment": "professional"
                     },
                     {
                         "startDate": "2022-03-01",
                         "endDate": "",
-                        "type": "personal"
+                        "environment": "personal"
                     }
                 ]
             },
@@ -542,7 +572,7 @@
                     {
                         "startDate": "2017-08-01",
                         "endDate": "",
-                        "type": "personal"
+                        "environment": "personal"
                     }
                 ]
             },
@@ -557,12 +587,12 @@
                     {
                         "startDate": "2019-03-01",
                         "endDate": "2020-04-01",
-                        "type": "formations"
+                        "environment": "formation"
                     },
                     {
                         "startDate": "2020-04-01",
                         "endDate": "",
-                        "type": "jobs"
+                        "environment": "professional"
                     }
                 ]
             },
@@ -577,12 +607,12 @@
                     {
                         "startDate": "2017-08-01",
                         "endDate": "2018-09-03",
-                        "type": "formations"
+                        "environment": "formation"
                     },
                     {
                         "startDate": "2018-09-03",
                         "endDate": "2021-09-23",
-                        "type": "jobs"
+                        "environment": "professional"
                     }
                 ]
             },
@@ -597,7 +627,7 @@
                     {
                         "startDate": "2018-09-03",
                         "endDate": "2020-04-01",
-                        "type": "jobs"
+                        "environment": "professional"
                     }
                 ]
             },
@@ -612,7 +642,7 @@
                     {
                         "startDate": "2018-09-03",
                         "endDate": "2020-04-01",
-                        "type": "jobs"
+                        "environment": "professional"
                     }
                 ]
             },
@@ -627,7 +657,7 @@
                     {
                         "startDate": "2022-11-10",
                         "endDate": "",
-                        "type": "personal"
+                        "environment": "personal"
                     }
                 ]
             },
@@ -642,7 +672,7 @@
                     {
                         "startDate": "2023-02-01",
                         "endDate": "2023-03-01",
-                        "type": "personal"
+                        "environment": "personal"
                     }
                 ]
             },
@@ -657,7 +687,7 @@
                     {
                         "startDate": "2019-03-01",
                         "endDate": "",
-                        "type": "jobs"
+                        "environment": "professional"
                     }
                 ]
             },
@@ -672,7 +702,7 @@
                     {
                         "startDate": "2020-04-01",
                         "endDate": "",
-                        "type": "jobs"
+                        "environment": "professional"
                     }
                 ]
             },
@@ -687,17 +717,17 @@
                     {
                         "startDate": "2017-08-01",
                         "endDate": "2018-09-03",
-                        "type": "formations"
+                        "environment": "formation"
                     },
                     {
                         "startDate": "2018-09-03",
                         "endDate": "2022-03-01",
-                        "type": "jobs"
+                        "environment": "professional"
                     },
                     {
                         "startDate": "2022-03-01",
                         "endDate": "",
-                        "type": "personal"
+                        "environment": "personal"
                     }
                 ]
             },
@@ -712,7 +742,7 @@
                     {
                         "startDate": "2020-04-01",
                         "endDate": "2022-03-01",
-                        "type": "jobs"
+                        "environment": "professional"
                     }
                 ]
             },
@@ -727,7 +757,7 @@
                     {
                         "startDate": "2020-04-01",
                         "endDate": "2022-03-01",
-                        "type": "jobs"
+                        "environment": "professional"
                     }
                 ]
             },
@@ -742,7 +772,7 @@
                     {
                         "startDate": "2020-04-01",
                         "endDate": "",
-                        "type": "jobs"
+                        "environment": "professional"
                     }
                 ]
             },
@@ -757,7 +787,7 @@
                     {
                         "startDate": "2021-09-01",
                         "endDate": "2022-05-22",
-                        "type": "personal"
+                        "environment": "personal"
                     }
                 ]
             },
@@ -772,7 +802,7 @@
                     {
                         "startDate": "2023-04-11",
                         "endDate": "",
-                        "type": "personal"
+                        "environment": "personal"
                     }
                 ]
             },
@@ -787,7 +817,7 @@
                     {
                         "startDate": "2020-04-01",
                         "endDate": "",
-                        "type": "jobs"
+                        "environment": "professional"
                     }
                 ]
             },
@@ -802,7 +832,7 @@
                     {
                         "startDate": "2015-01-01",
                         "endDate": "2016-06-01",
-                        "type": "formations"
+                        "environment": "formation"
                     }
                 ]
             },
@@ -817,12 +847,12 @@
                     {
                         "startDate": "2017-08-01",
                         "endDate": "2018-09-03",
-                        "type": "formations"
+                        "environment": "formation"
                     },
                     {
                         "startDate": "2018-09-03",
                         "endDate": "2021-09-23",
-                        "type": "jobs"
+                        "environment": "professional"
                     }
                 ]
             },
@@ -837,7 +867,7 @@
                     {
                         "startDate": "2020-04-01",
                         "endDate": "2021-09-23",
-                        "type": "jobs"
+                        "environment": "professional"
                     }
                 ]
             }

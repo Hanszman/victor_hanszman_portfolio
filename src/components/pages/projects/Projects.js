@@ -10,6 +10,7 @@ import Button from '../../layout/form/button/Button';
 import projectsJson from '../../../db/projects.json';
 import skillsJson from '../../../db/skills.json';
 import experiencesJson from '../../../db/experiences.json';
+import optionsJson from '../../../db/options.json';
 
 // Component
 function Projects() {
@@ -19,6 +20,7 @@ function Projects() {
     const [projectsFilter, setProjectsFilter] = useState(projects);
     const projectsArrayDetails = [
         { type: 'string', detail: 'description' },
+        { type: 'string', detail: 'environment' },
         { type: 'date', detail: 'startDate' },
         { type: 'date', detail: 'endDate' }
     ];
@@ -27,6 +29,8 @@ function Projects() {
     const technologies = skillsJson.skills.technologies;
     const [technologiesGroups, setTechnologiesGroups] = useState([]);
     const [nameFilter, setNameFilter] = useState('');
+    const [environmentFilter, setEnvironmentFilter] = useState('');
+    const environmentOptions = optionsJson.options.environment;
     const [startDateFilter, setStartDateFilter] = useState('');
     const [endDateFilter, setEndDateFilter] = useState('');
     const [technologyFilter, setTechnologyFilter] = useState('');
@@ -43,6 +47,8 @@ function Projects() {
         let filter = projects;
         if (nameFilter)
             filter = filter.filter(obj => obj.name.toLowerCase().includes(nameFilter.toLowerCase()));
+        if (environmentFilter)
+            filter = filter.filter(obj => obj.environment.toLowerCase() === environmentFilter.toLowerCase());
         console.log(startDateFilter);
         console.log(endDateFilter);
         if (technologyFilter)
@@ -67,6 +73,12 @@ function Projects() {
                         name='projectName'
                         placeholder={t('project')}
                         handleOnChange={e => setNameFilter(e.target.value)}
+                    />
+                    <Select
+                        text={t('environment')}
+                        name='projectEnvironment'
+                        options={environmentOptions}
+                        handleOnChange={e => setEnvironmentFilter(e.target.value)}
                     />
                     <Input
                         type='date'

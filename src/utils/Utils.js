@@ -86,11 +86,11 @@ const sumAges = (intervalArray) => {
         let stringSumMonths = sumMonths !== 1 ? sumMonths + ' ' + i18n.t('Months') : sumMonths + ' ' + i18n.t('Month');
         let stringSumYears = sumYears !== 1 ? sumYears + ' ' + i18n.t('Years') : sumYears + ' ' + i18n.t('Year');
         if (sumMonths > 0 && sumYears > 0) {
-            objectSum[intervalArray[i].type] = stringSumYears + ' ' + i18n.t('And') + ' ' + stringSumMonths;
+            objectSum[intervalArray[i].environment] = stringSumYears + ' ' + i18n.t('And') + ' ' + stringSumMonths;
         } else if (sumMonths <= 0 && sumYears > 0) {
-            objectSum[intervalArray[i].type] = stringSumYears;
+            objectSum[intervalArray[i].environment] = stringSumYears;
         } else {
-            objectSum[intervalArray[i].type] = stringSumMonths;
+            objectSum[intervalArray[i].environment] = stringSumMonths;
         }
 
         let sumFullMonths = fullMonths + sumMonths;
