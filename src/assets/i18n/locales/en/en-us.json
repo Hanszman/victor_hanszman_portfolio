@@ -23,6 +23,8 @@
         "certificate": "Certificate",
         "startDate": "Start Date",
         "endDate": "End Date",
+        "from": "From",
+        "to": "To",
         "currently": "Currently",
         "environment": "Environment",
         "personal": "Personal",

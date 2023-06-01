@@ -2,7 +2,7 @@
 import './Projects.css';
 import { useState, useEffect } from 'react';
 import { useTranslation } from 'react-i18next';
-import { formatList } from '../../../utils/Utils';
+import { formatList, transformDate } from '../../../utils/Utils';
 import CardGroup from '../../layout/card/card-group/CardGroup';
 import Input from '../../layout/form/input/Input';
 import Select from '../../layout/form/select/Select';
@@ -31,8 +31,8 @@ function Projects() {
     const [nameFilter, setNameFilter] = useState('');
     const [environmentFilter, setEnvironmentFilter] = useState('');
     const environmentOptions = optionsJson.options.environment;
-    const [startDateFilter, setStartDateFilter] = useState('');
-    const [endDateFilter, setEndDateFilter] = useState('');
+    const [fromDateFilter, setFromDateFilter] = useState('');
+    const [toDateFilter, setToDateFilter] = useState('');
     const [technologyFilter, setTechnologyFilter] = useState('');
     const technologyOptions = skillsJson.skills.technologies;
 
@@ -44,15 +44,52 @@ function Projects() {
     // Functions
     function filterProject(e) {
         e.preventDefault();
+        let fromDate;
+        let toDate;
+        if (fromDateFilter) {
+            fromDate = transformDate(fromDateFilter);
+            console.log('fromDate: ', fromDate);
+        }
+        if (toDateFilter) {
+            toDate = transformDate(toDateFilter);
+            console.log('toDate: ', toDate);
+        }
+        if (fromDate && toDate && fromDate > toDate) {
+            console.log('ERRO!');
+            return;
+        }
+
         let filter = projects;
         if (nameFilter)
             filter = filter.filter(obj => obj.name.toLowerCase().includes(nameFilter.toLowerCase()));
         if (environmentFilter)
             filter = filter.filter(obj => obj.environment.toLowerCase() === environmentFilter.toLowerCase());
-        console.log(startDateFilter);
-        console.log(endDateFilter);
         if (technologyFilter)
             filter = filter.filter(obj => obj.technologies.find(tec => tec.toLowerCase() === technologyFilter.toLowerCase()));
+        if (fromDate && toDate) {
+            filter = filter.filter(obj => (
+                (
+                    transformDate(obj.startDate) >= fromDate ||
+                    transformDate(obj.endDate) >= fromDate
+                )
+                &&
+                (
+                    transformDate(obj.startDate) <= toDate ||
+                    transformDate(obj.endDate) <= toDate
+                )
+            ));
+        } else {
+            if (fromDate)
+                filter = filter.filter(obj => (
+                    transformDate(obj.startDate) >= fromDate ||
+                    transformDate(obj.endDate) >= fromDate
+                ));
+            if (toDate)
+                filter = filter.filter(obj => (
+                    transformDate(obj.startDate) <= toDate ||
+                    transformDate(obj.endDate) <= toDate
+                ));
+        }
         setProjectsFilter(filter);
     }
 
@@ -82,15 +119,15 @@ function Projects() {
                     />
                     <Input
                         type='date'
-                        text={t('startDate')}
-                        name='projectStartDate'
-                        handleOnChange={e => setStartDateFilter(e.target.value)}
+                        text={t('from')}
+                        name='projectFromDate'
+                        handleOnChange={e => setFromDateFilter(e.target.value)}
                     />
                     <Input
                         type='date'
-                        text={t('endDate')}
-                        name='projectEndDate'
-                        handleOnChange={e => setEndDateFilter(e.target.value)}
+                        text={t('to')}
+                        name='projectToDate'
+                        handleOnChange={e => setToDateFilter(e.target.value)}
                     />
                     <Select
                         text={t('technology')}

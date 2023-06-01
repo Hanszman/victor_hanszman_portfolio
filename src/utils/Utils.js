@@ -46,9 +46,14 @@ const formatList = (title, list, group, nameObject, classGroup) => {
     return result;
 }
 
-const formatDateString = (dateString) => {
-    const newDate = new Date(dateString);
+const transformDate = (dateString = '') => {
+    const newDate = dateString ? new Date(dateString) : new Date();
     const date = new Date(newDate.toISOString().slice(0, -1));
+    return date;
+}
+
+const formatDateString = (dateString) => {
+    const date = transformDate(dateString);
     const day = addZeroes(date.getDate().toString(), 2);
     const month = addZeroes(date.getMonth() + 1, 2).toString();
     const year = date.getFullYear();
@@ -63,10 +68,8 @@ const formatDateString = (dateString) => {
 };
 
 const getAge = (interval) => {
-    const lastDate = interval.endDate ? new Date(interval.endDate) : new Date();
-    const endDate = new Date(lastDate.toISOString().slice(0, -1));
-    const firstDate = new Date(interval.startDate);
-    const startDate = new Date(firstDate.toISOString().slice(0, -1));
+    const endDate = transformDate(interval.endDate);
+    const startDate = transformDate(interval.startDate);
     const monthDifference = endDate.getMonth() - startDate.getMonth();
     const ageMonths = monthDifference >= 0 ? monthDifference : 12 + monthDifference;
     let ageYears = endDate.getFullYear() - startDate.getFullYear();
@@ -116,6 +119,7 @@ const sumAges = (intervalArray) => {
 export {
     addZeroes,
     formatList,
+    transformDate,
     formatDateString,
     getAge,
     sumAges

@@ -23,6 +23,8 @@
         "certificate": "Certificado",
         "startDate": "Data de Início",
         "endDate": "Data de Conclusão",
+        "from": "De",
+        "to": "Até",
         "currently": "Atualmente",
         "environment": "Ambiente",
         "personal": "Pessoal",
