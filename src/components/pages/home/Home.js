@@ -2,6 +2,9 @@
 import './Home.css';
 import { useTranslation } from 'react-i18next';
 import { getAge, formatDateString } from '../../../utils/Utils';
+import BarChart from '../../layout/chart/bar-chart/BarChart';
+import LineChart from '../../layout/chart/line-chart/LineChart';
+import PieChart from '../../layout/chart/pie-chart/PieChart';
 import profilePic from '../../../assets/img/profile/vh_profile.jpeg';
 
 // Component
@@ -42,8 +45,10 @@ function Home() {
                     </p>
                 </div>
             </div>
-            <div className='space'>
-                {/* Remover */}
+            <div className='displayFlex'>
+                <BarChart></BarChart>
+                <LineChart></LineChart>
+                <PieChart></PieChart>
             </div>
         </div>
     );
