@@ -4,14 +4,16 @@ import {
     Chart as ChartJS,
     ArcElement,
     Tooltip,
-    Legend
+    Legend,
+    Colors
 } from 'chart.js';
 import { Pie } from 'react-chartjs-2';
 
 ChartJS.register(
     ArcElement,
     Tooltip,
-    Legend
+    Legend,
+    Colors
 );
 
 // Component
@@ -23,7 +25,6 @@ function PieChart(props) {
         datasets: [
             {
                 data: [3, 6, 9],
-                backgroundColor: ['aqua', 'orangered', 'purple']
             }
         ]
     };

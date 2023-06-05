@@ -16,6 +16,11 @@
     margin: 50px 0;
 }
 
+.space {
+    /* Remover */
+    height: 220px;
+}
+
 @media (max-width: 1000px) {
     .info {
         flex-direction: column;

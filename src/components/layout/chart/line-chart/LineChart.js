@@ -7,7 +7,8 @@ import {
     LinearScale,
     PointElement,
     Tooltip,
-    Legend
+    Legend,
+    Colors
 } from 'chart.js';
 import { Line } from 'react-chartjs-2';
 
@@ -17,7 +18,8 @@ ChartJS.register(
     LinearScale,
     PointElement,
     Tooltip,
-    Legend
+    Legend,
+    Colors
 );
 
 // Component
@@ -40,9 +42,6 @@ function LineChart(props) {
             {
                 label: 'Sales of the Week',
                 data: [6, 3, 9],
-                backgroundColor: 'aqua',
-                borderColor: 'black',
-                pointBorderColor: 'aqua',
                 fill: true,
                 tension: 0.4
             }

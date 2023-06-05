@@ -6,7 +6,8 @@ import {
     CategoryScale,
     LinearScale,
     Tooltip,
-    Legend
+    Legend,
+    Colors
 } from 'chart.js';
 import { Bar } from 'react-chartjs-2';
 
@@ -15,7 +16,8 @@ ChartJS.register(
     CategoryScale,
     LinearScale,
     Tooltip,
-    Legend
+    Legend,
+    Colors
 );
 
 // Component
@@ -28,15 +30,11 @@ function BarChart(props) {
             {
                 label: '369',
                 data: [3, 6, 9],
-                backgroundColor: 'aqua',
-                borderColor: 'black',
                 borderWidth: 1
             },
             {
                 label: '333',
                 data: [3, 3, 3],
-                backgroundColor: 'green',
-                borderColor: 'black',
                 borderWidth: 1
             },
         ]
