@@ -149,12 +149,12 @@
                 "name": "formation"
             },
             {
-                "code": "personal",
-                "name": "personal"
-            },
-            {
                 "code": "professional",
                 "name": "professional"
+            },
+            {
+                "code": "personal",
+                "name": "personal"
             }
         ]
     }

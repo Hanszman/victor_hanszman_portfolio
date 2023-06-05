@@ -1,32 +1,6 @@
 {
     "projects": [
         {
-            "code": "graduation-tcc",
-            "name": "CRM GO",
-            "environment": "formation",
-            "reference": "puc-graduation",
-            "description": "GraduationTCC",
-            "imgIcon": "",
-            "prodLinks": [],
-            "gitLinks": [],
-            "startDate": "2018-01-01",
-            "endDate": "2018-12-01",
-            "customers": [],
-            "technologies": [
-                "laravel",
-                "php",
-                "composer",
-                "xampp",
-                "bootstrap",
-                "javascript",
-                "html",
-                "css",
-                "mysql",
-                "sql",
-                "visualstudiocode"
-            ]
-        },
-        {
             "code": "post-graduation-tcc",
             "name": "HardWorker",
             "environment": "formation",
@@ -65,6 +39,32 @@
             ]
         },
         {
+            "code": "graduation-tcc",
+            "name": "CRM GO",
+            "environment": "formation",
+            "reference": "puc-graduation",
+            "description": "GraduationTCC",
+            "imgIcon": "",
+            "prodLinks": [],
+            "gitLinks": [],
+            "startDate": "2018-01-01",
+            "endDate": "2018-12-01",
+            "customers": [],
+            "technologies": [
+                "laravel",
+                "php",
+                "composer",
+                "xampp",
+                "bootstrap",
+                "javascript",
+                "html",
+                "css",
+                "mysql",
+                "sql",
+                "visualstudiocode"
+            ]
+        },
+        {
             "code": "course-galeria",
             "name": "Galeria",
             "environment": "formation",
@@ -99,94 +99,6 @@
             ]
         },
         {
-            "code": "course-costs",
-            "name": "Costs",
-            "environment": "formation",
-            "reference": "",
-            "description": "CourseCosts",
-            "imgIcon": "",
-            "prodLinks": [],
-            "gitLinks": [
-                "https://github.com/Hanszman/costs_react"
-            ],
-            "startDate": "2023-01-30",
-            "endDate": "2023-02-01",
-            "customers": [],
-            "technologies": [
-                "react",
-                "javascript",
-                "html",
-                "css",
-                "json",
-                "jsx",
-                "npm",
-                "visualstudiocode",
-                "github",
-                "git"
-            ]
-        },
-        {
-            "code": "course-rocket-box",
-            "name": "RocketBox",
-            "environment": "formation",
-            "reference": "",
-            "description": "CourseRocketBox",
-            "imgIcon": "",
-            "prodLinks": [],
-            "gitLinks": [
-                "https://github.com/Hanszman/week-6-frontend",
-                "https://github.com/Hanszman/week-6-backend"
-            ],
-            "startDate": "2022-11-10",
-            "endDate": "2022-11-07",
-            "customers": [],
-            "technologies": [
-                "react",
-                "javascript",
-                "html",
-                "css",
-                "json",
-                "jsx",
-                "node",
-                "npm",
-                "express",
-                "mongodb",
-                "visualstudiocode",
-                "github",
-                "git"
-            ]
-        },
-        {
-            "code": "course-rocket-help",
-            "name": "RocketHelp",
-            "environment": "formation",
-            "reference": "",
-            "description": "CourseRocketHelp",
-            "imgIcon": "",
-            "prodLinks": [],
-            "gitLinks": [
-                "https://github.com/Hanszman/rockethelp"
-            ],
-            "startDate": "2023-02-02",
-            "endDate": "2023-02-03",
-            "customers": [],
-            "technologies": [
-                "reactnative",
-                "javascript",
-                "html",
-                "css",
-                "json",
-                "jsx",
-                "expo",
-                "node",
-                "npm",
-                "express",
-                "visualstudiocode",
-                "github",
-                "git"
-            ]
-        },
-        {
             "code": "portfolio",
             "name": "Portfólio - Victor Hanszman",
             "environment": "personal",
@@ -212,95 +124,6 @@
                 "github",
                 "git",
                 "vercel"
-            ]
-        },
-        {
-            "code": "pokedex-laravel",
-            "name": "Pokédex (Laravel)",
-            "environment": "personal",
-            "reference": "",
-            "description": "PokedexLaravel",
-            "imgIcon": "",
-            "prodLinks": [],
-            "gitLinks": [
-                "https://github.com/Hanszman/pokedex_laravel"
-            ],
-            "startDate": "2020-03-23",
-            "endDate": "2020-03-27",
-            "customers": [],
-            "technologies": [
-                "laravel",
-                "php",
-                "composer",
-                "xampp",
-                "bootstrap",
-                "javascript",
-                "html",
-                "css",
-                "visualstudiocode",
-                "github",
-                "git"
-            ]
-        },
-        {
-            "code": "pokedex-angular",
-            "name": "Pokédex (Angular)",
-            "environment": "personal",
-            "reference": "",
-            "description": "PokedexAngular",
-            "imgIcon": "",
-            "prodLinks": [],
-            "gitLinks": [
-                "https://github.com/Hanszman/pokedexAngular"
-            ],
-            "startDate": "2020-04-06",
-            "endDate": "2020-04-10",
-            "customers": [],
-            "technologies": [
-                "angular",
-                "typescript",
-                "javascript",
-                "html",
-                "css",
-                "json",
-                "bootstrap",
-                "npm",
-                "visualstudiocode",
-                "github",
-                "git"
-            ]
-        },
-        {
-            "code": "battle-of-monsters",
-            "name": "Battle Of Monsters",
-            "environment": "personal",
-            "reference": "",
-            "description": "BattleOfMonsters",
-            "imgIcon": "",
-            "prodLinks": [],
-            "gitLinks": [
-                "https://github.com/Hanszman/BattleOfMonstersTestFrontEnd",
-                "https://github.com/Hanszman/BattleOfMonstersTestBackEnd"
-            ],
-            "startDate": "2022-11-26",
-            "endDate": "2022-11-26",
-            "customers": [],
-            "technologies": [
-                "angular",
-                "typescript",
-                "javascript",
-                "html",
-                "css",
-                "json",
-                "node",
-                "npm",
-                "express",
-                "mysql",
-                "sql",
-                "dbeaver",
-                "visualstudiocode",
-                "github",
-                "git"
             ]
         },
         {
@@ -578,6 +401,201 @@
                 "git",
                 "aws",
                 "kanban"
+            ]
+        },
+        {
+            "code": "course-costs",
+            "name": "Costs",
+            "environment": "formation",
+            "reference": "",
+            "description": "CourseCosts",
+            "imgIcon": "",
+            "prodLinks": [],
+            "gitLinks": [
+                "https://github.com/Hanszman/costs_react"
+            ],
+            "startDate": "2023-01-30",
+            "endDate": "2023-02-01",
+            "customers": [],
+            "technologies": [
+                "react",
+                "javascript",
+                "html",
+                "css",
+                "json",
+                "jsx",
+                "npm",
+                "visualstudiocode",
+                "github",
+                "git"
+            ]
+        },
+        {
+            "code": "course-rocket-box",
+            "name": "RocketBox",
+            "environment": "formation",
+            "reference": "",
+            "description": "CourseRocketBox",
+            "imgIcon": "",
+            "prodLinks": [],
+            "gitLinks": [
+                "https://github.com/Hanszman/week-6-frontend",
+                "https://github.com/Hanszman/week-6-backend"
+            ],
+            "startDate": "2022-11-10",
+            "endDate": "2022-11-07",
+            "customers": [],
+            "technologies": [
+                "react",
+                "javascript",
+                "html",
+                "css",
+                "json",
+                "jsx",
+                "node",
+                "npm",
+                "express",
+                "mongodb",
+                "visualstudiocode",
+                "github",
+                "git"
+            ]
+        },
+        {
+            "code": "course-rocket-help",
+            "name": "RocketHelp",
+            "environment": "formation",
+            "reference": "",
+            "description": "CourseRocketHelp",
+            "imgIcon": "",
+            "prodLinks": [],
+            "gitLinks": [
+                "https://github.com/Hanszman/rockethelp"
+            ],
+            "startDate": "2023-02-02",
+            "endDate": "2023-02-03",
+            "customers": [],
+            "technologies": [
+                "reactnative",
+                "javascript",
+                "html",
+                "css",
+                "json",
+                "jsx",
+                "expo",
+                "node",
+                "npm",
+                "express",
+                "visualstudiocode",
+                "github",
+                "git"
+            ]
+        },
+        {
+            "code": "pokedex-laravel",
+            "name": "Pokédex (Laravel)",
+            "environment": "personal",
+            "reference": "",
+            "description": "PokedexLaravel",
+            "imgIcon": "",
+            "prodLinks": [],
+            "gitLinks": [
+                "https://github.com/Hanszman/pokedex_laravel"
+            ],
+            "startDate": "2020-03-23",
+            "endDate": "2020-03-27",
+            "customers": [],
+            "technologies": [
+                "laravel",
+                "php",
+                "composer",
+                "xampp",
+                "bootstrap",
+                "javascript",
+                "html",
+                "css",
+                "visualstudiocode",
+                "github",
+                "git"
+            ]
+        },
+        {
+            "code": "pokedex-angular",
+            "name": "Pokédex (Angular)",
+            "environment": "personal",
+            "reference": "",
+            "description": "PokedexAngular",
+            "imgIcon": "",
+            "prodLinks": [],
+            "gitLinks": [
+                "https://github.com/Hanszman/pokedexAngular"
+            ],
+            "startDate": "2020-04-06",
+            "endDate": "2020-04-10",
+            "customers": [],
+            "technologies": [
+                "angular",
+                "typescript",
+                "javascript",
+                "html",
+                "css",
+                "json",
+                "bootstrap",
+                "npm",
+                "visualstudiocode",
+                "github",
+                "git"
+            ]
+        },
+        {
+            "code": "battle-of-monsters",
+            "name": "Battle Of Monsters",
+            "environment": "personal",
+            "reference": "",
+            "description": "BattleOfMonsters",
+            "imgIcon": "",
+            "prodLinks": [],
+            "gitLinks": [
+                "https://github.com/Hanszman/BattleOfMonstersTestFrontEnd",
+                "https://github.com/Hanszman/BattleOfMonstersTestBackEnd"
+            ],
+            "startDate": "2022-11-26",
+            "endDate": "2022-11-26",
+            "customers": [],
+            "technologies": [
+                "angular",
+                "typescript",
+                "javascript",
+                "html",
+                "css",
+                "json",
+                "node",
+                "npm",
+                "express",
+                "mysql",
+                "sql",
+                "dbeaver",
+                "visualstudiocode",
+                "github",
+                "git"
+            ]
+        },
+        {
+            "code": "flappy-bird-udemy",
+            "name": "Flappy Bird Udemy",
+            "environment": "formation",
+            "reference": "",
+            "description": "FlappyBirdUdemy",
+            "imgIcon": "",
+            "prodLinks": [],
+            "gitLinks": [],
+            "startDate": "2021-09-01",
+            "endDate": "2021-10-01",
+            "customers": [],
+            "technologies": [
+                "unity",
+                "csharp",
+                "visualstudiocode"
             ]
         }
     ]

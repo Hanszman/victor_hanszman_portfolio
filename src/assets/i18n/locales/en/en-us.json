@@ -85,7 +85,7 @@
 
         "GraduationTCC": "Customer relationship management system (CRM) developed for the Graduation's Final Paper.",
         "PostGraduationTCC": "Projects, people and tasks management system (Kanban) developed for the Post-Graduation's Final Paper.",
-        "CourseGalery": "Pictures Galery project developed with the course of programming Fullstack Angular & Node.",
+        "CourseGalery": "Pictures Galery project developed with the course of programming Fullstack Angular & Node from Udemy.",
         "CourseCosts": "Costs project developed with the course of React made by a channel on Youtube.",
         "CourseRocketBox": "RocketBox project developed with the course of React made by RocketSeat.",
         "CourseRocketHelp": "RocketHelp project developed with the course of React Native made by RocketSeat.",
@@ -93,6 +93,7 @@
         "PokedexLaravel": "Pokédex developed consuming the Pokémon data API using Laravel and Bootstrap to study the technologies.",
         "PokedexAngular": "Pokédex developed consuming the Pokémon data API using Angular to study the technology.",
         "BattleOfMonsters": "Battle Of Monsters project developed to practice Angular.",
+        "FlappyBirdUdemy": "Development of a copy of the game FlappyBird in a course from Udemy.",
         "StefaniniFord": "Vehicle maintenance service scheduling systems for Ford car manufacturer from countries: Thailand, Vietnam and Philippines, which I work mostly as a Front-End Developer",
         "StefaniniAle": "Control system for exchanging points for rewards for the Ale gas station.",
         "M2MLecto": "Electrical energy control and measurement system for companies in this field.",
@@ -100,7 +101,7 @@
         "4MTICotz": "Enterprise resource planning (ERP) system for self-control of the company itself and for a law firm.",
         "4MTIDP": "System of grouping and analysis of bids and public documents.",
         "4MTIMapaEspecialistas": "Mapping system of medical specialties for the medicine sector (NESCON) of the UFMG college.",
-        "4MTIAdunaLins": "Control systems of public documents, expenses and bids for the Public Ministry of the state of Minas Gerais (MPMG), which I worked as a User Tester and Project manager",
+        "4MTIAdunaLins": "Control systems of public documents, expenses and bids for the Public Ministry of the state of Minas Gerais (MPMG), which I worked as a Tester and Project manager",
 
         "IntroText": "I am a Full Stack Web Developer, working on Front-End and Back-End. I live in the metropolitan region of Belo Horizonte in the state of Minas Gerais in Brazil. Currently I'm working remotely and looking for some new home office opportunities. I wish to continue growing and gaining professional experience in the field of Software Development.",
         "Age": "Age",
