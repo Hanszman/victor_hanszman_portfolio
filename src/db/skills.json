@@ -876,13 +876,13 @@
             {
                 "code": "pt-br",
                 "name": "Portuguese",
-                "level": "Fluent",
+                "level": "Native",
                 "imgIcon": "skills/brasil.png"
             },
             {
                 "code": "en-us",
                 "name": "English",
-                "level": "Advanced",
+                "level": "Fluent",
                 "imgIcon": "skills/usa.png"
             }
         ],

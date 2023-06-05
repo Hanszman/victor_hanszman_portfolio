@@ -17,6 +17,11 @@
                 "type": "formations"
             },
             {
+                "code": "Native",
+                "name": "Native",
+                "type": "languages"
+            },
+            {
                 "code": "Fluent",
                 "name": "Fluent",
                 "type": "languages"
