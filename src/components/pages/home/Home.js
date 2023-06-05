@@ -45,13 +45,15 @@ function Home() {
                     </p>
                 </div>
             </div>
-            <div className='displayFlex space'>
-                {/*
-                    <BarChart></BarChart>
-                    <LineChart></LineChart>
-                    <PieChart></PieChart>
-                */}
-            </div>
+            {/* <div className='charts'>
+                <BarChart></BarChart>
+                <PieChart></PieChart>
+                <LineChart></LineChart>
+                <PieChart></PieChart>
+                <BarChart></BarChart>
+                <PieChart></PieChart>
+            </div> */}
+            <div className='space'></div>
         </div>
     );
 }

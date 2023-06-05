@@ -16,6 +16,14 @@
     margin: 50px 0;
 }
 
+.charts {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 30px 10px;
+    justify-content: center;
+    align-items: center;
+}
+
 .space {
     /* Remover */
     height: 220px;
