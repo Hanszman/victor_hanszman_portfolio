@@ -30,6 +30,30 @@ function LineChart(props) {
     const options = {
         plugins: {
             legend: true
+        },
+        interaction: { mode: 'index' },
+        onHover: function (event) {
+            const points = this.getElementsAtEventForMode(
+                event,
+                'index', { axis: 'x', intersect: true },
+                false
+            );
+            if (points.length) event.native.target.style.cursor = 'pointer';
+            else event.native.target.style.cursor = 'default';
+        },
+        onClick: function (event) {
+            const click = this.getElementsAtEventForMode(
+                event,
+                'nearest',
+                { intersect: true },
+                true
+            );
+            console.log('click', click);
+            console.log('datasetIndex', click[0].datasetIndex);
+            console.log('index', click[0].index);
+            console.log('label', this.data.labels[click[0].index]);
+            console.log('innerlabel', this.data.datasets[click[0].datasetIndex].label);
+            console.log('value', this.data.datasets[click[0].datasetIndex].data[click[0].index]);
         }
     };
     const data = {
