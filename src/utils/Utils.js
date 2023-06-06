@@ -115,6 +115,33 @@ const sumAges = (intervalArray) => {
     return objectSum;
 }
 
+const getChartObject = (labelsArray, refCodeArray, dataSetLabelsArray, dataSetRefArray) => {
+    let result = [];
+    let labelsResult = [];
+    let dataSetsResult = [];
+    for (let i = 0; i < labelsArray.length; i++) {
+        labelsResult.push(labelsArray[i]);
+    }
+
+    for (let i = 0; i < dataSetLabelsArray.length; i++) {
+        let objectData = {};
+        objectData.label = dataSetLabelsArray[i].name;
+        objectData.data = [];
+        for (let j = 0; j < refCodeArray.length; j++) {
+            let filterData = dataSetRefArray.filter(item => item[refCodeArray[j]].find(subItem => subItem === dataSetLabelsArray[i].code));
+            objectData.data.push(filterData.length);
+        }
+        dataSetsResult.push(objectData);
+    }
+
+    result = {
+        labels: labelsResult,
+        datasets: dataSetsResult
+    };
+    console.log(result);
+    return result;
+}
+
 // Exportation
 export {
     addZeroes,
@@ -122,5 +149,6 @@ export {
     transformDate,
     formatDateString,
     getAge,
-    sumAges
+    sumAges,
+    getChartObject
 };

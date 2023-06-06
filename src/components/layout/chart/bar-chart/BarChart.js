@@ -25,7 +25,15 @@ ChartJS.register(
 function BarChart(props) {
     // Declarations
     const { t } = useTranslation();
+    const data = props.data;
     const options = {
+        responsive: true,
+        plugins: {
+            legend: {
+                display: true,
+                position: 'bottom'
+            }
+        },
         interaction: { mode: 'index' },
         onHover: function (event) {
             const points = this.getElementsAtEventForMode(
@@ -51,17 +59,13 @@ function BarChart(props) {
             console.log('value', this.data.datasets[click[0].datasetIndex].data[click[0].index]);
         }
     };
-    const data = {
-        labels: props.arrayLabels,
-        datasets: props.arrayDataSets
-    };
 
     return (
         <div className='barChart col-4'>
             <p className='highText chartTitle'>{t(props.title)}:</p>
             <Bar
-                options={options}
                 data={data}
+                options={options}
             ></Bar>
         </div>
     );

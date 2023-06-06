@@ -1,16 +1,20 @@
 // Imports
 import './Home.css';
 import { useTranslation } from 'react-i18next';
-import { getAge, formatDateString } from '../../../utils/Utils';
+import { formatDateString, getAge, getChartObject } from '../../../utils/Utils';
 import BarChart from '../../layout/chart/bar-chart/BarChart';
 import LineChart from '../../layout/chart/line-chart/LineChart';
 import PieChart from '../../layout/chart/pie-chart/PieChart';
 import profilePic from '../../../assets/img/profile/vh_profile.jpeg';
+import skillsJson from '../../../db/skills.json';
+import projectsJson from '../../../db/projects.json';
 
 // Component
 function Home() {
     // Declarations
     const { t } = useTranslation();
+    const technologies = skillsJson.skills.technologies;
+    const projects = projectsJson.projects;
 
     return (
         <div>
@@ -45,64 +49,53 @@ function Home() {
                     </p>
                 </div>
             </div>
-            {/* <div className='container'>
+            <div className='container'>
                 <div className='row charts'>
                     <BarChart
                         title={'TechnologiesByProjects'}
-                        arrayLabels={['Mon', 'Tue', 'Wed']}
-                        arrayDataSets={
-                            [
-                                {
-                                    label: '369',
-                                    data: [3, 6, 9]
-                                },
-                                {
-                                    label: '333',
-                                    data: [1, 2, 5]
-                                },
-                            ]
-                        }
+                        data={getChartObject([t('technologies')], ['technologies'], technologies, projects)}
                     ></BarChart>
+                    {/*
                     <PieChart
                         title={'ProjectsByEnvironment'}
-                        arrayLabels={['One', 'Two', 'Three']}
-                        arrayDataSets={
-                            [
+                        data={{
+                            labels: ['One', 'Two', 'Three'],
+                            datasets: [
                                 {
                                     data: [3, 6, 9]
                                 }
                             ]
-                        }
+                        }}
                     ></PieChart>
                     <LineChart
                         title={'TechnologiesByExperience'}
-                        arrayLabels={['Mon', 'Tue', 'Wed']}
-                        arrayDataSets={
-                            [
+                        data={{
+                            labels: ['Mon', 'Tue', 'Wed'],
+                            datasets: [
                                 {
                                     label: 'Sales of the Week',
                                     data: [6, 3, 9],
                                     tension: 0.4
                                 }
                             ]
-                        }
+                        }}
                     ></LineChart>
                     <PieChart
                         title={'TechnologiesByStack'}
-                        arrayLabels={['One', 'Two', 'Three']}
-                        arrayDataSets={
-                            [
+                        data={{
+                            labels: ['One', 'Two', 'Three'],
+                            datasets: [
                                 {
                                     data: [3, 6, 9]
                                 }
                             ]
-                        }
+                        }}
                     ></PieChart>
                     <BarChart
                         title={'TechnologiesByType'}
-                        arrayLabels={['Mon', 'Tue', 'Wed']}
-                        arrayDataSets={
-                            [
+                        data={{
+                            labels: ['Mon', 'Tue', 'Wed'],
+                            datasets: [
                                 {
                                     label: '369',
                                     data: [3, 6, 9]
@@ -112,22 +105,22 @@ function Home() {
                                     data: [1, 2, 5]
                                 },
                             ]
-                        }
+                        }}
                     ></BarChart>
                     <PieChart
                         title={'TechnologiesByLevel'}
-                        arrayLabels={['One', 'Two', 'Three']}
-                        arrayDataSets={
-                            [
+                        data={{
+                            labels: ['One', 'Two', 'Three'],
+                            datasets: [
                                 {
                                     data: [3, 6, 9]
                                 }
                             ]
-                        }
+                        }}
                     ></PieChart>
+                    */}
                 </div>
-            </div> */}
-            <div className='space'></div>
+            </div>
         </div>
     );
 }
