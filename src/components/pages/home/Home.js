@@ -1,20 +1,36 @@
 // Imports
 import './Home.css';
+import { useState } from 'react';
 import { useTranslation } from 'react-i18next';
 import { formatDateString, getAge, getChartObject } from '../../../utils/Utils';
-import BarChart from '../../layout/chart/bar-chart/BarChart';
-import LineChart from '../../layout/chart/line-chart/LineChart';
-import PieChart from '../../layout/chart/pie-chart/PieChart';
 import profilePic from '../../../assets/img/profile/vh_profile.jpeg';
-import skillsJson from '../../../db/skills.json';
+import BarChart from '../../layout/chart/bar-chart/BarChart';
+// import LineChart from '../../layout/chart/line-chart/LineChart';
+// import PieChart from '../../layout/chart/pie-chart/PieChart';
+import Select from '../../layout/form/select/Select';
+import Button from '../../layout/form/button/Button';
 import projectsJson from '../../../db/projects.json';
+import skillsJson from '../../../db/skills.json';
+import optionsJson from '../../../db/options.json';
 
 // Component
 function Home() {
     // Declarations
     const { t } = useTranslation();
-    const technologies = skillsJson.skills.technologies;
     const projects = projectsJson.projects;
+    const technologies = skillsJson.skills.technologies;
+    const typeOptions = optionsJson.options.type;
+    const [typeFilter, setTypeFilter] = useState('ProgrammingLanguages');
+    const [technologiesFilter, setTechnologiesFilter] = useState(technologies.filter(obj => obj.type === 'ProgrammingLanguages'));
+
+    // Functions
+    function filterTechnology(e) {
+        e.preventDefault();
+        let filter = technologies;
+        if (typeFilter)
+            filter = filter.filter(obj => obj.type.toLowerCase() === typeFilter.toLowerCase());
+        setTechnologiesFilter(filter);
+    }
 
     return (
         <div>
@@ -52,9 +68,24 @@ function Home() {
             <div className='container'>
                 <div className='row charts'>
                     <BarChart
-                        title={'TechnologiesByProjects'}
-                        data={getChartObject([t('technologies')], ['technologies'], technologies, projects)}
-                    ></BarChart>
+                        title={'ProjectsByTypeOfTechnologies'}
+                        data={getChartObject([t('technologies')], ['technologies'], technologiesFilter, projects)}
+                    >
+                        <form className='displayFlex flexWrap' onSubmit={(e) => filterTechnology(e)}>
+                            <Select
+                                text={t('type')}
+                                name='technologyType'
+                                options={typeOptions}
+                                hideAll={true}
+                                handleOnChange={e => setTypeFilter(e.target.value)}
+                            />
+                            <div className='btnFilter'>
+                                <Button type='submit'>
+                                    {t('Search')}
+                                </Button>
+                            </div>
+                        </form>
+                    </BarChart>
                     {/*
                     <PieChart
                         title={'ProjectsByEnvironment'}

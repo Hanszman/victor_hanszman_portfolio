@@ -71,6 +71,13 @@ html, body, #root {
   border: 1px solid #7089fa;
 }
 
+.btnFilter {
+  display: flex;
+  align-items: flex-end;
+  justify-content: flex-end;
+  margin: 8px 10px;
+}
+
 .chartTitle {
   display: flex;
   flex-wrap: wrap;

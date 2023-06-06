@@ -16,13 +16,16 @@ function Select(props) {
                 name={props.name}
                 onChange={props.handleOnChange}
             >
-                <option
-                    id='All'
-                    key='All'
-                    value=''
-                >
-                    {t('All')}
-                </option>
+                {
+                    !props.hideAll &&
+                    <option
+                        id='All'
+                        key='All'
+                        value=''
+                    >
+                        {t('All')}
+                    </option>
+                }
                 {
                     props.options.map((option) => (
                         <option

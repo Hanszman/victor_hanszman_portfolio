@@ -117,7 +117,7 @@
         "Married": "Married",
         "PhoneNumber": "Phone Number",
 
-        "TechnologiesByProjects": "Technologies by Number of Projects",
+        "ProjectsByTypeOfTechnologies": "Number of Projects by Type of Technologies",
         "ProjectsByEnvironment": "Number of Projects by Environment",
         "TechnologiesByExperience": "Technologies by Time of Experience",
         "TechnologiesByStack": "Number of Technologies by Stack",

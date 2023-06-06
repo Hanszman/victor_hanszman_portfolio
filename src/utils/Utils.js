@@ -138,7 +138,6 @@ const getChartObject = (labelsArray, refCodeArray, dataSetLabelsArray, dataSetRe
         labels: labelsResult,
         datasets: dataSetsResult
     };
-    console.log(result);
     return result;
 }
 

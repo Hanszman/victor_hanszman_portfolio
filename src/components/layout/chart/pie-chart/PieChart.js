@@ -59,6 +59,7 @@ function PieChart(props) {
     return (
         <div className='pieChart col-4'>
             <p className='highText chartTitle'>{t(props.title)}:</p>
+            <div className='chartTitle'>{props.children}</div>
             <Pie
                 data={data}
                 options={options}
