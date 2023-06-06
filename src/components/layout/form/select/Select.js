@@ -9,7 +9,10 @@ function Select(props) {
 
     return (
         <div className='formSelect'>
-            <label htmlFor={props.name}>{props.text}:</label>
+            {
+                !props.hideLabel &&
+                <label htmlFor={props.name}>{props.text}:</label>
+            }
             <br/>
             <select
                 id={props.name}

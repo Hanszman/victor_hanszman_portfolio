@@ -76,6 +76,7 @@ function Home() {
                                 text={t('type')}
                                 name='technologyType'
                                 options={typeOptions}
+                                hideLabel={true}
                                 hideAll={true}
                                 handleOnChange={e => setTypeFilter(e.target.value)}
                             />
