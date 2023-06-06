@@ -45,14 +45,28 @@ function Home() {
                     </p>
                 </div>
             </div>
-            {/* <div className='charts'>
-                <BarChart></BarChart>
-                <PieChart></PieChart>
-                <LineChart></LineChart>
-                <PieChart></PieChart>
-                <BarChart></BarChart>
-                <PieChart></PieChart>
-            </div> */}
+            <div className='container'>
+                {/* <div className='row charts'>
+                    <BarChart
+                        title={'Tecnologias por Quantidade de Projetos'}
+                    ></BarChart>
+                    <PieChart
+                        title={'Quantidade de Projetos por Ambiente'}
+                    ></PieChart>
+                    <LineChart
+                        title={'Tecnologias por Anos de Experiência'}
+                    ></LineChart>
+                    <PieChart
+                        title={'Quantidade de Tecnologias por Stack'}
+                    ></PieChart>
+                    <BarChart
+                        title={'Quantidade de Tecnologias por Tipo'}
+                    ></BarChart>
+                    <PieChart
+                        title={'Quantidade de Tecnologias por Nível'}
+                    ></PieChart>
+                </div> */}
+            </div>
             <div className='space'></div>
         </div>
     );

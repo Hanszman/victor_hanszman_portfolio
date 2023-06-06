@@ -1,9 +1,10 @@
 .pieChart {
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-self: center;
+    width: 20%;
     margin: 10px;
-    width: 30%;
     min-width: 200px;
     max-width: 300px;
 }

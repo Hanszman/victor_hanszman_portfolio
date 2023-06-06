@@ -70,3 +70,10 @@ html, body, #root {
   background-color: white;
   border: 1px solid #7089fa;
 }
+
+.chartTitle {
+  display: flex;
+  flex-wrap: wrap;
+  align-content: center;
+  justify-content: center;
+}

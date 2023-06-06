@@ -24,13 +24,14 @@ function PieChart(props) {
         labels: ['One', 'Two', 'Three'],
         datasets: [
             {
-                data: [3, 6, 9],
+                data: [3, 6, 9]
             }
         ]
     };
 
     return (
-        <div className='pieChart'>
+        <div className='pieChart col-4'>
+            <p className='highText chartTitle'>{props.title}:</p>
             <Pie
                 options={options}
                 data={data}

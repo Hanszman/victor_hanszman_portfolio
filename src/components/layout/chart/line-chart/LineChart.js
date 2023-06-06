@@ -28,12 +28,6 @@ function LineChart(props) {
     const options = {
         plugins: {
             legend: true
-        },
-        scales: {
-            y: {
-                min: 3,
-                max: 6
-            }
         }
     };
     const data = {
@@ -49,7 +43,8 @@ function LineChart(props) {
     };
 
     return (
-        <div className='lineChart'>
+        <div className='lineChart col-4'>
+            <p className='highText chartTitle'>{props.title}:</p>
             <Line
                 options={options}
                 data={data}

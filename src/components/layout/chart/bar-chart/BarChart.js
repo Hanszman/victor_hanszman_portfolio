@@ -29,19 +29,18 @@ function BarChart(props) {
         datasets: [
             {
                 label: '369',
-                data: [3, 6, 9],
-                borderWidth: 1
+                data: [3, 6, 9]
             },
             {
                 label: '333',
-                data: [3, 3, 3],
-                borderWidth: 1
+                data: [3, 3, 3]
             },
         ]
     };
 
     return (
-        <div className='barChart'>
+        <div className='barChart col-4'>
+            <p className='highText chartTitle'>{props.title}:</p>
             <Bar
                 options={options}
                 data={data}
