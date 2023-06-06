@@ -45,7 +45,7 @@ function Home() {
                     </p>
                 </div>
             </div>
-            <div className='container'>
+            {/* <div className='container'>
                 <div className='row charts'>
                     <BarChart
                         title={'TechnologiesByProjects'}
@@ -126,8 +126,8 @@ function Home() {
                         }
                     ></PieChart>
                 </div>
-            </div>
-            {/* <div className='space'></div> */}
+            </div> */}
+            <div className='space'></div>
         </div>
     );
 }
