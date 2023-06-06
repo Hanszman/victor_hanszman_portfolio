@@ -5,8 +5,8 @@ import { useTranslation } from 'react-i18next';
 import { formatDateString, getAge, getChartObject } from '../../../utils/Utils';
 import profilePic from '../../../assets/img/profile/vh_profile.jpeg';
 import BarChart from '../../layout/chart/bar-chart/BarChart';
-// import LineChart from '../../layout/chart/line-chart/LineChart';
-// import PieChart from '../../layout/chart/pie-chart/PieChart';
+import LineChart from '../../layout/chart/line-chart/LineChart';
+import PieChart from '../../layout/chart/pie-chart/PieChart';
 import Select from '../../layout/form/select/Select';
 import Button from '../../layout/form/button/Button';
 import projectsJson from '../../../db/projects.json';
@@ -87,8 +87,7 @@ function Home() {
                             </div>
                         </form>
                     </BarChart>
-                    {/*
-                    <PieChart
+                    {/* <PieChart
                         title={'ProjectsByEnvironment'}
                         data={{
                             labels: ['One', 'Two', 'Three'],
@@ -149,8 +148,7 @@ function Home() {
                                 }
                             ]
                         }}
-                    ></PieChart>
-                    */}
+                    ></PieChart> */}
                 </div>
             </div>
         </div>
