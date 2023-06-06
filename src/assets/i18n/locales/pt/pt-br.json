@@ -117,6 +117,13 @@
         "Married": "Casado",
         "PhoneNumber": "Telefone",
 
+        "TechnologiesByProjects": "Tecnologias por Quantidade de Projetos",
+        "ProjectsByEnvironment": "Quantidade de Projetos por Ambiente",
+        "TechnologiesByExperience": "Tecnologias por Tempo de Experiência",
+        "TechnologiesByStack": "Quantidade de Tecnologias por Stack",
+        "TechnologiesByType": "Quantidade de Tecnologias por Tipo",
+        "TechnologiesByLevel": "Quantidade de Tecnologias por Nível",
+
         "All": "Todos",
         "Search": "Buscar",
         "NoRecordFound": "Nenhum registro encontrado!",

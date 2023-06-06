@@ -1,5 +1,6 @@
 // Imports
 import './LineChart.css';
+import { useTranslation } from 'react-i18next';
 import {
     Chart as ChartJS,
     LineElement,
@@ -25,26 +26,20 @@ ChartJS.register(
 // Component
 function LineChart(props) {
     // Declarations
+    const { t } = useTranslation();
     const options = {
         plugins: {
             legend: true
         }
     };
     const data = {
-        labels: ['Mon', 'Tue', 'Wed'],
-        datasets: [
-            {
-                label: 'Sales of the Week',
-                data: [6, 3, 9],
-                fill: true,
-                tension: 0.4
-            }
-        ]
+        labels: props.arrayLabels,
+        datasets: props.arrayDataSets
     };
 
     return (
         <div className='lineChart col-4'>
-            <p className='highText chartTitle'>{props.title}:</p>
+            <p className='highText chartTitle'>{t(props.title)}:</p>
             <Line
                 options={options}
                 data={data}

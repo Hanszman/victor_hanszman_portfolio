@@ -1,5 +1,6 @@
 // Imports
 import './BarChart.css';
+import { useTranslation } from 'react-i18next';
 import {
     Chart as ChartJS,
     BarElement,
@@ -23,24 +24,16 @@ ChartJS.register(
 // Component
 function BarChart(props) {
     // Declarations
+    const { t } = useTranslation();
     const options = {};
     const data = {
-        labels: ['Mon', 'Tue', 'Wed'],
-        datasets: [
-            {
-                label: '369',
-                data: [3, 6, 9]
-            },
-            {
-                label: '333',
-                data: [3, 3, 3]
-            },
-        ]
+        labels: props.arrayLabels,
+        datasets: props.arrayDataSets
     };
 
     return (
         <div className='barChart col-4'>
-            <p className='highText chartTitle'>{props.title}:</p>
+            <p className='highText chartTitle'>{t(props.title)}:</p>
             <Bar
                 options={options}
                 data={data}

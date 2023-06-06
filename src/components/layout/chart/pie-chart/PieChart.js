@@ -1,5 +1,6 @@
 // Imports
 import './PieChart.css';
+import { useTranslation } from 'react-i18next';
 import {
     Chart as ChartJS,
     ArcElement,
@@ -19,19 +20,16 @@ ChartJS.register(
 // Component
 function PieChart(props) {
     // Declarations
+    const { t } = useTranslation();
     const options = {};
     const data = {
-        labels: ['One', 'Two', 'Three'],
-        datasets: [
-            {
-                data: [3, 6, 9]
-            }
-        ]
+        labels: props.arrayLabels,
+        datasets: props.arrayDataSets
     };
 
     return (
         <div className='pieChart col-4'>
-            <p className='highText chartTitle'>{props.title}:</p>
+            <p className='highText chartTitle'>{t(props.title)}:</p>
             <Pie
                 options={options}
                 data={data}

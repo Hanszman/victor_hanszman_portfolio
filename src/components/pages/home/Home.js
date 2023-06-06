@@ -45,28 +45,88 @@ function Home() {
                     </p>
                 </div>
             </div>
-            <div className='container'>
-                {/* <div className='row charts'>
+            {/* <div className='container'>
+                <div className='row charts'>
                     <BarChart
-                        title={'Tecnologias por Quantidade de Projetos'}
+                        title={'TechnologiesByProjects'}
+                        arrayLabels={['Mon', 'Tue', 'Wed']}
+                        arrayDataSets={
+                            [
+                                {
+                                    label: '369',
+                                    data: [3, 6, 9]
+                                },
+                                {
+                                    label: '333',
+                                    data: [3, 3, 3]
+                                },
+                            ]
+                        }
                     ></BarChart>
                     <PieChart
-                        title={'Quantidade de Projetos por Ambiente'}
+                        title={'ProjectsByEnvironment'}
+                        arrayLabels={['One', 'Two', 'Three']}
+                        arrayDataSets={
+                            [
+                                {
+                                    data: [3, 6, 9]
+                                }
+                            ]
+                        }
                     ></PieChart>
                     <LineChart
-                        title={'Tecnologias por Anos de Experiência'}
+                        title={'TechnologiesByExperience'}
+                        arrayLabels={['Mon', 'Tue', 'Wed']}
+                        arrayDataSets={
+                            [
+                                {
+                                    label: 'Sales of the Week',
+                                    data: [6, 3, 9],
+                                    tension: 0.4
+                                }
+                            ]
+                        }
                     ></LineChart>
                     <PieChart
-                        title={'Quantidade de Tecnologias por Stack'}
+                        title={'TechnologiesByStack'}
+                        arrayLabels={['One', 'Two', 'Three']}
+                        arrayDataSets={
+                            [
+                                {
+                                    data: [3, 6, 9]
+                                }
+                            ]
+                        }
                     ></PieChart>
                     <BarChart
-                        title={'Quantidade de Tecnologias por Tipo'}
+                        title={'TechnologiesByType'}
+                        arrayLabels={['Mon', 'Tue', 'Wed']}
+                        arrayDataSets={
+                            [
+                                {
+                                    label: '369',
+                                    data: [3, 6, 9]
+                                },
+                                {
+                                    label: '333',
+                                    data: [3, 3, 3]
+                                },
+                            ]
+                        }
                     ></BarChart>
                     <PieChart
-                        title={'Quantidade de Tecnologias por Nível'}
+                        title={'TechnologiesByLevel'}
+                        arrayLabels={['One', 'Two', 'Three']}
+                        arrayDataSets={
+                            [
+                                {
+                                    data: [3, 6, 9]
+                                }
+                            ]
+                        }
                     ></PieChart>
-                </div> */}
-            </div>
+                </div>
+            </div> */}
             <div className='space'></div>
         </div>
     );
