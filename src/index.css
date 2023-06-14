@@ -86,3 +86,10 @@ html, body, #root {
   margin: 0px;
   padding: 0px;
 }
+
+@media only screen and (max-width: 500px) {
+  .formInput input, .formSelect select {
+    max-width: 150px;
+    word-wrap: break-word;
+  }
+}

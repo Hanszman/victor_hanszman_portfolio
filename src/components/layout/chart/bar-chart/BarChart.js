@@ -61,7 +61,7 @@ function BarChart(props) {
     };
 
     return (
-        <div className='barChart col-4'>
+        <div className='barChart col-12'>
             <p className='highText chartTitle'>{t(props.title)}:</p>
             <div className='chartTitle'>{props.children}</div>
             <Bar

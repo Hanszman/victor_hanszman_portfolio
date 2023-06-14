@@ -63,7 +63,7 @@ function LineChart(props) {
     };
 
     return (
-        <div className='lineChart col-4'>
+        <div className='lineChart col-12'>
             <p className='highText chartTitle'>{t(props.title)}:</p>
             <div className='chartTitle'>{props.children}</div>
             <Line
