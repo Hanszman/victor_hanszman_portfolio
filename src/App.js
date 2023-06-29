@@ -14,6 +14,7 @@ import Projects from './components/pages/projects/Projects';
 // TODO: Colocar links de referência entre as entidades e criar modais de visualização
 // TODO: Criar listas de links de prod e git nos cards (com os ícones do git e vercel)
 // TODO: Alterar fonte do texto do portfólio
+// TODO: Arrumar espaço para footer quando as pesquisas resultam em poucos resultados ou nenhum
 // TODO: Terminar de fazer os projetos que estão inacabados, fazer o deploy deles e atualizar os dados deles nos jsons do portfólio
 // TODO: Colocar nos README.md de todos os projetos as versões das tecnologias para facilitar a instação além dos seus links de produção
 // TODO: Talvez Colocar as certificações e diplomas exibidas em um carrossel
