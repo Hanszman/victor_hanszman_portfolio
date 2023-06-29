@@ -8,12 +8,16 @@ import Experiences from './components/pages/experiences/Experiences';
 import Skills from './components/pages/skills/Skills';
 import Projects from './components/pages/projects/Projects';
 
-// TODO: Instalar biblioteca chart.js e fazer gráficos
-// TODO: Melhorar a apresentação dos cards no css de cada página
+// TODO: Incluir projeto novo do git no json e atualizar as tecnologias do portfolio no json
+// TODO: Continuar a fazer os gráficos e organizar melhor a posição deles na tela
+// TODO: Melhorar a apresentação dos cards no css de cada página, melhorar também apresentação das imagens (talvez colocar animações na interação com eles)
 // TODO: Colocar links de referência entre as entidades e criar modais de visualização
-// TODO: Criar listas de links de prod e git nos cards
+// TODO: Criar listas de links de prod e git nos cards (com os ícones do git e vercel)
+// TODO: Alterar fonte do texto do portfolio
 // TODO: Terminar de fazer os projetos que estão inacabados, fazer o deploy deles e atualizar os dados deles nos jsons do portfólio
 // TODO: Colocar nos README de todos os projetos as versões das tecnologias para facilitar a instação
+// TODO: Talvez Colocar as certificações e diplomas exibidas em um carrossel
+// TODO: Talvez Adicionar o idioma espanhol
 // TODO: Talvez fazer paginação
 // TODO: Talvez arrumar inputs de data para mm/dd/yyyy quando estiver no idioma em inglês
 // TODO: Talvez ordenar por prioridade os agrupamentos na função formatList
