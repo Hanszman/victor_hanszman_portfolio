@@ -1,70 +1,46 @@
-# Getting Started with Create React App
+# Github's API Consumer FrontEnd
+Portfolio developed by Victor Hanszman to present projects and technologies he has already worked on, in addition to his professional experiences.
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# Installing Dependencies:
+After cloning the project, you will need to install the npm dependencies. To install them, go to the project's path directory in your terminal and run the following command:
 
-## Available Scripts
+"npm install"
 
-In the project directory, you can run:
+# Command to Run the Project:
+To run the project on your local machine, run the following command:
 
-### `npm start`
+"npm run start"
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+The application can be accessed in any browser at the following URL:
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+"http://localhost:3000"
 
-### `npm test`
+# Github walkthrough for commit and push:
+Follow the commands below to update the project with your changes:
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+"git pull"
 
-### `npm run build`
+"git add ."
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+"git commit -m "Any message""
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+"git push"
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+Note: Whenever a commit/push is pushed to github, the production version in Vercel will also be updated!
 
-### `npm run eject`
+# Versions used on this project:
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+Node.js: 16.17.0
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+npm: 8.15.0
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+nvm: 1.1.9
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+React: 18.2.0
 
-## Learn More
+The other versions can be checked in the package.json file.
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+# Production link:
+This application can be accessed at the following URL:
 
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+https://victor-hanszman-portfolio.vercel.app/
