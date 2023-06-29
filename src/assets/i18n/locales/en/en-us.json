@@ -90,6 +90,7 @@
         "CourseRocketBox": "RocketBox project developed with the course of React made by RocketSeat.",
         "CourseRocketHelp": "RocketHelp project developed with the course of React Native made by RocketSeat.",
         "Portfolio": "Portfolio developed by Victor Hanszman to present projects and technologies he has already worked on, in addition to his professional experiences.",
+        "GithubsConsumer": "Github's API Consumer that shows Users and Repos.",
         "PokedexLaravel": "Pokédex developed consuming the Pokémon data API using Laravel and Bootstrap to study the technologies.",
         "PokedexAngular": "Pokédex developed consuming the Pokémon data API using Angular to study the technology.",
         "BattleOfMonsters": "Battle Of Monsters project developed to practice Angular.",

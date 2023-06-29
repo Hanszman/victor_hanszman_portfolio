@@ -8,9 +8,9 @@ import Experiences from './components/pages/experiences/Experiences';
 import Skills from './components/pages/skills/Skills';
 import Projects from './components/pages/projects/Projects';
 
-// TODO: Incluir projeto novo do git no json e atualizar as tecnologias do portfólio no json
 // TODO: Continuar a fazer os gráficos e organizar melhor a posição deles na tela
 // TODO: Melhorar a apresentação dos cards no css de cada página, melhorar também apresentação das imagens (talvez colocar animações na interação com eles)
+// TODO: Colocar imagens dos prints das telas do projetos
 // TODO: Colocar links de referência entre as entidades e criar modais de visualização
 // TODO: Criar listas de links de prod e git nos cards (com os ícones do git e vercel)
 // TODO: Alterar fonte do texto do portfólio

@@ -120,6 +120,41 @@
                 "jsx",
                 "json",
                 "npm",
+                "chart",
+                "visualstudiocode",
+                "github",
+                "git",
+                "vercel"
+            ]
+        },
+        {
+            "code": "github-consumer",
+            "name": "Github's API Consumer",
+            "environment": "personal",
+            "reference": "",
+            "description": "GithubsConsumer",
+            "imgIcon": "",
+            "prodLinks": [
+                "https://github-consumer-backend.vercel.app/",
+                "https://github-consumer-frontend.vercel.app/"
+            ],
+            "gitLinks": [
+                "https://github.com/Hanszman/github-consumer-backend",
+                "https://github.com/Hanszman/github-consumer-frontend"
+            ],
+            "startDate": "2023-06-14",
+            "endDate": "",
+            "customers": [],
+            "technologies": [
+                "react",
+                "javascript",
+                "html",
+                "css",
+                "jsx",
+                "json",
+                "node",
+                "npm",
+                "express",
                 "visualstudiocode",
                 "github",
                 "git",
