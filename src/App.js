@@ -8,6 +8,7 @@ import Experiences from './components/pages/experiences/Experiences';
 import Skills from './components/pages/skills/Skills';
 import Projects from './components/pages/projects/Projects';
 
+// TODO: Colocar mensagem de projeto ainda em desenvolvimento
 // TODO: Continuar a fazer os gráficos e organizar melhor a posição deles na tela
 // TODO: Melhorar a apresentação dos cards no css de cada página, melhorar também apresentação das imagens (talvez colocar animações na interação com eles)
 // TODO: Colocar imagens dos prints das telas do projetos
