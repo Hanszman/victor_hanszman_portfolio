@@ -9,6 +9,7 @@ import Skills from './components/pages/skills/Skills';
 import Projects from './components/pages/projects/Projects';
 
 // TODO: Continuar a fazer os gráficos e organizar melhor a posição deles na tela
+// TODO: Escolher a paleta cores para os gráficos
 // TODO: Melhorar a apresentação dos cards no css de cada página, melhorar também apresentação das imagens (talvez colocar animações na interação com eles)
 // TODO: Colocar imagens dos prints das telas do projetos
 // TODO: Colocar links de referência entre as entidades e criar modais de visualização
