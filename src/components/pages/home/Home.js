@@ -19,7 +19,9 @@ function Home() {
     const { t } = useTranslation();
     const projects = projectsJson.projects;
     const technologies = skillsJson.skills.technologies;
+    const stackOptions = optionsJson.options.stack;
     const typeOptions = optionsJson.options.type;
+    const levelOptions = optionsJson.options.level.filter(obj => obj.type === 'skills');
     const environmentOptions = optionsJson.options.environment;
     const [typeFilter, setTypeFilter] = useState('ProgrammingLanguages');
     const [technologiesFilter, setTechnologiesFilter] = useState(technologies.filter(obj => obj.type === 'ProgrammingLanguages'));
@@ -109,45 +111,20 @@ function Home() {
                                 },
                             ]
                         }}
-                    ></BarChart>
+                    ></BarChart> */}
                     <PieChart
                         title={'TechnologiesByStack'}
-                        data={{
-                            labels: ['One', 'Two', 'Three'],
-                            datasets: [
-                                {
-                                    data: [3, 6, 9]
-                                }
-                            ]
-                        }}
+                        data={getChartObject(getTranslatedObjectArrayNames(stackOptions), ['stack'], stackOptions, technologies, false, true)}
+                    ></PieChart>
+                    <PieChart
+                        title={'TechnologiesByLevel'}
+                        data={getChartObject(getTranslatedObjectArrayNames(levelOptions), ['level'], levelOptions, technologies, false, true)}
                     ></PieChart>
                     <BarChart
                         title={'TechnologiesByType'}
-                        data={{
-                            labels: ['Mon', 'Tue', 'Wed'],
-                            datasets: [
-                                {
-                                    label: '369',
-                                    data: [3, 6, 9]
-                                },
-                                {
-                                    label: '333',
-                                    data: [1, 2, 5]
-                                },
-                            ]
-                        }}
+                        data={getChartObject([t('type')], ['type'], typeOptions, technologies)}
                     ></BarChart>
-                    <PieChart
-                        title={'TechnologiesByLevel'}
-                        data={{
-                            labels: ['One', 'Two', 'Three'],
-                            datasets: [
-                                {
-                                    data: [3, 6, 9]
-                                }
-                            ]
-                        }}
-                    ></PieChart> */}
+                    {/* TODO: Quando criar o segundo gráfico, inverter a ordem dos dois últimos */}
                 </div>
             </div>
         </div>
