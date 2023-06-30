@@ -5,15 +5,13 @@ import { useTranslation } from 'react-i18next';
 import { formatDateString, getAge, getChartObject } from '../../../utils/Utils';
 import profilePic from '../../../assets/img/profile/vh_profile.jpeg';
 import BarChart from '../../layout/chart/bar-chart/BarChart';
-// import LineChart from '../../layout/chart/line-chart/LineChart';
-// import PieChart from '../../layout/chart/pie-chart/PieChart';
+import PieChart from '../../layout/chart/pie-chart/PieChart';
 import Select from '../../layout/form/select/Select';
 import Button from '../../layout/form/button/Button';
 import Message from '../../layout/message/Message';
 import projectsJson from '../../../db/projects.json';
 import skillsJson from '../../../db/skills.json';
 import optionsJson from '../../../db/options.json';
-// 
 
 // Component
 function Home() {
@@ -22,6 +20,7 @@ function Home() {
     const projects = projectsJson.projects;
     const technologies = skillsJson.skills.technologies;
     const typeOptions = optionsJson.options.type;
+    const environmentOptions = optionsJson.options.environment;
     const [typeFilter, setTypeFilter] = useState('ProgrammingLanguages');
     const [technologiesFilter, setTechnologiesFilter] = useState(technologies.filter(obj => obj.type === 'ProgrammingLanguages'));
 
@@ -91,7 +90,7 @@ function Home() {
                             </div>
                         </form>
                     </BarChart>
-                    {/* <PieChart
+                    <PieChart
                         title={'ProjectsByEnvironment'}
                         data={{
                             labels: ['One', 'Two', 'Three'],
@@ -102,19 +101,22 @@ function Home() {
                             ]
                         }}
                     ></PieChart>
-                    <LineChart
+                    <BarChart
                         title={'TechnologiesByExperience'}
                         data={{
                             labels: ['Mon', 'Tue', 'Wed'],
                             datasets: [
                                 {
-                                    label: 'Sales of the Week',
-                                    data: [6, 3, 9],
-                                    tension: 0.4
-                                }
+                                    label: '369',
+                                    data: [3, 6, 9]
+                                },
+                                {
+                                    label: '333',
+                                    data: [1, 2, 5]
+                                },
                             ]
                         }}
-                    ></LineChart>
+                    ></BarChart>
                     <PieChart
                         title={'TechnologiesByStack'}
                         data={{
@@ -152,7 +154,7 @@ function Home() {
                                 }
                             ]
                         }}
-                    ></PieChart> */}
+                    ></PieChart>
                 </div>
             </div>
         </div>

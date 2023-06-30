@@ -116,7 +116,7 @@ const sumAges = (intervalArray) => {
 }
 
 const getChartObject = (labelsArray, refCodeArray, dataSetLabelsArray, dataSetRefArray) => {
-    let result = [];
+    let result;
     let labelsResult = [];
     let dataSetsResult = [];
     for (let i = 0; i < labelsArray.length; i++) {

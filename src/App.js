@@ -17,6 +17,7 @@ import Projects from './components/pages/projects/Projects';
 // TODO: Arrumar espaço para footer quando as pesquisas resultam em poucos resultados ou nenhum
 // TODO: Terminar de fazer os projetos que estão inacabados, fazer o deploy deles e atualizar os dados deles nos jsons do portfólio
 // TODO: Colocar nos README.md de todos os projetos as versões das tecnologias para facilitar a instação além dos seus links de produção
+// TODO: Talvez incluir python e dataself nos jsons
 // TODO: Talvez Colocar as certificações e diplomas exibidas em um carrossel
 // TODO: Talvez Adicionar o idioma espanhol
 // TODO: Talvez fazer paginação

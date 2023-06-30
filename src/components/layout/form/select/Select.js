@@ -17,6 +17,7 @@ function Select(props) {
             <select
                 id={props.name}
                 name={props.name}
+                className={props.hideLabel ? 'hideLabel' : ''}
                 onChange={props.handleOnChange}
             >
                 {

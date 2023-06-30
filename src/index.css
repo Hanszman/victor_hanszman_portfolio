@@ -56,6 +56,10 @@ html, body, #root {
   padding: 5px 10px;
 }
 
+.hideLabel {
+  margin: 3px 0px;
+}
+
 .formButton {
   color: white;
   background-color: #7089fa;
@@ -69,6 +73,7 @@ html, body, #root {
   color: #7089fa;
   background-color: white;
   border: 1px solid #7089fa;
+  padding: 4px 9px;
 }
 
 .btnFilter {
