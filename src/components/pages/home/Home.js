@@ -2,7 +2,7 @@
 import './Home.css';
 import { useState } from 'react';
 import { useTranslation } from 'react-i18next';
-import { formatDateString, getAge, getChartObject } from '../../../utils/Utils';
+import { formatDateString, getAge, getChartObject, getTranslatedObjectArrayNames } from '../../../utils/Utils';
 import profilePic from '../../../assets/img/profile/vh_profile.jpeg';
 import BarChart from '../../layout/chart/bar-chart/BarChart';
 import PieChart from '../../layout/chart/pie-chart/PieChart';
@@ -72,7 +72,7 @@ function Home() {
                 <div className='row charts'>
                     <BarChart
                         title={'ProjectsByTypeOfTechnologies'}
-                        data={getChartObject([t('technologies')], ['technologies'], technologiesFilter, projects)}
+                        data={getChartObject([t('technologies')], ['technologies'], technologiesFilter, projects, true)}
                     >
                         <form className='displayFlex flexWrap' onSubmit={(e) => filterTechnology(e)}>
                             <Select
@@ -92,16 +92,9 @@ function Home() {
                     </BarChart>
                     <PieChart
                         title={'ProjectsByEnvironment'}
-                        data={{
-                            labels: ['One', 'Two', 'Three'],
-                            datasets: [
-                                {
-                                    data: [3, 6, 9]
-                                }
-                            ]
-                        }}
+                        data={getChartObject(getTranslatedObjectArrayNames(environmentOptions), ['environment'], environmentOptions, projects, false, true)}
                     ></PieChart>
-                    <BarChart
+                    {/* <BarChart
                         title={'TechnologiesByExperience'}
                         data={{
                             labels: ['Mon', 'Tue', 'Wed'],
@@ -154,7 +147,7 @@ function Home() {
                                 }
                             ]
                         }}
-                    ></PieChart>
+                    ></PieChart> */}
                 </div>
             </div>
         </div>

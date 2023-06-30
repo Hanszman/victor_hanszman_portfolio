@@ -115,7 +115,7 @@ const sumAges = (intervalArray) => {
     return objectSum;
 }
 
-const getChartObject = (labelsArray, refCodeArray, dataSetLabelsArray, dataSetRefArray) => {
+const getChartObject = (labelsArray, refCodeArray, dataSetLabelsArray, dataSetRefArray, refIsSubItem = false, pieChart = false) => {
     let result;
     let labelsResult = [];
     let dataSetsResult = [];
@@ -123,21 +123,46 @@ const getChartObject = (labelsArray, refCodeArray, dataSetLabelsArray, dataSetRe
         labelsResult.push(labelsArray[i]);
     }
 
-    for (let i = 0; i < dataSetLabelsArray.length; i++) {
-        let objectData = {};
-        objectData.label = dataSetLabelsArray[i].name;
-        objectData.data = [];
-        for (let j = 0; j < refCodeArray.length; j++) {
-            let filterData = dataSetRefArray.filter(item => item[refCodeArray[j]].find(subItem => subItem === dataSetLabelsArray[i].code));
-            objectData.data.push(filterData.length);
+    if (!pieChart) {
+        for (let i = 0; i < dataSetLabelsArray.length; i++) {
+            let objectData = {};
+            objectData.label = dataSetLabelsArray[i].name;
+            objectData.data = [];
+            for (let j = 0; j < refCodeArray.length; j++) {
+                let filterData = refIsSubItem
+                    ? dataSetRefArray.filter(item => item[refCodeArray[j]].find(subItem => subItem === dataSetLabelsArray[i].code))
+                    : dataSetRefArray.filter(item => item[refCodeArray[j]] === dataSetLabelsArray[i].code);
+                objectData.data.push(filterData.length);
+            }
+            dataSetsResult.push(objectData);
         }
-        dataSetsResult.push(objectData);
+    } else {
+        for (let i = 0; i < refCodeArray.length; i++) {
+            let objectData = {};
+            objectData.data = [];
+            for (let j = 0; j < dataSetLabelsArray.length; j++) {
+                let filterData = refIsSubItem
+                    ? dataSetRefArray.filter(item => item[refCodeArray[i]].find(subItem => subItem === dataSetLabelsArray[j].code))
+                    : dataSetRefArray.filter(item => item[refCodeArray[i]] === dataSetLabelsArray[j].code);
+                objectData.data.push(filterData.length);
+            }
+            dataSetsResult.push(objectData);
+        }
+        
     }
 
     result = {
         labels: labelsResult,
         datasets: dataSetsResult
     };
+    return result;
+}
+
+const getTranslatedObjectArrayNames = (array) => {
+    let result = [];
+    for (let i = 0; i < array.length; i++) {
+        result.push(i18n.t(array[i].name));
+    }
     return result;
 }
 
@@ -149,5 +174,6 @@ export {
     formatDateString,
     getAge,
     sumAges,
-    getChartObject
+    getChartObject,
+    getTranslatedObjectArrayNames
 };
