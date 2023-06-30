@@ -127,6 +127,7 @@
 
         "All": "Todos",
         "Search": "Buscar",
+        "ProjectStillInDevelopment": "Este projeto ainda está em desenvolvimento!",
         "NoRecordFound": "Nenhum registro encontrado!",
         "DateError": "As datas selecionadas estão inconsistentes!"
     }

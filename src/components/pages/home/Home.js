@@ -5,13 +5,15 @@ import { useTranslation } from 'react-i18next';
 import { formatDateString, getAge, getChartObject } from '../../../utils/Utils';
 import profilePic from '../../../assets/img/profile/vh_profile.jpeg';
 import BarChart from '../../layout/chart/bar-chart/BarChart';
-import LineChart from '../../layout/chart/line-chart/LineChart';
-import PieChart from '../../layout/chart/pie-chart/PieChart';
+// import LineChart from '../../layout/chart/line-chart/LineChart';
+// import PieChart from '../../layout/chart/pie-chart/PieChart';
 import Select from '../../layout/form/select/Select';
 import Button from '../../layout/form/button/Button';
+import Message from '../../layout/message/Message';
 import projectsJson from '../../../db/projects.json';
 import skillsJson from '../../../db/skills.json';
 import optionsJson from '../../../db/options.json';
+// 
 
 // Component
 function Home() {
@@ -34,6 +36,8 @@ function Home() {
 
     return (
         <div>
+            {<Message type={'success'} msg={'ProjectStillInDevelopment'}/>}
+            <br/>
             <h1 className='highText centerText boldText'>Victor Hanszman Drumond Gonçalves</h1>
             <p className='text centerText italicText'>{t('IntroText')}</p><br/>
             <div className='info'>
