@@ -1,6 +1,6 @@
 // Imports
 import './Skills.css';
-import { useState } from 'react';
+import { useState, useEffect } from 'react';
 import { useTranslation } from 'react-i18next';
 import CardGroup from '../../layout/card/card-group/CardGroup';
 import Input from '../../layout/form/input/Input';
@@ -43,6 +43,10 @@ function Skills() {
     const [stackFilter, setStackFilter] = useState('');
     const [message, setMessage] = useState('');
     const [typeMessage, setTypeMessage] = useState('');
+
+    useEffect(() => {
+        window.scrollTo(0, 0);
+    }, []);
 
     // Functions
     function filterTechnology(e) {

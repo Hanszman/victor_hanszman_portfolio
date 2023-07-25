@@ -25,6 +25,7 @@ function Experiences() {
     const [technologiesGroups, setTechnologiesGroups] = useState([]);
 
     useEffect(() => {
+        window.scrollTo(0, 0);
         setCustomersGroups(formatList('customers', customers, '', 'customers', 'cardGroupList'));
         setProjectsGroups(formatList('projects', projects, '', 'projects', 'cardGroupList breakLine'));
         setTechnologiesGroups(formatList('technologies', technologies, 'stack', 'technologies', 'cardGroupList'));

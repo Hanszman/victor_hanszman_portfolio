@@ -1,6 +1,6 @@
 // Imports
 import './Home.css';
-import { useState } from 'react';
+import { useState, useEffect } from 'react';
 import { useTranslation } from 'react-i18next';
 import { formatDateString, getAge, getChartObject, getTranslatedObjectArrayNames } from '../../../utils/Utils';
 import profilePic from '../../../assets/img/profile/vh_profile.jpeg';
@@ -25,6 +25,10 @@ function Home() {
     const environmentOptions = optionsJson.options.environment;
     const [typeFilter, setTypeFilter] = useState('ProgrammingLanguages');
     const [technologiesFilter, setTechnologiesFilter] = useState(technologies.filter(obj => obj.type === 'ProgrammingLanguages'));
+
+    useEffect(() => {
+        window.scrollTo(0, 0);
+    }, []);
 
     // Functions
     function filterTechnology(e) {
@@ -96,22 +100,6 @@ function Home() {
                         title={'ProjectsByEnvironment'}
                         data={getChartObject(getTranslatedObjectArrayNames(environmentOptions), ['environment'], environmentOptions, projects, false, true)}
                     ></PieChart>
-                    {/* <BarChart
-                        title={'TechnologiesByExperience'}
-                        data={{
-                            labels: ['Mon', 'Tue', 'Wed'],
-                            datasets: [
-                                {
-                                    label: '369',
-                                    data: [3, 6, 9]
-                                },
-                                {
-                                    label: '333',
-                                    data: [1, 2, 5]
-                                },
-                            ]
-                        }}
-                    ></BarChart> */}
                     <PieChart
                         title={'TechnologiesByStack'}
                         data={getChartObject(getTranslatedObjectArrayNames(stackOptions), ['stack'], stackOptions, technologies, false, true)}
@@ -124,7 +112,6 @@ function Home() {
                         title={'TechnologiesByType'}
                         data={getChartObject([t('type')], ['type'], typeOptions, technologies)}
                     ></BarChart>
-                    {/* TODO: Quando criar o segundo gráfico, inverter a ordem dos dois últimos */}
                 </div>
             </div>
         </div>

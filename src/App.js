@@ -8,8 +8,6 @@ import Experiences from './components/pages/experiences/Experiences';
 import Skills from './components/pages/skills/Skills';
 import Projects from './components/pages/projects/Projects';
 
-// TODO: Continuar a fazer os gráficos e organizar melhor a posição deles na tela
-// TODO: Escolher a paleta cores para os gráficos
 // TODO: Melhorar a apresentação dos cards no css de cada página, melhorar também apresentação das imagens (talvez colocar animações na interação com eles)
 // TODO: Colocar imagens dos prints das telas do projetos
 // TODO: Colocar links de referência entre as entidades e criar modais de visualização
@@ -18,6 +16,9 @@ import Projects from './components/pages/projects/Projects';
 // TODO: Arrumar espaço para footer quando as pesquisas resultam em poucos resultados ou nenhum
 // TODO: Terminar de fazer os projetos que estão inacabados, fazer o deploy deles e atualizar os dados deles nos jsons do portfólio
 // TODO: Colocar nos README.md de todos os projetos as versões das tecnologias para facilitar a instação além dos seus links de produção
+// TODO: Remover mensagem de projeto ainda em desenvolvimento
+// TODO: Escolher a paleta cores para os gráficos
+// TODO: Finalizar último gráfico (BarChart TechnologiesByExperience) e organizar melhor a posição deles na tela
 // TODO: Talvez incluir python e dataself nos jsons
 // TODO: Talvez Colocar as certificações e diplomas exibidas em um carrossel
 // TODO: Talvez Adicionar o idioma espanhol

@@ -40,6 +40,7 @@ function Projects() {
     const [typeMessage, setTypeMessage] = useState('');
 
     useEffect(() => {
+        window.scrollTo(0, 0);
         setCustomersGroups(formatList('customers', customers, '', 'customers', 'cardGroupList'));
         setTechnologiesGroups(formatList('technologies', technologies, 'stack', 'technologies', 'cardGroupList'));
     }, [customers, technologies]);
