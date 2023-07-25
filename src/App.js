@@ -19,7 +19,6 @@ import Projects from './components/pages/projects/Projects';
 // TODO: Remover mensagem de projeto ainda em desenvolvimento
 // TODO: Escolher a paleta cores para os gráficos
 // TODO: Finalizar último gráfico (BarChart TechnologiesByExperience) e organizar melhor a posição deles na tela
-// TODO: Talvez incluir python e dataself nos jsons
 // TODO: Talvez Colocar as certificações e diplomas exibidas em um carrossel
 // TODO: Talvez Adicionar o idioma espanhol
 // TODO: Talvez fazer paginação

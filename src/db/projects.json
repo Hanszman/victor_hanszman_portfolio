@@ -439,6 +439,37 @@
             ]
         },
         {
+            "code": "4mti-data-self",
+            "name": "DataSelf",
+            "environment": "professional",
+            "reference": "4mti",
+            "description": "4MTIDataSelf",
+            "imgIcon": "",
+            "prodLinks": [],
+            "gitLinks": [],
+            "startDate": "2019-06-01",
+            "endDate": "2019-07-01",
+            "customers": [
+                "btgpactual",
+                "enforce"
+            ],
+            "technologies": [
+                "python",
+                "javascript",
+                "html",
+                "css",
+                "json",
+                "postgresql",
+                "sql",
+                "dbeaver",
+                "pycharm",
+                "gitlab",
+                "git",
+                "aws",
+                "kanban"
+            ]
+        },
+        {
             "code": "course-costs",
             "name": "Costs",
             "environment": "formation",

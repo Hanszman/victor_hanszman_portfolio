@@ -647,6 +647,36 @@
                 ]
             },
             {
+                "code": "pycharm",
+                "name": "PyCharm",
+                "level": "Beginner",
+                "imgIcon": "skills/pycharm.png",
+                "type": "CodeEditors",
+                "stack": "Others",
+                "intervalExperiencie": [
+                    {
+                        "startDate": "2019-06-01",
+                        "endDate": "2019-07-01",
+                        "environment": "professional"
+                    }
+                ]
+            },
+            {
+                "code": "python",
+                "name": "Python",
+                "level": "Beginner",
+                "imgIcon": "skills/python.png",
+                "type": "ProgrammingLanguages",
+                "stack": "BackEnd",
+                "intervalExperiencie": [
+                    {
+                        "startDate": "2019-06-01",
+                        "endDate": "2019-07-01",
+                        "environment": "professional"
+                    }
+                ]
+            },
+            {
                 "code": "react",
                 "name": "React",
                 "level": "Studing",

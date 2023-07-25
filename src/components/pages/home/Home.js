@@ -76,6 +76,22 @@ function Home() {
             </div>
             <div className='container'>
                 <div className='row charts'>
+                    <PieChart
+                        title={'TechnologiesByStack'}
+                        data={getChartObject(getTranslatedObjectArrayNames(stackOptions), ['stack'], stackOptions, technologies, false, true)}
+                    ></PieChart>
+                    <PieChart
+                        title={'TechnologiesByLevel'}
+                        data={getChartObject(getTranslatedObjectArrayNames(levelOptions), ['level'], levelOptions, technologies, false, true)}
+                    ></PieChart>
+                    <PieChart
+                        title={'ProjectsByEnvironment'}
+                        data={getChartObject(getTranslatedObjectArrayNames(environmentOptions), ['environment'], environmentOptions, projects, false, true)}
+                    ></PieChart>
+                    <BarChart
+                        title={'TechnologiesByType'}
+                        data={getChartObject([t('type')], ['type'], typeOptions, technologies)}
+                    ></BarChart>
                     <BarChart
                         title={'ProjectsByTypeOfTechnologies'}
                         data={getChartObject([t('technologies')], ['technologies'], technologiesFilter, projects, true)}
@@ -96,22 +112,6 @@ function Home() {
                             </div>
                         </form>
                     </BarChart>
-                    <PieChart
-                        title={'ProjectsByEnvironment'}
-                        data={getChartObject(getTranslatedObjectArrayNames(environmentOptions), ['environment'], environmentOptions, projects, false, true)}
-                    ></PieChart>
-                    <PieChart
-                        title={'TechnologiesByStack'}
-                        data={getChartObject(getTranslatedObjectArrayNames(stackOptions), ['stack'], stackOptions, technologies, false, true)}
-                    ></PieChart>
-                    <PieChart
-                        title={'TechnologiesByLevel'}
-                        data={getChartObject(getTranslatedObjectArrayNames(levelOptions), ['level'], levelOptions, technologies, false, true)}
-                    ></PieChart>
-                    <BarChart
-                        title={'TechnologiesByType'}
-                        data={getChartObject([t('type')], ['type'], typeOptions, technologies)}
-                    ></BarChart>
                 </div>
             </div>
         </div>

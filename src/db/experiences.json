@@ -107,7 +107,9 @@
                     "costaetavares",
                     "localiza",
                     "nescon",
-                    "mpmg"
+                    "mpmg",
+                    "btgpactual",
+                    "enforce"
                 ],
                 "projects": [
                     "4mti-cotz",
@@ -157,6 +159,16 @@
                 "code": "mpmg",
                 "name": "Ministério Público de Minas Gerais (MPMG)",
                 "imgIcon": "experiences/mpmg.jpg"
+            },
+            {
+                "code": "btgpactual",
+                "name": "BTG Pactual",
+                "imgIcon": "experiences/btgpactual.jpg"
+            },
+            {
+                "code": "enforce",
+                "name": "Enforce",
+                "imgIcon": "experiences/enforce.jpg"
             }
         ]
     }
