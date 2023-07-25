@@ -76,7 +76,7 @@ function Skills() {
             <CardGroup
                 arrayObject={formations}
                 arrayDetails={formationsArrayDetails}
-                classCard='cardLong'
+                classCard='cardShort'
                 classImg='cardImgIcon'
             >
             </CardGroup>

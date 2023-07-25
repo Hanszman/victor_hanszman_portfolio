@@ -17,6 +17,7 @@ import Projects from './components/pages/projects/Projects';
 // TODO: Terminar de fazer os projetos que estão inacabados, fazer o deploy deles e atualizar os dados deles nos jsons do portfólio
 // TODO: Colocar nos README.md de todos os projetos as versões das tecnologias para facilitar a instação além dos seus links de produção
 // TODO: Escolher a paleta cores para os gráficos
+// TODO: Ajustar responsividade
 // TODO: Remover mensagem de projeto ainda em desenvolvimento
 // TODO: Finalizar último gráfico (BarChart TechnologiesByExperience) e organizar melhor a posição deles na tela
 // TODO: Talvez Colocar as certificações e diplomas exibidas em um carrossel
