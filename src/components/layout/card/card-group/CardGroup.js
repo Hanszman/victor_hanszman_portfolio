@@ -33,7 +33,7 @@ function CardGroup(props) {
                             id={item.code}
                             key={item.code}
                             title={t(item.name) ? t(item.name) : item.name}
-                            className={`card ${props.classCard}`}
+                            className={`card cardClass ${props.classCard}`}
                         >
                             {
                                 item.imgIcon &&

@@ -1,9 +1,15 @@
-.cardLong {
+.cardClass {
     margin: 10px;
+    padding: 10px;
+    border: 1px solid #d3d3d3;
+    box-shadow: 1px 1px 5px 1px #7089fa;
+}
+
+.cardLong {
+    width: 100%;
 }
 
 .cardShort {
-    margin: 10px;
     max-width: fit-content;
 }
 

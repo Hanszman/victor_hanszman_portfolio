@@ -8,16 +8,16 @@ import Experiences from './components/pages/experiences/Experiences';
 import Skills from './components/pages/skills/Skills';
 import Projects from './components/pages/projects/Projects';
 
-// TODO: Melhorar a apresentação dos cards no css de cada página, melhorar também apresentação das imagens (talvez colocar animações na interação com eles)
+// TODO: Melhorar a apresentação dos cards no css de cada página (tirar espaços brancos, centralizar, dividir informações em boxes, colocar tamanho padronizado, centralizar filtros)
+// TODO: Melhorar apresentação das imagens (talvez colocar animações na interação com eles)
 // TODO: Colocar imagens dos prints das telas do projetos
 // TODO: Colocar links de referência entre as entidades e criar modais de visualização
 // TODO: Criar listas de links de prod e git nos cards (com os ícones do git e vercel)
-// TODO: Alterar fonte do texto do portfólio
 // TODO: Arrumar espaço para footer quando as pesquisas resultam em poucos resultados ou nenhum
 // TODO: Terminar de fazer os projetos que estão inacabados, fazer o deploy deles e atualizar os dados deles nos jsons do portfólio
 // TODO: Colocar nos README.md de todos os projetos as versões das tecnologias para facilitar a instação além dos seus links de produção
-// TODO: Remover mensagem de projeto ainda em desenvolvimento
 // TODO: Escolher a paleta cores para os gráficos
+// TODO: Remover mensagem de projeto ainda em desenvolvimento
 // TODO: Finalizar último gráfico (BarChart TechnologiesByExperience) e organizar melhor a posição deles na tela
 // TODO: Talvez Colocar as certificações e diplomas exibidas em um carrossel
 // TODO: Talvez Adicionar o idioma espanhol
