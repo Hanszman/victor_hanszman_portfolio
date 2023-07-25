@@ -8,8 +8,9 @@
     width: 300px;
     height: auto;
     margin: 0 50px;
+    border: 1px solid #d3d3d3;
+    box-shadow: 1px 1px 20px 1px #7089fa;
     border-radius: 200px;
-    border: 5px solid #7089fa;
 }
 
 .infoText {
