@@ -1,0 +1,9 @@
+.topContent {
+    display: flex;
+    flex-direction: row;
+}
+
+.insideContent {
+    display: flex;
+    flex-direction: column;
+}

@@ -40,6 +40,7 @@ function Experiences() {
                 arrayLists={[customersGroups, projectsGroups, technologiesGroups]}
                 classCard='cardLong'
                 classImg='cardImgIcon'
+                classPosition='vertical'
             >
             </CardGroup>
         </div>

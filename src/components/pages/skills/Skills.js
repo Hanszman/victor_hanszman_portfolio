@@ -72,28 +72,37 @@ function Skills() {
     return (
         <div className='container'>
             <h1 className='highText centerText boldText'>{t('Skills')}</h1>
-            <h2 className='text boldText'>{t('formations')}:</h2>
-            <CardGroup
-                arrayObject={formations}
-                arrayDetails={formationsArrayDetails}
-                classCard='cardShort'
-                classImg='cardImgIcon'
-            >
-            </CardGroup>
-            <h2 className='text boldText'>{t('languages')}:</h2>
-            <CardGroup
-                arrayObject={languages}
-                arrayDetails={languagesArrayDetails}
-                classCard='cardShort'
-                classImg='cardImgIcon'
-            >
-            </CardGroup>
+            <div className='topContent'>
+                <div className='insideContent'>
+                    <h2 className='text boldText'>{t('formations')}:</h2>
+                    <CardGroup
+                        arrayObject={formations}
+                        arrayDetails={formationsArrayDetails}
+                        classCard='cardShort'
+                        classImg='cardImgIcon'
+                        classPosition='vertical'
+                    >
+                    </CardGroup>
+                </div>
+                <div className='insideContent'>
+                    <h2 className='text boldText'>{t('languages')}:</h2>
+                    <CardGroup
+                        arrayObject={languages}
+                        arrayDetails={languagesArrayDetails}
+                        classCard='cardShort'
+                        classImg='cardImgIcon'
+                        classPosition='horizontal'
+                    >
+                    </CardGroup>
+                </div>
+            </div>
             <h2 className='text boldText'>{t('technologies')}:</h2>
             <CardGroup
                 arrayObject={technologiesFilter}
                 arrayDetails={technologiesArrayDetails}
                 classCard='cardShort'
                 classImg='cardImgIcon'
+                classPosition='vertical'
             >
                 <form className='displayFlex flexWrap' onSubmit={(e) => filterTechnology(e)}>
                     <Input

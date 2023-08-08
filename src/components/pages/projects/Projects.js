@@ -111,7 +111,8 @@ function Projects() {
                 arrayDetails={projectsArrayDetails}
                 arrayLists={[customersGroups, technologiesGroups]}
                 classCard='cardLong'
-                classImg='cardimgPrint'
+                classImg='cardImgPrint'
+                // classPosition='horizontal'
             >
                 <form className='displayFlex flexWrap' onSubmit={(e) => filterProject(e)}>
                     <Input
