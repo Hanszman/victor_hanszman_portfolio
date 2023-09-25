@@ -744,7 +744,7 @@
             {
                 "code": "sqlserver",
                 "name": "Microsoft SQL Server",
-                "level": "Advanced",
+                "level": "Intermediate",
                 "imgIcon": "skills/sqlserver.png",
                 "type": "Relationals",
                 "stack": "DataBases",
