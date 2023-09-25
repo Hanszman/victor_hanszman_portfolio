@@ -69,7 +69,6 @@
                     "visualstudiocode",
                     "gitlab",
                     "azure",
-                    "aws",
                     "scrum"
                 ],
                 "customers": [
@@ -95,6 +94,7 @@
                     "json",
                     "jquery",
                     "ajax",
+                    "jest",
                     "mysql",
                     "postgresql",
                     "dbeaver",
