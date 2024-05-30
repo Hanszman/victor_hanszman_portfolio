@@ -21,9 +21,10 @@ import Projects from './components/pages/projects/Projects';
 // TODO: Escolher a paleta cores para os gráficos
 // TODO: Ajustar responsividade
 // TODO: Remover mensagem de projeto ainda em desenvolvimento
-// TODO: Finalizar último gráfico (BarChart TechnologiesByExperience) e organizar melhor a posição deles na tela
-// TODO: Talvez Colocar as certificações e diplomas exibidas em um carrossel
-// TODO: Talvez Adicionar o idioma espanhol
+// TODO: Talvez separar em abas a tela de skills
+// TODO: Talvez finalizar último gráfico (BarChart TechnologiesByExperience) e organizar melhor a posição deles na tela
+// TODO: Talvez colocar as certificações e diplomas exibidas em um carrossel
+// TODO: Talvez adicionar o idioma espanhol
 // TODO: Talvez fazer paginação
 // TODO: Talvez arrumar inputs de data para mm/dd/yyyy quando estiver no idioma em inglês
 // TODO: Talvez ordenar por prioridade os agrupamentos na função formatList
