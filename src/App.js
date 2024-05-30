@@ -8,6 +8,7 @@ import Experiences from './components/pages/experiences/Experiences';
 import Skills from './components/pages/skills/Skills';
 import Projects from './components/pages/projects/Projects';
 
+// TODO: Criar separação entre tempos de experiência
 // TODO: Colocar de alguma forma as informações de conceitos conhecidos, como: design patterns, programming paradigms e architectures
 // TODO: Melhorar a apresentação dos cards no css de cada página (tirar espaços brancos, centralizar, dividir informações em boxes, colocar tamanho padronizado, centralizar filtros)
 // TODO: Melhorar apresentação das imagens (talvez colocar animações na interação com eles)

@@ -43,6 +43,11 @@
                         "startDate": "2019-01-01",
                         "endDate": "2019-02-01",
                         "environment": "professional"
+                    },
+                    {
+                        "startDate": "2024-04-01",
+                        "endDate": "2024-05-01",
+                        "environment": "personal"
                     }
                 ]
             },
@@ -166,7 +171,22 @@
                     },
                     {
                         "startDate": "2022-03-01",
-                        "endDate": "",
+                        "endDate": "2022-04-01",
+                        "environment": "personal"
+                    }
+                ]
+            },
+            {
+                "code": "docker",
+                "name": "Docker",
+                "level": "Studing",
+                "imgIcon": "skills/docker.png",
+                "type": "DeploymentTools",
+                "stack": "Others",
+                "intervalExperiencie": [
+                    {
+                        "startDate": "2024-04-01",
+                        "endDate": "2024-05-01",
                         "environment": "personal"
                     }
                 ]
@@ -206,7 +226,7 @@
                     },
                     {
                         "startDate": "2022-03-01",
-                        "endDate": "",
+                        "endDate": "2022-09-01",
                         "environment": "personal"
                     }
                 ]
@@ -366,8 +386,13 @@
                 "intervalExperiencie": [
                     {
                         "startDate": "2019-04-01",
-                        "endDate": "2020-04-01",
+                        "endDate": "2019-10-01",
                         "environment": "professional"
+                    },
+                    {
+                        "startDate": "2024-04-01",
+                        "endDate": "2024-05-01",
+                        "environment": "personal"
                     }
                 ]
             },
@@ -416,7 +441,7 @@
                 "intervalExperiencie": [
                     {
                         "startDate": "2022-11-10",
-                        "endDate": "",
+                        "endDate": "2023-11-10",
                         "environment": "personal"
                     }
                 ]
@@ -541,7 +566,7 @@
                     },
                     {
                         "startDate": "2022-03-01",
-                        "endDate": "",
+                        "endDate": "2022-09-01",
                         "environment": "personal"
                     }
                 ]
@@ -556,7 +581,7 @@
                 "intervalExperiencie": [
                     {
                         "startDate": "2017-08-01",
-                        "endDate": "2021-09-23",
+                        "endDate": "2018-09-03",
                         "environment": "personal"
                     }
                 ]
@@ -671,7 +696,7 @@
                 "intervalExperiencie": [
                     {
                         "startDate": "2022-11-10",
-                        "endDate": "",
+                        "endDate": "2023-11-10",
                         "environment": "personal"
                     }
                 ]
@@ -701,6 +726,11 @@
                 "intervalExperiencie": [
                     {
                         "startDate": "2019-03-01",
+                        "endDate": "2020-04-01",
+                        "environment": "formation"
+                    },
+                    {
+                        "startDate": "2020-04-01",
                         "endDate": "",
                         "environment": "professional"
                     }
@@ -811,7 +841,7 @@
                 "intervalExperiencie": [
                     {
                         "startDate": "2023-04-11",
-                        "endDate": "",
+                        "endDate": "2023-11-10",
                         "environment": "personal"
                     }
                 ]
