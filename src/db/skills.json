@@ -98,6 +98,26 @@
                         "startDate": "2020-04-01",
                         "endDate": "2021-09-23",
                         "environment": "professional"
+                    },
+                    {
+                        "startDate": "2023-04-11",
+                        "endDate": "2023-10-11",
+                        "environment": "personal"
+                    }
+                ]
+            },
+            {
+                "code": "cicd",
+                "name": "CI/CD",
+                "level": "Intermediate",
+                "imgIcon": "skills/cicd.png",
+                "type": "Methodologies",
+                "stack": "Others",
+                "intervalExperiencie": [
+                    {
+                        "startDate": "2022-03-01",
+                        "endDate": "",
+                        "environment": "professional"
                     }
                 ]
             },
@@ -186,7 +206,7 @@
                 "intervalExperiencie": [
                     {
                         "startDate": "2024-04-01",
-                        "endDate": "2024-05-01",
+                        "endDate": "",
                         "environment": "personal"
                     }
                 ]
@@ -209,7 +229,7 @@
             {
                 "code": "express",
                 "name": "Express.js",
-                "level": "Intermediate",
+                "level": "Advanced",
                 "imgIcon": "skills/express.png",
                 "type": "Frameworks",
                 "stack": "BackEnd",
@@ -228,6 +248,41 @@
                         "startDate": "2022-03-01",
                         "endDate": "2022-09-01",
                         "environment": "personal"
+                    }
+                ]
+            },
+            {
+                "code": "ftp",
+                "name": "FTP",
+                "level": "Beginner",
+                "imgIcon": "skills/ftp.png",
+                "type": "Protocols",
+                "stack": "Others",
+                "intervalExperiencie": [
+                    {
+                        "startDate": "2018-06-01",
+                        "endDate": "2018-07-01",
+                        "environment": "formation"
+                    },
+                    {
+                        "startDate": "2021-03-01",
+                        "endDate": "2021-04-01",
+                        "environment": "professional"
+                    }
+                ]
+            },
+            {
+                "code": "gcp",
+                "name": "Google Cloud Platform",
+                "level": "Studing",
+                "imgIcon": "skills/gcp.png",
+                "type": "CloudHostingPlataforms",
+                "stack": "Others",
+                "intervalExperiencie": [
+                    {
+                        "startDate": "2024-05-01",
+                        "endDate": "2024-06-01",
+                        "environment": "professional"
                     }
                 ]
             },
@@ -327,6 +382,26 @@
                 ]
             },
             {
+                "code": "http",
+                "name": "HTTP",
+                "level": "Advanced",
+                "imgIcon": "skills/http.png",
+                "type": "Protocols",
+                "stack": "Others",
+                "intervalExperiencie": [
+                    {
+                        "startDate": "2017-01-01",
+                        "endDate": "2018-09-03",
+                        "environment": "formation"
+                    },
+                    {
+                        "startDate": "2018-09-03",
+                        "endDate": "",
+                        "environment": "professional"
+                    }
+                ]
+            },
+            {
                 "code": "java",
                 "name": "Java",
                 "level": "Beginner",
@@ -364,14 +439,14 @@
             {
                 "code": "jenkins",
                 "name": "Jenkins",
-                "level": "Beginner",
+                "level": "Intermediate",
                 "imgIcon": "skills/jenkins.png",
                 "type": "DeploymentTools",
                 "stack": "Others",
                 "intervalExperiencie": [
                     {
                         "startDate": "2022-03-01",
-                        "endDate": "",
+                        "endDate": "2024-04-01",
                         "environment": "professional"
                     }
                 ]
@@ -391,7 +466,7 @@
                     },
                     {
                         "startDate": "2024-04-01",
-                        "endDate": "2024-05-01",
+                        "endDate": "",
                         "environment": "personal"
                     }
                 ]
@@ -434,14 +509,14 @@
             {
                 "code": "jsx",
                 "name": "JSX",
-                "level": "Studing",
+                "level": "Intermediate",
                 "imgIcon": "skills/jsx.png",
                 "type": "Techniques",
                 "stack": "Others",
                 "intervalExperiencie": [
                     {
                         "startDate": "2022-11-10",
-                        "endDate": "2023-11-10",
+                        "endDate": "",
                         "environment": "personal"
                     }
                 ]
@@ -565,8 +640,8 @@
                         "environment": "professional"
                     },
                     {
-                        "startDate": "2022-03-01",
-                        "endDate": "2022-09-01",
+                        "startDate": "2024-01-01",
+                        "endDate": "",
                         "environment": "personal"
                     }
                 ]
@@ -689,14 +764,14 @@
             {
                 "code": "react",
                 "name": "React",
-                "level": "Studing",
+                "level": "Intermediate",
                 "imgIcon": "skills/react.png",
                 "type": "Libraries",
                 "stack": "FrontEnd",
                 "intervalExperiencie": [
                     {
                         "startDate": "2022-11-10",
-                        "endDate": "2023-11-10",
+                        "endDate": "",
                         "environment": "personal"
                     }
                 ]
@@ -713,6 +788,26 @@
                         "startDate": "2023-02-01",
                         "endDate": "2023-03-01",
                         "environment": "personal"
+                    }
+                ]
+            },
+            {
+                "code": "rest",
+                "name": "REST",
+                "level": "Advanced",
+                "imgIcon": "skills/rest.png",
+                "type": "Others",
+                "stack": "Others",
+                "intervalExperiencie": [
+                    {
+                        "startDate": "2017-01-01",
+                        "endDate": "2018-09-03",
+                        "environment": "formation"
+                    },
+                    {
+                        "startDate": "2018-09-03",
+                        "endDate": "",
+                        "environment": "professional"
                     }
                 ]
             },
@@ -748,6 +843,36 @@
                         "startDate": "2020-04-01",
                         "endDate": "",
                         "environment": "professional"
+                    }
+                ]
+            },
+            {
+                "code": "soap",
+                "name": "SOAP",
+                "level": "Beginner",
+                "imgIcon": "skills/soap.png",
+                "type": "Protocols",
+                "stack": "Others",
+                "intervalExperiencie": [
+                    {
+                        "startDate": "2020-04-01",
+                        "endDate": "2021-04-01",
+                        "environment": "professional"
+                    }
+                ]
+            },
+            {
+                "code": "socketio",
+                "name": "Socket.io",
+                "level": "Studing",
+                "imgIcon": "skills/socketio.png",
+                "type": "Libraries",
+                "stack": "Others",
+                "intervalExperiencie": [
+                    {
+                        "startDate": "2024-07-01",
+                        "endDate": "",
+                        "environment": "personal"
                     }
                 ]
             },
@@ -834,14 +959,14 @@
             {
                 "code": "vercel",
                 "name": "Vercel",
-                "level": "Studing",
+                "level": "Intermediate",
                 "imgIcon": "skills/vercel.png",
                 "type": "CloudHostingPlataforms",
                 "stack": "Others",
                 "intervalExperiencie": [
                     {
                         "startDate": "2023-04-11",
-                        "endDate": "2023-11-10",
+                        "endDate": "",
                         "environment": "personal"
                     }
                 ]
@@ -899,7 +1024,7 @@
             {
                 "code": "xml",
                 "name": "XML",
-                "level": "Intermediate",
+                "level": "Beginner",
                 "imgIcon": "skills/xml.png",
                 "type": "ObjectNotations",
                 "stack": "Others",

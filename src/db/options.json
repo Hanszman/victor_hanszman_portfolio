@@ -115,6 +115,14 @@
             {
                 "code": "DevelopmentPlataforms",
                 "name": "DevelopmentPlataforms"
+            },
+            {
+                "code": "Protocols",
+                "name": "Protocols"
+            },
+            {
+                "code": "Others",
+                "name": "Others"
             }
         ],
         "stack": [
