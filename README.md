@@ -43,4 +43,4 @@ The other versions can be checked in the package.json file.
 # Production link:
 This application can be accessed at the following URL:
 
-https://victor-hanszman-portfolio.vercel.app/
+https://victor-hanszman-portfolio-old.vercel.app/

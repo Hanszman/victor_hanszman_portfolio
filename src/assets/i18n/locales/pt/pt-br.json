@@ -129,6 +129,7 @@
         "All": "Todos",
         "Search": "Buscar",
         "ProjectStillInDevelopment": "Este projeto ainda está em desenvolvimento!",
+        "ProjectNoLongerTheCurrentOne": "Esse projeto é uma versão antiga e não é mais a atual! Verifique a última versão do Portfolio no link abaixo: ",
         "NoRecordFound": "Nenhum registro encontrado!",
         "DateError": "As datas selecionadas estão inconsistentes!"
     }

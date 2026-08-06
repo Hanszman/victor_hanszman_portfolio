@@ -38,6 +38,10 @@ html, body, #root {
   display: flex;
 }
 
+.justifyCenter {
+  justify-content: center;
+}
+
 .flexWrap {
   flex-wrap: wrap;
 }

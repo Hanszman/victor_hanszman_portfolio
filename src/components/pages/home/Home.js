@@ -25,6 +25,7 @@ function Home() {
     const environmentOptions = optionsJson.options.environment;
     const [typeFilter, setTypeFilter] = useState('ProgrammingLanguages');
     const [technologiesFilter, setTechnologiesFilter] = useState(technologies.filter(obj => obj.type === 'ProgrammingLanguages'));
+    const urlCurrentVersion = 'https://victor-hanszman-portfolio.vercel.app/';
 
     useEffect(() => {
         window.scrollTo(0, 0);
@@ -41,7 +42,8 @@ function Home() {
 
     return (
         <div>
-            {<Message type={'success'} msg={'ProjectStillInDevelopment'}/>}
+            {<Message type={'warning'} msg={'ProjectNoLongerTheCurrentOne'}/>}
+            <a className='displayFlex justifyCenter' href={urlCurrentVersion}>{urlCurrentVersion}</a>
             <br/>
             <h1 className='highText centerText boldText'>Victor Hanszman Drumond Gonçalves</h1>
             <p className='text centerText italicText'>{t('IntroText')}</p><br/>
